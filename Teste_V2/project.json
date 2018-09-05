@@ -1,0 +1,14 @@
+{
+  "name": "Teste_V2",
+  "description": "Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6809.24898",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
