@@ -1,0 +1,27 @@
+{
+  "name": "Teste_V2",
+  "description": "Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "2.0.6.9",
+    "UiPath.Cognitive.Activities": "2.0.6716.19435",
+    "UiPath.Core.Activities": "18.2.6745.15248",
+    "UiPath.Credentials.Activities": "1.1.6479.13204",
+    "UiPath.Database.Activities": "1.1.6660.26865",
+    "UiPath.Excel.Activities": "2.3.6682.26635",
+    "UiPath.FTP.Activities": "1.0.6479.13206",
+    "UiPath.IntelligentOCR.Activities": "1.0.6725.18428",
+    "UiPath.Mail.Activities": "1.1.6562.21018",
+    "UiPath.PDF.Activities": "1.1.6732.21973",
+    "UiPath.Python.Activities": "1.0.6716.23055",
+    "UiPath.WebAPI.Activities": "1.1.6479.13209"
+  },
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6831.24990",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

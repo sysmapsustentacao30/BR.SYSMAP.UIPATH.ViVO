@@ -15,9 +15,9 @@
     "restore": {
       "projectUniqueName": "Teste_V2",
       "projectName": "Teste_V2",
-      "projectPath": "C:\\Users\\marcelo.martins\\OneDrive - SysMap Solutions Software e Consultoria Ltda\\Sysmap_Sistema\\UIPath\\Sanity\\Teste_V2",
+      "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Teste_V2",
       "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcelo.martins\\OneDrive - SysMap Solutions Software e Consultoria Ltda\\Sysmap_Sistema\\UIPath\\Sanity\\Teste_V2"
+      "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Teste_V2"
     },
     "frameworks": {
       "net452": {}

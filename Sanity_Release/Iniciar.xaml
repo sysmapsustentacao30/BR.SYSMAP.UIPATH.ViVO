@@ -89,6 +89,7 @@
       <Variable x:TypeArguments="x:String" Name="UPDATECenario" />
       <Variable x:TypeArguments="x:String" Name="ListRelease" />
       <Variable x:TypeArguments="njl:JArray" Name="JSON1" />
+      <Variable x:TypeArguments="x:String" Name="CodRelease" />
     </Flowchart.Variables>
     <Flowchart.StartNode>
       <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_21">
@@ -155,6 +156,7 @@
                                       <InArgument x:TypeArguments="x:String">[ResultJson.GetValue("Executado").ToString()]</InArgument>
                                     </Assign.Value>
                                   </Assign>
+                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[CodRelease]" TopMost="True" />
                                   <If Condition="[Executado = &quot;3&quot;]" DisplayName="If se ja foi executado com sucesso" sap2010:WorkflowViewState.IdRef="If_25">
                                     <If.Else>
                                       <Sequence sap2010:WorkflowViewState.IdRef="Sequence_40">
@@ -276,6 +278,7 @@
                                                   <InArgument x:TypeArguments="x:String" x:Key="cenario">[Cenario]</InArgument>
                                                   <InArgument x:TypeArguments="x:String" x:Key="executado">[Executado]</InArgument>
                                                   <InArgument x:TypeArguments="x:String" x:Key="status">[ReultadoCenario]</InArgument>
+                                                  <InArgument x:TypeArguments="x:String" x:Key="codRelease">[CodRelease]</InArgument>
                                                 </ui:HttpClient.Parameters>
                                                 <ui:HttpClient.UrlSegments>
                                                   <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
@@ -332,7 +335,7 @@
     <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
-    <sads:DebugSymbol.Symbol>d3RDOlxVc2Vyc1xtYXJjZWxvLm1hcnRpbnNcT25lRHJpdmUgLSBTeXNNYXAgU29sdXRpb25zIFNvZnR3YXJlIGUgQ29uc3VsdG9yaWEgTHRkYVxVSVBhdGhcU2FuaXR5XFRlc3RlX1YyXEluaWNpYXIueGFtbHVLA9ACDwIBAU80TzcCAQJfCW0ZAwGUAXANfR0DAY4BgAERgAHBAQMBigGDARXCAiICAQNfiwRfkgQDAZoBZ0RnXAMBmQFf8QNfgAQDAZcBX+4CX6wDAwGWAWhCaEwDAZUBcJ8EcKYEAwGTAXCFBHCUBAMBkQFw/AJwwAMDAZABeEZ4VgMBjwGAAZIBgAGbAQMBjAGAAacBgAG+AQMBiwGDAYgBgwGRAQMBiQGJARu/AiYCAQSLAR+jAioCAQ+rAiO7AjMCAQWMASGiAiwCARCrAqsEqwKxBAIBDrUCYLUCYQIBDasCjwSrAqAEAgELtgJdtgJpAgEKqwKGA6sCygMCAQmzAlyzAmwCAQi0Al60AmcCAQaNASONAeUBAwGEAY4BI5UBLAMBgAGWASOdASwCAXyeASOhAigCARGNAc8BjQHiAQMBhwGNAbUBjQHDAQMBhQGTAU6TAXkDAYMBkAFPkAFYAwGBAZsBTpsBewIBf5gBT5gBWgIBfZ4BMZ4BTgIBEqABJ58CMgIBFKEBKaEB7QECAXeiASmeAi4CARWhAVmhAWQCAXqhAZkBoQHaAQIBeKIBN6IBQgIBFqQBLZwCOAIBGKUBL6UB6AECAXKmAS+wATQCAWWxAS+4ATgCAWG5AS/AATgCAV3BAS/IATgCAVnJAS/QATgCAVXRAS+KAjQCASWLAi+bAj8CARmlAV+lAXACAXWlAaYBpQHTAQIBc6YBPaYBTgIBZqgBM6sBPgIBa64BM64B6wECAWi2AWG2AYoBAgFkswFiswFpAgFivgFhvgGKAQIBYLsBYrsBbAIBXsYBYcYBigECAVzDAWLDAWwCAVrOAWHOAYwBAgFYywFiywFrAgFW0QE90QFhAgEm0wEz6QE+AgFA7AEziAI+AgEniwK3BIsCvQQCASSVAmyVAncCASKLApsEiwKsBAIBIJYCaZYCegIBHosCkgOLAtYDAgEdkwJokwJ4AgEclAJqlAJzAgEaqQE1qQG7AQIBb6oBNaoB7AECAWyuAbsBrgHoAQIBadQBNdkBTQIBUdoBNdoBfQIBT9sBNeIBTQIBReMBNeMBfQIBQ+QBNegBTQIBQe0BNfMBTQIBOvQBNYcCOgIBKKkBiwGpAbgBAgFwqgG8AaoB6QECAW3XAXHXAXsCAVTWAXHWAXsCAVPUAeEB1AH+AQIBUtoBRdoBTwIBUN8Bdt8BgQECAU3gAXPgAXwCAUveAXXeAYYBAgFJ3QFx3QF4AgFI2wHhAdsBogICAUbjAUXjAU8CAUTkAeEB5AH/AQIBQvEBdPEBfAIBPvABcfABewIBPe8Bce8BewIBPO0B4QHtAfkBAgE79AFD9AFNAgEp9gE5hQJEAgEr9wE7/gFTAgEw/wE7/wGXAQIBLoACO4QCUwIBLPsBfPsBhwECATj8AXn8AYIBAgE2+gF7+gGMAQIBNPkBd/kBfgIBM/cB5wH3AagCAgEx/wFf/wFpAgEvgALoAYACgQICAS0=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dztDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXEluaWNpYXIueGFtbHhLA9MCDwIBAU80TzcCAQJgCW4ZAwGZAXENfh0DAZMBgQERgQHBAQMBjwGEARXFAiICAQNgiwRgkgQDAZ8BaERoXAMBngFg8QNggAQDAZwBYO4CYKwDAwGbAWlCaUwDAZoBcZ8EcaYEAwGYAXGFBHGUBAMBlgFx/AJxwAMDAZUBeUZ5VgMBlAGBAZIBgQGbAQMBkQGBAacBgQG+AQMBkAGEAYgBhAGRAQMBjgGKARvCAiYCAQSMAR+mAioCAQ+uAiO+AjMCAQWNASGlAiwCARCuAqsErgKxBAIBDrgCYLgCYQIBDa4CjwSuAqAEAgELuQJduQJpAgEKrgKGA64CygMCAQm2Aly2AmwCAQi3Al63AmcCAQaOASOOAeUBAwGJAY8BI5YBLAMBhQGXASOeASwDAYEBnwEjnwHYAQIBfqABI6QCKAIBEY4BzwGOAeIBAwGMAY4BtQGOAcMBAwGKAZQBTpQBeQMBiAGRAU+RAVgDAYYBnAFOnAF7AwGEAZkBT5kBWgMBggGfAbgBnwHGAQIBf6ABMaABTgIBEqIBJ6ICMgIBFKMBKaMB7QECAXmkASmhAi4CARWjAVmjAWQCAXyjAZkBowHaAQIBeqQBN6QBQgIBFqYBLZ8COAIBGKcBL6cB6AECAXSoAS+yATQCAWezAS+6ATgCAWO7AS/CATgCAV/DAS/KATgCAVvLAS/SATgCAVfTAS+MAjQCASeNAi+eAj8CARmnAV+nAXACAXenAaYBpwHTAQIBdagBPagBTgIBaKoBM60BPgIBbbABM7AB6wECAWq4AWG4AYoBAgFmtQFitQFpAgFkwAFhwAGKAQIBYr0BYr0BbAIBYMgBYcgBigECAV7FAWLFAWwCAVzQAWHQAYwBAgFazQFizQFrAgFY0wE90wFhAgEo1QEz6wE+AgFC7gEzigI+AgEpjQK3BI0CvQQCASaXAmyXAncCASSZAm2ZAnkCASKNApsEjQKsBAIBIJgCaZgCegIBHo0CkgONAtYDAgEdlQJolQJ4AgEclgJqlgJzAgEaqwE1qwG7AQIBcawBNawB7AECAW6wAbsBsAHoAQIBa9YBNdsBTQIBU9wBNdwBfQIBUd0BNeQBTQIBR+UBNeUBfQIBReYBNeoBTQIBQ+8BNfUBTQIBPPYBNYkCOgIBKqsBiwGrAbgBAgFyrAG8AawB6QECAW/ZAXHZAXsCAVbYAXHYAXsCAVXWAeEB1gH+AQIBVNwBRdwBTwIBUuEBduEBgQECAU/iAXPiAXwCAU3gAXXgAYYBAgFL3wFx3wF4AgFK3QHhAd0BogICAUjlAUXlAU8CAUbmAeEB5gH/AQIBRPMBdPMBfAIBQPIBcfIBewIBP/EBcfEBewIBPu8B4QHvAfkBAgE99gFD9gFNAgEr+AE5hwJEAgEt+QE7gAJTAgEygQI7gQKXAQIBMIICO4YCUwIBLv0BfP0BhwECATr+AXn+AYIBAgE4/AF7/AGMAQIBNvsBd/sBfgIBNfkB5wH5AagCAgEzgQJfgQJpAgExggLoAYICgQICAS8=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -360,6 +363,7 @@
       <sap2010:ViewStateData Id="DeserializeJson`1_7" sap:VirtualizedContainerService.HintSize="1142,60.6666666666667" />
       <sap2010:ViewStateData Id="Assign_28" sap:VirtualizedContainerService.HintSize="1142,60.6666666666667" />
       <sap2010:ViewStateData Id="Assign_29" sap:VirtualizedContainerService.HintSize="1142,60.6666666666667" />
+      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="1142,58.6666666666667" />
       <sap2010:ViewStateData Id="PathExists_9" sap:VirtualizedContainerService.HintSize="994.666666666667,90.6666666666667" />
       <sap2010:ViewStateData Id="PathExists_10" sap:VirtualizedContainerService.HintSize="847.333333333333,90.6666666666667" />
       <sap2010:ViewStateData Id="Delete_5" sap:VirtualizedContainerService.HintSize="200,22" />
@@ -426,14 +430,14 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="If_25" sap:VirtualizedContainerService.HintSize="1142,2632" />
-      <sap2010:ViewStateData Id="Sequence_41" sap:VirtualizedContainerService.HintSize="1164,3058">
+      <sap2010:ViewStateData Id="Sequence_41" sap:VirtualizedContainerService.HintSize="1164,3156.66666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_42" sap:VirtualizedContainerService.HintSize="1186,3182">
+      <sap2010:ViewStateData Id="Sequence_42" sap:VirtualizedContainerService.HintSize="1186,3280.66666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -449,7 +453,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TryCatch_2" sap:VirtualizedContainerService.HintSize="1204,3418.66666666667" />
+      <sap2010:ViewStateData Id="TryCatch_2" sap:VirtualizedContainerService.HintSize="1204,3517.33333333333" />
       <sap2010:ViewStateData Id="ForEach`1_4" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
