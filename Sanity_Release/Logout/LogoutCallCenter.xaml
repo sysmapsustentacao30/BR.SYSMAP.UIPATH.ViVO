@@ -56,82 +56,67 @@
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="LogoutCallCenter" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_3">
-        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="Logout Inativo" TopMost="True" />
+      <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+        <Sequence DisplayName="Logout Callcenter" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click image 'iexplore.exe'" sap2010:WorkflowViewState.IdRef="ClickImage_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+            <ui:ClickImage.CursorPosition>
+              <ui:CursorPosition Position="Center">
+                <ui:CursorPosition.OffsetX>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetX>
+                <ui:CursorPosition.OffsetY>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetY>
+              </ui:CursorPosition>
+            </ui:ClickImage.CursorPosition>
+            <ui:ClickImage.Image>
+              <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="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" />
+            </ui:ClickImage.Image>
+            <ui:ClickImage.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;" WaitForReady="INTERACTIVE" />
+            </ui:ClickImage.Target>
+          </ui:ClickImage>
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  _crux_confirm_o...'" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition Position="Center">
+                <ui:CursorPosition.OffsetX>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetX>
+                <ui:CursorPosition.OffsetY>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetY>
+              </ui:CursorPosition>
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9d525ec8265f78407218144db5a06399" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+            </ui:Click.Target>
+          </ui:Click>
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  Fechar'" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition Position="Center">
+                <ui:CursorPosition.OffsetX>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetX>
+                <ui:CursorPosition.OffsetY>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetY>
+              </ui:CursorPosition>
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8d11acaa89605928a822ab9185b359cc" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='Vivo 360 - Login - Internet Explorer' /&gt;&lt;ctrl idx='1' name='Fechar' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
+            </ui:Click.Target>
+          </ui:Click>
+        </Sequence>
       </FlowStep>
     </Flowchart.StartNode>
-    <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_2">
-      <Sequence DisplayName="Logout Callcenter" sap2010:WorkflowViewState.IdRef="Sequence_2">
-        <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click image 'iexplore.exe'" sap2010:WorkflowViewState.IdRef="ClickImage_3" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
-          <ui:ClickImage.CursorPosition>
-            <ui:CursorPosition Position="Center">
-              <ui:CursorPosition.OffsetX>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetX>
-              <ui:CursorPosition.OffsetY>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetY>
-            </ui:CursorPosition>
-          </ui:ClickImage.CursorPosition>
-          <ui:ClickImage.Image>
-            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="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" />
-          </ui:ClickImage.Image>
-          <ui:ClickImage.Target>
-            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;" WaitForReady="INTERACTIVE" />
-          </ui:ClickImage.Target>
-        </ui:ClickImage>
-        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  _crux_confirm_o...'" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-          <ui:Click.CursorPosition>
-            <ui:CursorPosition Position="Center">
-              <ui:CursorPosition.OffsetX>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetX>
-              <ui:CursorPosition.OffsetY>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetY>
-            </ui:CursorPosition>
-          </ui:Click.CursorPosition>
-          <ui:Click.Target>
-            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9d525ec8265f78407218144db5a06399" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
-          </ui:Click.Target>
-        </ui:Click>
-        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  Fechar'" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-          <ui:Click.CursorPosition>
-            <ui:CursorPosition Position="Center">
-              <ui:CursorPosition.OffsetX>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetX>
-              <ui:CursorPosition.OffsetY>
-                <InArgument x:TypeArguments="x:Int32" />
-              </ui:CursorPosition.OffsetY>
-            </ui:CursorPosition>
-          </ui:Click.CursorPosition>
-          <ui:Click.Target>
-            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8d11acaa89605928a822ab9185b359cc" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='Vivo 360 - Login - Internet Explorer' /&gt;&lt;ctrl idx='1' name='Fechar' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
-          </ui:Click.Target>
-        </ui:Click>
-      </Sequence>
-    </FlowStep>
     <x:Reference>__ReferenceID0</x:Reference>
-    <sads:DebugSymbol.Symbol>d0VDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFRlc3RlX1YyXExvZ291dFxMb2dvdXRDYWxsQ2VudGVyLnhhbWwDOQN1DwIBATwJPMABAgECPJ4BPK4BAgED</sads:DebugSymbol.Symbol>
+    <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_3">
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="Logout Inativo" TopMost="True" />
+    </FlowStep>
+    <sads:DebugSymbol.Symbol>d0tDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ291dFxMb2dvdXRDYWxsQ2VudGVyLnhhbWwJOQN1DwIBATwJbRQCAQI9C04bAgEHTwtdFgIBBV4LbBYCAQNMZUyZAQIBCUk5ST4CAQhbngFbqAICAQZqngFqsgICAQQ=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_3">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">30,64.02</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="ClickImage_3" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="Click_5" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="Click_6" sap:VirtualizedContainerService.HintSize="314,106" />
@@ -150,13 +135,28 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_3">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">30,64.02</av:Point>
+            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614,636">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
             <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">270,39.8333333333333 130,39.8333333333333 130,64.02</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,133.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>

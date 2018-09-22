@@ -108,117 +108,119 @@
           </ui:SelectItem.Target>
         </ui:SelectItem>
         <FlowStep.Next>
-          <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_21">
-            <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Linha" sap2010:WorkflowViewState.IdRef="SetValue_7" Text="[ArgLinha]">
-              <ui:SetValue.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bb27949947488f7c2dc497ea5251a78c" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;ctrl automationid='_mask_1' /&gt;" WaitForReady="INTERACTIVE" />
-              </ui:SetValue.Target>
-            </ui:SetValue>
+          <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_27">
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[ArgLinha.ToString]" TopMost="True" />
             <FlowStep.Next>
-              <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_22">
-                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  buscarButton'" sap2010:WorkflowViewState.IdRef="Click_47" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition Position="Center">
-                      <ui:CursorPosition.OffsetX>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetX>
-                      <ui:CursorPosition.OffsetY>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetY>
-                    </ui:CursorPosition>
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bdc9ef013145c5d1dcea48cc4304e5ba" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='buscarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
-                  </ui:Click.Target>
-                </ui:Click>
+              <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_21">
+                <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Linha" sap2010:WorkflowViewState.IdRef="SetValue_7" Text="[ArgLinha]">
+                  <ui:SetValue.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f661ade0fd95e76b8bd42b8a47bd68b7" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='_mask_1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                  </ui:SetValue.Target>
+                </ui:SetValue>
                 <FlowStep.Next>
-                  <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_23">
-                    <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                  <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_22">
+                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  buscarButton'" sap2010:WorkflowViewState.IdRef="Click_47" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                      <ui:Click.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </ui:Click.CursorPosition>
+                      <ui:Click.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bdc9ef013145c5d1dcea48cc4304e5ba" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='buscarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+                      </ui:Click.Target>
+                    </ui:Click>
                     <FlowStep.Next>
-                      <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_24">
-                        <ui:TextExists DisplayName="Procura Evidencia" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_3" Occurrence="1" Result="[EvidenciaExiste]" Text="ATIS">
-                          <ui:TextExists.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f104b3a16255fbc37b8dc340e7b1b7fb" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='panelLinhas' tag='TABLE' /&gt;&lt;webctrl idx='1' tableCol='2' tag='TD' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-                          </ui:TextExists.Target>
-                        </ui:TextExists>
+                      <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_23">
+                        <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_8" />
                         <FlowStep.Next>
-                          <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_25">
-                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Acelerador" sap2010:WorkflowViewState.IdRef="Click_48" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                              <ui:Click.CursorPosition>
-                                <ui:CursorPosition Position="Center">
-                                  <ui:CursorPosition.OffsetX>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:CursorPosition.OffsetX>
-                                  <ui:CursorPosition.OffsetY>
-                                    <InArgument x:TypeArguments="x:Int32" />
-                                  </ui:CursorPosition.OffsetY>
-                                </ui:CursorPosition>
-                              </ui:Click.CursorPosition>
-                              <ui:Click.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4619863e9e8cb3bb7f5ffad6143f06b9" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='localidadeLinhaFixaImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
-                              </ui:Click.Target>
-                            </ui:Click>
+                          <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_24">
+                            <ui:TextExists DisplayName="Procura Evidencia" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_3" Occurrence="1" Result="[EvidenciaExiste]" Text="ATIS">
+                              <ui:TextExists.Target>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="f104b3a16255fbc37b8dc340e7b1b7fb" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='panelLinhas' tag='TABLE' /&gt;&lt;webctrl idx='1' tableCol='2' tag='TD' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+                              </ui:TextExists.Target>
+                            </ui:TextExists>
                             <FlowStep.Next>
-                              <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_26">
-                                <If Condition="[EvidenciaExiste]" DisplayName="If Evidencia Sucesso" sap2010:WorkflowViewState.IdRef="If_11">
-                                  <If.Then>
-                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_51">
-                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_27">
-                                        <Assign.To>
-                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                        </Assign.To>
-                                        <Assign.Value>
-                                          <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
-                                        </Assign.Value>
-                                      </Assign>
-                                      <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_9" />
-                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'iexplore.exe '" sap2010:WorkflowViewState.IdRef="TakeScreenshot_19" Screenshot="[PrintEvidencia]">
-                                        <ui:TakeScreenshot.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4a28894ec02d15820d5692ff8549c731" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html *' /&gt;" WaitForReady="INTERACTIVE" />
-                                        </ui:TakeScreenshot.Target>
-                                      </ui:TakeScreenshot>
-                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_15" Image="[PrintEvidencia]" />
-                                      <Assign>
-                                        <Assign.To>
-                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                        </Assign.To>
-                                        <Assign.Value>
-                                          <InArgument x:TypeArguments="x:String">3</InArgument>
-                                        </Assign.Value>
-                                        <sap2010:WorkflowViewState.IdRef>Assign_29</sap2010:WorkflowViewState.IdRef>
-                                      </Assign>
-                                    </Sequence>
-                                  </If.Then>
-                                  <If.Else>
-                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_52">
-                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_28">
-                                        <Assign.To>
-                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                        </Assign.To>
-                                        <Assign.Value>
-                                          <InArgument x:TypeArguments="x:String">Não encontrou evidencia</InArgument>
-                                        </Assign.Value>
-                                      </Assign>
-                                      <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_10" />
-                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'iexplore.exe '" Screenshot="[PrintEvidencia]">
-                                        <ui:TakeScreenshot.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4a28894ec02d15820d5692ff8549c731" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html *' /&gt;" WaitForReady="INTERACTIVE" />
-                                        </ui:TakeScreenshot.Target>
-                                        <sap2010:WorkflowViewState.IdRef>TakeScreenshot_20</sap2010:WorkflowViewState.IdRef>
-                                      </ui:TakeScreenshot>
-                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" Image="[PrintEvidencia]" sap2010:WorkflowViewState.IdRef="SaveImage_16" />
-                                      <Assign>
-                                        <Assign.To>
-                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                        </Assign.To>
-                                        <Assign.Value>
-                                          <InArgument x:TypeArguments="x:String">2</InArgument>
-                                        </Assign.Value>
-                                        <sap2010:WorkflowViewState.IdRef>Assign_30</sap2010:WorkflowViewState.IdRef>
-                                      </Assign>
-                                    </Sequence>
-                                  </If.Else>
-                                </If>
+                              <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_25">
+                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Acelerador" sap2010:WorkflowViewState.IdRef="Click_48" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                  <ui:Click.CursorPosition>
+                                    <ui:CursorPosition Position="Center">
+                                      <ui:CursorPosition.OffsetX>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetX>
+                                      <ui:CursorPosition.OffsetY>
+                                        <InArgument x:TypeArguments="x:Int32" />
+                                      </ui:CursorPosition.OffsetY>
+                                    </ui:CursorPosition>
+                                  </ui:Click.CursorPosition>
+                                  <ui:Click.Target>
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4619863e9e8cb3bb7f5ffad6143f06b9" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='localidadeLinhaFixaImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
+                                  </ui:Click.Target>
+                                </ui:Click>
+                                <FlowStep.Next>
+                                  <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_26">
+                                    <If Condition="[EvidenciaExiste]" DisplayName="If Evidencia Sucesso" sap2010:WorkflowViewState.IdRef="If_11">
+                                      <If.Then>
+                                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_51">
+                                          <Assign sap2010:WorkflowViewState.IdRef="Assign_27">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'iexplore.exe '" sap2010:WorkflowViewState.IdRef="TakeScreenshot_19" Screenshot="[PrintEvidencia]">
+                                            <ui:TakeScreenshot.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4a28894ec02d15820d5692ff8549c731" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html *' /&gt;" WaitForReady="INTERACTIVE" />
+                                            </ui:TakeScreenshot.Target>
+                                          </ui:TakeScreenshot>
+                                          <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_15" Image="[PrintEvidencia]" />
+                                          <Assign sap2010:WorkflowViewState.IdRef="Assign_29">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">3</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </Sequence>
+                                      </If.Then>
+                                      <If.Else>
+                                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                          <Assign sap2010:WorkflowViewState.IdRef="Assign_28">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">Não encontrou evidencia</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_10" />
+                                          <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'iexplore.exe '" sap2010:WorkflowViewState.IdRef="TakeScreenshot_20" Screenshot="[PrintEvidencia]">
+                                            <ui:TakeScreenshot.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4a28894ec02d15820d5692ff8549c731" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html *' /&gt;" WaitForReady="INTERACTIVE" />
+                                            </ui:TakeScreenshot.Target>
+                                          </ui:TakeScreenshot>
+                                          <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_16" Image="[PrintEvidencia]" />
+                                          <Assign sap2010:WorkflowViewState.IdRef="Assign_30">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">2</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </Sequence>
+                                      </If.Else>
+                                    </If>
+                                  </FlowStep>
+                                </FlowStep.Next>
                               </FlowStep>
                             </FlowStep.Next>
                           </FlowStep>
@@ -240,7 +242,8 @@
     <x:Reference>__ReferenceID4</x:Reference>
     <x:Reference>__ReferenceID5</x:Reference>
     <x:Reference>__ReferenceID6</x:Reference>
-    <sads:DebugSymbol.Symbol>d4EBQzpcVXNlcnNcbWFyY2Vsby5tYXJ0aW5zXE9uZURyaXZlIC0gU3lzTWFwIFNvbHV0aW9ucyBTb2Z0d2FyZSBlIENvbnN1bHRvcmlhIEx0ZGFcVUlQYXRoXFNhbml0eVxUZXN0ZV9WMlxDZW5hcmlvc1YyXENlbmFyaW9fNy54YW1sM0wD9AEPAgEBVAltGQIBPnANdBsCATp3EYUBHAIBOIgBFYgBXAIBNosBGY8BKQIBL5IBHaABKAIBLaMBId0BJgIBAlTMAVTZAQIBP2ucAWupAgIBQHCsAXC4AQIBO3KgAXKbAgIBPYMBpAGDAaoCAgE5iAEliAEvAgE3iwG8AYsBwgECATOLAaMBiwG2AQIBMYsBmAGLAZsBAgEwjQGXAY0BygICATWNAdUCjQHbAgIBNJ4BsAGeAb8CAgEuowEvowFCAgEDpQElvgEwAgEZwQEl2wEwAgEFpgEnrQEwAgEprgEnrgFuAgEnrwEnswE7AgEjtAEntAGFAgIBHrUBJ70BMAIBGsIBJ8kBMAIBFcoBJ8oBbwIBE8sBJ9ABOwIBD9EBJ9EBgwICAQrSASfaATACAQarAVKrAVkCASyoAVOoAWACASquATeuAUECASixAboBsQG0AgIBJq8BvQGvAc8BAgEktAFXtAG6AQIBIbQB8AG0AYICAgEfugFSugFTAgEdtwFTtwFhAgEbxwFSxwFpAgEYxAFTxAFgAgEWygE3ygFBAgEUzQG6Ac0BtAICARLLAYkBywGbAQIBENEBV9EBuAECAQ3RAb8B0QHRAQIBC9cBUtcBUwIBCdQBU9QBYQIBBw==</sads:DebugSymbol.Symbol>
+    <x:Reference>__ReferenceID7</x:Reference>
+    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb183LnhhbWw1TAP3AQ8CAQFUCW0ZAgFBcA1wyQECAT5zEXcfAgE6ehWIASACATiLARmLAWACATaOAR2SAS0CAS+VASGjASwCAS2mASXdASoCAQJUzAFU2QECAUJrnAFrqQICAUNwogFwtwECAT9zsAFzvAECATt1pAF1pAICAT2GAagBhgGuAgIBOYsBKYsBMwIBN44BwAGOAcYBAgEzjgGnAY4BugECATGOAZwBjgGfAQIBMJABmwGQAc4CAgE1kAHZApAB3wICATShAbQBoQHDAgIBLqYBM6YBRgIBA6gBKcABNAIBGcMBKdsBNAIBBakBK7ABNAIBKbEBK7EBcgIBJ7IBK7YBPwIBI7cBK7cBiQICAR64ASu/ATQCARrEASvLATQCARXMASvMAXMCARPNASvRAT8CAQ/SASvSAYcCAgEK0wEr2gE0AgEGrgFWrgFdAgEsqwFXqwFkAgEqsQE7sQFFAgEotAG+AbQBuAICASayAcEBsgHTAQIBJLcBW7cBvgECASG3AfQBtwGGAgIBH70BVr0BVwIBHboBV7oBZQIBG8kBVskBbQIBGMYBV8YBZAIBFswBO8wBRQIBFM8BvgHPAbgCAgESzQHBAc0B0wECARDSAVvSAbwBAgEN0gHyAdIBhAICAQvYAVbYAVcCAQnVAVfVAWUCAQc=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -251,7 +254,14 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SetValue_7" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="SetValue_7" sap:VirtualizedContainerService.HintSize="314,134">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -310,7 +320,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="697.333333333333,1097.33333333333">
+      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -370,12 +380,21 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_27">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">0,183.666666666667</av:Point>
+            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">100,236.333333333333 100,312.5 420,312.5 420,199.833333333333 300,199.833333333333 300,229.833333333333</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="FlowStep_20">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,127.166666666667</av:Point>
             <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,179.833333333333 300,229.833333333333</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,179.833333333334 300,209.833333333334 430,209.833333333334 430,97.166666666667 100,97.166666666667 100,183.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>

@@ -69,7 +69,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="LoginCallCenter" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Login lojas" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.StartNode>
       <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
         <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Open browser" Hidden="False" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="http://vivo360.vivo.com.br/vivo360/pages/crux/login/login.html">
@@ -89,7 +89,7 @@
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
             <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
-              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Vivo360 L Page'" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="b254f4f5533ba8f29d436f4eee60c2e4" Selector="&lt;html title='Vivo 360 - Login' /&gt;">
+              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Vivo360 L Page'" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="2d526e185213d807996e47a14cd6e335" Selector="&lt;html app='firefox.exe' title='Vivo 360 - Login' /&gt;">
                 <ui:BrowserScope.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -193,7 +193,7 @@
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
-    <sads:DebugSymbol.Symbol>d35DOlxVc2Vyc1xtYXJjZWxvLm1hcnRpbnNcT25lRHJpdmUgLSBTeXNNYXAgU29sdXRpb25zIFNvZnR3YXJlIGUgQ29uc3VsdG9yaWEgTHRkYVxVSVBhdGhcU2FuaXR5XFRlc3RlX1YyXExvZ2luc1xMb2dpbkxvamFzLnhhbWwoAYwBAZYBAQMBYwFsAQJIA8UBDwIBAUsJWBoCAShbDb0BGAIBAku/AUv/AQIBLFEPVRoCASlcD7wBIQIBA1IRVBwCASpcpgJczwICASdiFbkBIAIBBFMTU4sBAgErZxdrJQIBI2wXcCUCAR9xF3giAgEbeReAAScCARaBARe4ARwCAQVpqgFp3QECASZnuAJnxAICASRuqgFu2wECASJstgJswgICASB2qgF22wECAR5zQ3NGAgEdczZzOgIBHH5xfncCARp5W3lsAgEYe0V7SgIBF4EBJYEBNgIBBoMBG5sBJgIBD54BG7YBJgIBCIQBHZIBKAIBFJMBHZoBJgIBEJ8BHa0BKAIBDa4BHbUBJgIBCZABsAGQAZcCAgEVmAFJmAFNAgETlQFKlQFVAgERqwGwAasB5QECAQ6zAUmzAU4CAQywAUqwAVUCAQo=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0VDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ2luc1xMb2dpbkxvamFzLnhhbWwoAYwBAZYBAQMBYwFsAQJIA8UBDwIBAUsJWBoCAShbDb0BGAIBAku/AUv/AQIBLFEPVRoCASlcD7wBIQIBA1IRVBwCASpcpgJc4QICASdiFbkBIAIBBFMTU4sBAgErZxdrJQIBI2wXcCUCAR9xF3giAgEbeReAAScCARaBARe4ARwCAQVpqgFp3QECASZnuAJnxAICASRuqgFu2wECASJstgJswgICASB2qgF22wECAR5zQ3NGAgEdczZzOgIBHH5xfncCARp5W3lsAgEYe0V7SgIBF4EBJYEBNgIBBoMBG5sBJgIBD54BG7YBJgIBCIQBHZIBKAIBFJMBHZoBJgIBEJ8BHa0BKAIBDa4BHbUBJgIBCZABsAGQAZcCAgEVmAFJmAFNAgETlQFKlQFVAgERqwGwAasB5QECAQ6zAUmzAU4CAQywAUqwAVUCAQo=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -244,7 +244,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="BrowserScope_4" sap:VirtualizedContainerService.HintSize="733.333333333333,1390.66666666667" />
-      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="755.333333333333,1514.66666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
