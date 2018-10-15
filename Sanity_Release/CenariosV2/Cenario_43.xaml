@@ -60,17 +60,16 @@
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.Core</AssemblyReference>
-      <AssemblyReference>UiPath.Core.Activities</AssemblyReference>
       <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>PresentationCore</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
       <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="Cenario_43" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -149,27 +148,18 @@
                       </ui:SetValue.Target>
                     </ui:SetValue>
                     <FlowStep.Next>
-                      <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_45">
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  buscarButton'" sap2010:WorkflowViewState.IdRef="Click_58" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                          <ui:Click.CursorPosition>
-                            <ui:CursorPosition Position="Center">
-                              <ui:CursorPosition.OffsetX>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetX>
-                              <ui:CursorPosition.OffsetY>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetY>
-                            </ui:CursorPosition>
-                          </ui:Click.CursorPosition>
-                          <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2afa425c4a179fe7033d5a19c34733e9" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='buscarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
-                          </ui:Click.Target>
-                        </ui:Click>
+                      <FlowStep x:Name="__ReferenceID11">
+                        <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                          <ui:SendHotkey.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
+                          </ui:SendHotkey.Target>
+                          <sap2010:WorkflowViewState.IdRef>SendHotkey_1</sap2010:WorkflowViewState.IdRef>
+                        </ui:SendHotkey>
                         <FlowStep.Next>
-                          <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_49">
+                          <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_49">
                             <Delay Duration="00:00:20" sap2010:WorkflowViewState.IdRef="Delay_15" />
                             <FlowStep.Next>
-                              <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_46">
+                              <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_46">
                                 <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Servicos'" sap2010:WorkflowViewState.IdRef="Click_59" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                   <ui:Click.CursorPosition>
                                     <ui:CursorPosition Position="Center">
@@ -186,7 +176,7 @@
                                   </ui:Click.Target>
                                 </ui:Click>
                                 <FlowStep.Next>
-                                  <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_47">
+                                  <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_47">
                                     <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Vivo Valoriza'" sap2010:WorkflowViewState.IdRef="Click_60" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                       <ui:Click.CursorPosition>
                                         <ui:CursorPosition Position="Center">
@@ -203,7 +193,7 @@
                                       </ui:Click.Target>
                                     </ui:Click>
                                     <FlowStep.Next>
-                                      <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_48">
+                                      <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_48">
                                         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Extrato'" sap2010:WorkflowViewState.IdRef="Click_61" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                           <ui:Click.CursorPosition>
                                             <ui:CursorPosition Position="Center">
@@ -220,17 +210,17 @@
                                           </ui:Click.Target>
                                         </ui:Click>
                                         <FlowStep.Next>
-                                          <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_50">
+                                          <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_50">
                                             <Delay Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_16" />
                                             <FlowStep.Next>
-                                              <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_51">
+                                              <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_51">
                                                 <ui:UiElementExists DisplayName="Element Exists 'SPAN'" Exists="[EvidenciaExiste]" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                                                   <ui:UiElementExists.Target>
                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="fa068dfc116631021f223dd554089194" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl aaname='718' parentid='balanceLoaded' tag='SPAN' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
                                                   </ui:UiElementExists.Target>
                                                 </ui:UiElementExists>
                                                 <FlowStep.Next>
-                                                  <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_52">
+                                                  <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_52">
                                                     <If Condition="[EvidenciaExiste]" sap2010:WorkflowViewState.IdRef="If_12">
                                                       <If.Then>
                                                         <Sequence sap2010:WorkflowViewState.IdRef="Sequence_54">
@@ -324,6 +314,7 @@
                             </FlowStep.Next>
                           </FlowStep>
                         </FlowStep.Next>
+                        <sap2010:WorkflowViewState.IdRef>FlowStep_53</sap2010:WorkflowViewState.IdRef>
                       </FlowStep>
                     </FlowStep.Next>
                   </FlowStep>
@@ -346,67 +337,67 @@
     <x:Reference>__ReferenceID9</x:Reference>
     <x:Reference>__ReferenceID10</x:Reference>
     <x:Reference>__ReferenceID11</x:Reference>
-    <sads:DebugSymbol.Symbol>d4IBQzpcVXNlcnNcbWFyY2Vsby5tYXJ0aW5zXE9uZURyaXZlIC0gU3lzTWFwIFNvbHV0aW9ucyBTb2Z0d2FyZSBlIENvbnN1bHRvcmlhIEx0ZGFcVUlQYXRoXFNhbml0eVxUZXN0ZV9WMlxDZW5hcmlvc1YyXENlbmFyaW9fNDMueGFtbD1MA94CDwIBAVQJYhQCAUllDXMYAgFHdhGPASECAUSSARWWASMCAUCZARmnASQCAT6qAR2qAWUCATytASG7ASwCATq+ASXMATACATjPASndATQCATbgAS3gAXUCATTjATHnAUYCAS/qATW4AjoCAQJgnAFgkgICAUpxoAFxmwICAUh21AF24QECAUWNAaQBjQGPAgIBRpIBuwGSAccBAgFBlAGoAZQBhgICAUOlAawBpQGQAgIBP6oBLaoBNwIBPbkBtAG5AakCAgE7ygG4AcoBsgICATnbAbwB2wG3AgIBN+ABPeABRwIBNeUBrwHlAaUCAgEz5QGwAuUBtgICATLjAXDjAYMBAgEw6gFD6gFWAgED7AE5lwJEAgEZmgI5tgJEAgEF7QE79AFEAgEr9QE79QGDAQIBKfYBO4QCRgIBJ4UCO40CTwIBI44CO44CmQICAR6PAjuWAkQCARqbAjuiAkQCARWjAjujAoMBAgETpAI7rAJPAgEPrQI7rQKZAgIBCq4CO7UCRAIBBvIBZvIBbQIBLu8BZ+8BdAIBLPUBS/UBVQIBKoICzgGCAqcCAgEohwK0AYcCjAICASaFAt4BhQLwAQIBJI4Ca44CzgECASGOAoQCjgKWAgIBH5QCZpQCZwIBHZECZ5ECdQIBG6ACZqACawIBGJ0CZ50CdAIBFqMCS6MCVQIBFKYCtAGmAowCAgESpALeAaQC8AECARCtAmutAs4BAgENrQKEAq0ClgICAQuzAmazAmcCAQmwAmewAnUCAQc=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb180My54YW1sPUsD1QIPAgEBUwlhFAIBSWQNchgCAUd1EY4BIQIBRJEBFZUBIwIBQJgBGZ0BKQIBPqABHaABZQIBPKMBIbEBLAIBOrQBJcIBMAIBOMUBKdMBNAIBNtYBLdYBdQIBNNkBMd0BRgIBL+ABNa4COgIBAl+cAV+SAgIBSnCgAXCbAgIBSHXUAXXhAQIBRYwBpAGMAY8CAgFGkQG7AZEBxwECAUGTAagBkwGGAgIBQ5gByQGYAdABAgE/oAEtoAE3AgE9rwG0Aa8BqQICATvAAbgBwAGyAgIBOdEBvAHRAbcCAgE31gE91gFHAgE12wGvAdsBpQICATPbAbAC2wG2AgIBMtkBcNkBgwECATDgAUPgAVYCAQPiATmNAkQCARmQAjmsAkQCAQXjATvqAUQCASvrATvrAYMBAgEp7AE7+gFGAgEn+wE7gwJPAgEjhAI7hAKZAgIBHoUCO4wCRAIBGpECO5gCRAIBFZkCO5kCgwECAROaAjuiAk8CAQ+jAjujApkCAgEKpAI7qwJEAgEG6AFm6AFtAgEu5QFn5QF0AgEs6wFL6wFVAgEq+AHOAfgBpwICASj9AbQB/QGMAgIBJvsB3gH7AfABAgEkhAJrhALOAQIBIYQChAKEApYCAgEfigJmigJnAgEdhwJnhwJ1AgEblgJmlgJrAgEYkwJnkwJ0AgEWmQJLmQJVAgEUnAK0AZwCjAICARKaAt4BmgLwAQIBEKMCa6MCzgECAQ2jAoQCowKWAgIBC6kCZqkCZwIBCaYCZ6YCdQIBBw==</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="Click_56" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Click_56" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_57" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Click_57" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SelectItem_20" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="SelectItem_20" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SetValue_8" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="SetValue_8" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_58" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="SendHotkey_1" sap:VirtualizedContainerService.HintSize="314.4,117.6">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Delay_15" sap:VirtualizedContainerService.HintSize="200,22">
+      <sap2010:ViewStateData Id="Delay_15" sap:VirtualizedContainerService.HintSize="200,22.4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_59" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Click_59" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_60" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Click_60" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_61" sap:VirtualizedContainerService.HintSize="200,52.6666666666667">
+      <sap2010:ViewStateData Id="Click_61" sap:VirtualizedContainerService.HintSize="200,52.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -463,7 +454,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,1113.66666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -471,7 +462,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,1011</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,1063.66666666667 300,1113.66666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -480,7 +471,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,939</av:Point>
-            <av:Size x:Key="ShapeSize">200,22</av:Size>
+            <av:Size x:Key="ShapeSize">200,22.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,961 300,1011</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -489,7 +480,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,837</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,889.666666666667 300,939</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -498,7 +489,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,734.333333333333</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,787 300,837</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -507,7 +498,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,631.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,684.333333333333 300,734.333333333333</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -516,17 +507,17 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">390,589</av:Point>
-            <av:Size x:Key="ShapeSize">200,22</av:Size>
+            <av:Size x:Key="ShapeSize">200,22.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">490,611 490,658 400,658</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_45">
+      <sap2010:ViewStateData Id="FlowStep_53">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,529</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">400,555.333333333333 490,555.333333333333 490,589</av:PointCollection>
+            <av:Point x:Key="ShapeLocation">200,503.6</av:Point>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">400,530 490,530 490,589</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -534,8 +525,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,426.333333333333</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,479 300,529</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,479.133333333333 300,503.6</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -543,7 +534,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,323.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,376.333333333333 300,426.333333333333</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -552,7 +543,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,223.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,276.333333333333 300,323.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -561,24 +552,24 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,127.166666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,179.833333333333 300,223.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="632.666666666667,1432">
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="633.6,1432.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-            <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
+            <av:Size x:Key="ShapeSize">60,75.2</av:Size>
             <x:Double x:Key="Height">1396.3333333333335</x:Double>
             <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,127.166666666667</av:PointCollection>
             <x:Double x:Key="Width">619</x:Double>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="672.666666666667,1512" />
+      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="673.6,1512.8" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
