@@ -1,7 +1,7 @@
 {
   "name": "Teste_V2",
   "description": "Project",
-  "main": "Main.xaml",
+  "main": "Iniciar.xaml",
   "dependencies": {
     "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Cognitive.Activities": "[2.0.6716.19435]",
@@ -19,7 +19,7 @@
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.2",
-  "projectVersion": "1.0.6831.26757",
+  "projectVersion": "1.0.6862.33026",
   "runtimeOptions": {
     "autoDispose": false,
     "excludedLoggedData": [
@@ -31,5 +31,9 @@
   "libraryOptions": {
     "includeOriginalXaml": false,
     "privateWorkflows": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
   }
 }
