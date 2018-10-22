@@ -108,7 +108,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0e1fb2cc43adc5f4b3c752637aede10b" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl aaname='Alterar Senha' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0e1fb2cc43adc5f4b3c752637aede10b" Selector="&lt;html omit:url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl aaname='Alterar Senha' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
                         </ui:Click.Target>
                       </ui:Click>
                       <FlowStep.Next>
@@ -152,7 +152,7 @@
                                         <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_9" />
                                         <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_21" Screenshot="[PrintEvidencia]">
                                           <ui:TakeScreenshot.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bb314ee10a04b2b2f5e5c5e5f6709150" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360-contactcenter/pages/crux/alteracaosenha/alteracaoSenha.html?idTab=alterarSenha&amp;amp;idInteractionTabAba=alterarSenha&amp;amp;cpfUsuario=41900788837&amp;amp;idUsuarioAtendimento=694101806&amp;amp;idCanalAtendimento=1&amp;amp;nomeCanalAtendimento=CALL+CENTER&amp;amp;codigoAdabas=70004&amp;amp;nomeAdabas=Almaviva_GRU&amp;amp;idCanalVenda=35&amp;amp;nomeCanalVenda=CALL+CENTER&amp;amp;idCanalAtendimentoPalitagem=1&amp;amp;tipoRelacionamento=2&amp;amp;tipoOperacao=1&amp;amp;idProcedencia=2530&amp;amp;grupoAbertura=5442&amp;amp;idFornecedor=8&amp;amp;canalDistribuicao=&amp;amp;nfovivo360callcenter=true' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="83b747cfb6c567b7faff7c4a30909778" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
                                           </ui:TakeScreenshot.Target>
                                         </ui:TakeScreenshot>
                                         <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_17" Image="[PrintEvidencia]" />
@@ -194,7 +194,7 @@
                                         </Assign>
                                         <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_22" Screenshot="[PrintEvidencia]">
                                           <ui:TakeScreenshot.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="14ead9f4702942d189273b48e0a9a948" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360-contactcenter/pages/crux/alteracaosenha/alteracaoSenha.html?idTab=alterarSenha&amp;amp;idInteractionTabAba=alterarSenha&amp;amp;cpfUsuario=41900788837&amp;amp;idUsuarioAtendimento=694101806&amp;amp;idCanalAtendimento=1&amp;amp;nomeCanalAtendimento=CALL+CENTER&amp;amp;codigoAdabas=70004&amp;amp;nomeAdabas=Almaviva_GRU&amp;amp;idCanalVenda=35&amp;amp;nomeCanalVenda=CALL+CENTER&amp;amp;idCanalAtendimentoPalitagem=1&amp;amp;tipoRelacionamento=2&amp;amp;tipoOperacao=1&amp;amp;idProcedencia=2530&amp;amp;grupoAbertura=5442&amp;amp;idFornecedor=8&amp;amp;canalDistribuicao=&amp;amp;nfovivo360callcenter=true' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
+                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="83b747cfb6c567b7faff7c4a30909778" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
                                           </ui:TakeScreenshot.Target>
                                         </ui:TakeScreenshot>
                                         <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_18" Image="[PrintEvidencia]" />
@@ -297,7 +297,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID5</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sQUwDrQIPAgEBVQmoAhQCAQJXDfIBGQIBFfoBEYsCHAIBDJMCEaQCHAIBA2ATYFsCAVBjF3EiAgFOdBuCASYCAUyFAR+JATQCAUeMASPiASgCARb7AROCAhwCARGDAhOKAhwCAQ2UAhObAhwCAQicAhOjAhwCAQRgI2AtAgFRb6oBb8YCAgFPgAGuAYAB3wgCAU2HAZ0BhwHMCAIBS4cB1wiHAd0IAgFKhQFohQF1AgFIjAExjAE+AgEXjgEntgEyAgEvuQEn4AEyAgEZgAI+gAJLAgEU/QE//QFMAgESiAI+iAI/AgEQhQI/hQJNAgEOmQI+mQJLAgELlgI/lgJMAgEJoQI+oQI/AgEHngI/ngJNAgEFjwEplgEyAgFDlwEplwHWAQIBQZgBKZgBcAIBP5kBKZ0BPQIBO54BKZ4BhwICATafASmmATICATKnASm1ATQCATC6ASm6AdgBAgEtuwEpwgEyAgEpwwEpxwE9AgElyAEpyAGFAgIBIMkBKdABMgIBHNEBKd8BNAIBGpQBVJQBWwIBRpEBVZEBYgIBRJcBvgGXAcQBAgFCmAE5mAFDAgFAmwG8AZsB9wYCAT6ZAcwBmQHeAQIBPJ4BWZ4BvAECATmeAfIBngGEAgIBN6QBVKQBVQIBNaEBVaEBYwIBM7MBvAGzAfgIAgExugG+AboBxgECAS7AAVTAAWsCASy9AVW9AWICASrFAbwBxQH3BgIBKMMBzAHDAd4BAgEmyAFZyAG6AQIBI8gB8AHIAYICAgEhzgFUzgFVAgEfywFVywFjAgEd3QG8Ad0B+AgCARs=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sQUwDrQIPAgEBVQmoAhQCAQJXDfIBGQIBFfoBEYsCHAIBDJMCEaQCHAIBA2ATYFsCAVBjF3EiAgFOdBuCASYCAUyFAR+JATQCAUeMASPiASgCARb7AROCAhwCARGDAhOKAhwCAQ2UAhObAhwCAQicAhOjAhwCAQRgI2AtAgFRb6oBb8sCAgFPgAGuAYAB3wgCAU2HAZ0BhwHMCAIBS4cB1wiHAd0IAgFKhQFohQF1AgFIjAExjAE+AgEXjgEntgEyAgEvuQEn4AEyAgEZgAI+gAJLAgEU/QE//QFMAgESiAI+iAI/AgEQhQI/hQJNAgEOmQI+mQJLAgELlgI/lgJMAgEJoQI+oQI/AgEHngI/ngJNAgEFjwEplgEyAgFDlwEplwHWAQIBQZgBKZgBcAIBP5kBKZ0BPQIBO54BKZ4BhwICATafASmmATICATKnASm1ATQCATC6ASm6AdgBAgEtuwEpwgEyAgEpwwEpxwE9AgElyAEpyAGFAgIBIMkBKdABMgIBHNEBKd8BNAIBGpQBVJQBWwIBRpEBVZEBYgIBRJcBvgGXAcQBAgFCmAE5mAFDAgFAmwG8AZsB5QgCAT6ZAcwBmQHeAQIBPJ4BWZ4BvAECATmeAfIBngGEAgIBN6QBVKQBVQIBNaEBVaEBYwIBM7MBvAGzAfgIAgExugG+AboBxgECAS7AAVTAAWsCASy9AVW9AWICASrFAbwBxQHlCAIBKMMBzAHDAd4BAgEmyAFZyAG6AQIBI8gB8AHIAYICAgEhzgFUzgFVAgEfywFVywFjAgEd3QG8Ad0B+AgCARs=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -366,7 +366,7 @@
       <sap2010:ViewStateData Id="FlowStep_27">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,504.5</av:Point>
+            <av:Point x:Key="ShapeLocation">180,464.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -374,18 +374,18 @@
       <sap2010:ViewStateData Id="FlowStep_28">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,404.5</av:Point>
+            <av:Point x:Key="ShapeLocation">180,364.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,455.5 300,504.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">280,415.5 280,464.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="FlowStep_29">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,294.5</av:Point>
+            <av:Point x:Key="ShapeLocation">190,284.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,345.5 300,404.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">290,335.5 280,335.5 280,364.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -394,7 +394,7 @@
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,194.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,245.5 300,294.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,245.5 300,275.5 290,275.5 290,284.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
