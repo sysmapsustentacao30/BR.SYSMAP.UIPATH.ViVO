@@ -60,10 +60,6 @@
       <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
         <wz:Zip Password="{x:Null}" FileorDir="Evidencias\" sap2010:WorkflowViewState.IdRef="Zip_1" ZipPath="evidencias.zip" />
         <FlowStep.Next>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
             <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários realizados pelo UiPath" DisplayName="Send SMTP Mail Message" Email="marcelo.martins@sysmap.com.br" EnableSSL="True" From="marcelo.martins@sysmap.com.br" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Marcelo Martins" Password="#Olecram1327" Port="587" SecureConnection="Auto" Server="smtp-mail.outlook.com" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
               <ui:SendMail.Files>
@@ -72,34 +68,13 @@
                 </scg:List>
               </ui:SendMail.Files>
             </ui:SendMail>
-<<<<<<< HEAD
-=======
-=======
-          <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_2">
-            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários executados pelo UiPath" DisplayName="Send Outlook Mail Message" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="False" IsDraft="False" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
-              <ui:SendOutlookMail.Files>
-                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                  <InArgument x:TypeArguments="x:String">evidencias.zip</InArgument>
-                </scg:List>
-              </ui:SendOutlookMail.Files>
-            </ui:SendOutlookMail>
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
           </FlowStep>
         </FlowStep.Next>
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
-<<<<<<< HEAD
     <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwPOgNODwIBAT0JPYABAgENQA1GGwIBAj1tPX0CAQ89Lz08AgEOQPEDQJAEAgEMQzpDSAIBC0BoQJ4BAgEKQNkDQO0DAgEJQIACQJ8CAgEIQMoBQOkBAgEHQJQDQJkDAgEGQLkDQNADAgEFQIADQI4DAgEEQOUCQPYCAgED</sads:DebugSymbol.Symbol>
-=======
-<<<<<<< HEAD
-    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwPOgNODwIBAT0JPYABAgENQA1GGwIBAj1tPX0CAQ89Lz08AgEOQPEDQJAEAgEMQzpDSAIBC0BoQJ4BAgEKQNkDQO0DAgEJQIACQJ8CAgEIQMoBQOkBAgEHQJQDQJkDAgEGQLkDQNADAgEFQIADQI4DAgEEQOUCQPYCAgED</sads:DebugSymbol.Symbol>
-=======
-    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwJOgNODwIBAT0JPYABAgEHQA1GIgIBAj1tPX0CAQk9Lz08AgEIQNgCQPcCAgEGQzpDSAIBBUCCAUC4AQIBBEDAAkDUAgIBAw==</sads:DebugSymbol.Symbol>
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -110,38 +85,17 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-<<<<<<< HEAD
       <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="200,52.8">
-=======
-<<<<<<< HEAD
-      <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="200,52.8">
-=======
-      <sap2010:ViewStateData Id="SendOutlookMail_1" sap:VirtualizedContainerService.HintSize="200,52.8">
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
       <sap2010:ViewStateData Id="FlowStep_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,183.6</av:Point>
-<<<<<<< HEAD
-=======
-=======
-      <sap2010:ViewStateData Id="FlowStep_2">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">210,193.6</av:Point>
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
             <av:Size x:Key="ShapeSize">200,52.8</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -151,15 +105,7 @@
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,128.8</av:Point>
             <av:Size x:Key="ShapeSize">200,22.4</av:Size>
-<<<<<<< HEAD
             <av:PointCollection x:Key="ConnectorLocation">300,151.2 300,183.6</av:PointCollection>
-=======
-<<<<<<< HEAD
-            <av:PointCollection x:Key="ConnectorLocation">300,151.2 300,183.6</av:PointCollection>
-=======
-            <av:PointCollection x:Key="ConnectorLocation">300,151.2 300,181.2 310,181.2 310,193.6</av:PointCollection>
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>

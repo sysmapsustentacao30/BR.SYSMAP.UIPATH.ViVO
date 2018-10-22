@@ -235,15 +235,6 @@
           "lib/net4/RestSharp.dll": {}
         }
       },
-      "SB.OutlookMail.Activities/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/_._": {}
-        },
-        "runtime": {
-          "lib/OutlookMail.dll": {}
-        }
-      },
       "SharpZipLib/0.86.0": {
         "type": "package",
         "compile": {
@@ -895,16 +886,6 @@
         "restsharp.nuspec"
       ]
     },
-    "SB.OutlookMail.Activities/1.0.0": {
-      "sha512": "9xSPPJos873q2PudMVnz+TBg1R3/ips1A+GX/JY99Hz/SemDqkVxb3bO8SFITQ3xfIVRwkCwvOPy1aDbiTZO2w==",
-      "type": "package",
-      "path": "sb.outlookmail.activities/1.0.0",
-      "files": [
-        "lib/OutlookMail.dll",
-        "sb.outlookmail.activities.1.0.0.nupkg.sha512",
-        "sb.outlookmail.activities.nuspec"
-      ]
-    },
     "SharpZipLib/0.86.0": {
       "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
       "type": "package",
@@ -1343,7 +1324,6 @@
     ".NETFramework,Version=v4.6.1": [
       "DH.WindowsXT.Activities >= 1.4.14.3 <= 1.4.14.3",
       "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
-      "SB.OutlookMail.Activities >= 1.0.0 <= 1.0.0",
       "UiPath.Cognitive.Activities >= 2.0.6716.19435 <= 2.0.6716.19435",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Database.Activities >= 1.1.6660.26865 <= 1.1.6660.26865",
@@ -1359,14 +1339,14 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas.silva\\.nuget\\packages\\": {}
+    "C:\\Users\\marcelo.martins\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Teste_V2",
       "projectName": "Teste_V2",
       "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
-      "packagesPath": "C:\\Users\\lucas.silva\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
       "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
     },
     "frameworks": {
@@ -1381,11 +1361,6 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[2.0.6.9, 2.0.6.9]"
-          },
-          "SB.OutlookMail.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.0, 1.0.0]"
           },
           "UiPath.Cognitive.Activities": {
             "include": "Runtime",

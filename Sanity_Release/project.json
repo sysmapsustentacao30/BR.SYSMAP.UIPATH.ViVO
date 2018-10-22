@@ -16,20 +16,11 @@
     "UiPath.Python.Activities": "[1.0.6716.23055]",
     "UiPath.WebAPI.Activities": "[1.1.6479.13209]",
     "UiPath.System.Activities": "[18.3.6848.19314]",
-<<<<<<< HEAD
     "DH.WindowsXT.Activities": "[1.4.14.3]"
-=======
-<<<<<<< HEAD
-    "DH.WindowsXT.Activities": "[1.4.14.3]"
-=======
-    "DH.WindowsXT.Activities": "[1.4.14.3]",
-    "SB.OutlookMail.Activities": "[1.0.0]"
->>>>>>> d2876fa7dce986adcd08b5648e8deb97f278579e
->>>>>>> b6c5296d7766d95b78f5e874620d6d6f93fb0c27
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.2",
-  "projectVersion": "1.0.6869.28405",
+  "projectVersion": "1.0.6869.22115",
   "runtimeOptions": {
     "autoDispose": false,
     "excludedLoggedData": [
