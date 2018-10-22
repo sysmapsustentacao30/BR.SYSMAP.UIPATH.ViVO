@@ -76,6 +76,17 @@
           "lib/net40-client/CsvHelper.dll": {}
         }
       },
+      "DH.WindowsXT.Activities/1.4.14.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/DotNetZip.dll": {},
+          "lib/net452/ICSharpCode.SharpZipLib.dll": {},
+          "lib/net452/WindowsXT.dll": {}
+        }
+      },
       "DocumentFormat.OpenXml/2.5.0": {
         "type": "package",
         "compile": {
@@ -670,6 +681,18 @@
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll",
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.pdb",
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
+      ]
+    },
+    "DH.WindowsXT.Activities/1.4.14.3": {
+      "sha512": "wLjCKY0yd04uZ/mm1/Zmf8l3kWFgnAF3bkRZ3j+4iml2ZRkaqrOoSX1722lxaQ0o5FMdOq8IZwykB5xN8fG1zQ==",
+      "type": "package",
+      "path": "dh.windowsxt.activities/1.4.14.3",
+      "files": [
+        "dh.windowsxt.activities.1.4.14.3.nupkg.sha512",
+        "dh.windowsxt.activities.nuspec",
+        "lib/net452/DotNetZip.dll",
+        "lib/net452/ICSharpCode.SharpZipLib.dll",
+        "lib/net452/WindowsXT.dll"
       ]
     },
     "DocumentFormat.OpenXml/2.5.0": {
@@ -1299,6 +1322,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "DH.WindowsXT.Activities >= 1.4.14.3 <= 1.4.14.3",
       "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
       "UiPath.Cognitive.Activities >= 2.0.6716.19435 <= 2.0.6716.19435",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
@@ -1328,6 +1352,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "DH.WindowsXT.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.14.3, 1.4.14.3]"
+          },
           "Microsoft.Activities.Extensions": {
             "include": "Runtime",
             "target": "Package",

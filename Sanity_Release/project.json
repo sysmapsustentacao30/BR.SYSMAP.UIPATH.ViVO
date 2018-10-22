@@ -15,7 +15,8 @@
     "UiPath.PDF.Activities": "[1.1.6732.21973]",
     "UiPath.Python.Activities": "[1.0.6716.23055]",
     "UiPath.WebAPI.Activities": "[1.1.6479.13209]",
-    "UiPath.System.Activities": "[18.3.6848.19314]"
+    "UiPath.System.Activities": "[18.3.6848.19314]",
+    "DH.WindowsXT.Activities": "[1.4.14.3]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.2",
