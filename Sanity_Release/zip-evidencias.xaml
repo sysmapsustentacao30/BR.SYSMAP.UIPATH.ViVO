@@ -61,7 +61,7 @@
         <wz:Zip Password="{x:Null}" FileorDir="Evidencias\" sap2010:WorkflowViewState.IdRef="Zip_1" ZipPath="evidencias.zip" />
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
-            <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários realizados pelo UiPath" DisplayName="Send SMTP Mail Message" Email="marcelo.martins@sysmap.com.br" EnableSSL="True" From="marcelo.martins@sysmap.com.br" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Marcelo Martins" Password="#Olecram1327" Port="587" SecureConnection="Auto" Server="smtp-mail.outlook.com" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
+            <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários realizados pelo UiPath" Cc="lucas.silva@sysmap.com.br" DisplayName="Send SMTP Mail Message" Email="marcelo.martins@sysmap.com.br" EnableSSL="True" From="marcelo.martins@sysmap.com.br" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Marcelo Martins" Password="#Olecram1327" Port="587" SecureConnection="Auto" Server="smtp-mail.outlook.com" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
               <ui:SendMail.Files>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                   <InArgument x:TypeArguments="x:String">evidencias.zip</InArgument>
@@ -74,7 +74,7 @@
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
-    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwPOgNODwIBAT0JPYABAgENQA1GGwIBAj1tPX0CAQ89Lz08AgEOQPEDQJAEAgEMQzpDSAIBC0BoQJ4BAgEKQNkDQO0DAgEJQIACQJ8CAgEIQMoBQOkBAgEHQJQDQJkDAgEGQLkDQNADAgEFQIADQI4DAgEEQOUCQPYCAgED</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwQOgNODwIBAT0JPYABAgEOQA1GGwIBAj1tPX0CARA9Lz08AgEPQIIEQKEEAgENQzpDSAIBDECUAUCvAQIBC0BaQJABAgEKQOoDQP4DAgEJQJECQLACAgEIQNsBQPoBAgEHQKUDQKoDAgEGQMoDQOEDAgEFQJEDQJ8DAgEEQPYCQIcDAgED</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -85,7 +85,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="314.4,146.4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
