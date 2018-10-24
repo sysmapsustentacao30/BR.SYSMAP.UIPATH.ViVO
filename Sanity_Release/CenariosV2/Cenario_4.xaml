@@ -181,21 +181,25 @@
                                             </ui:TextExists>
                                             <If Condition="[TipoRede]" sap2010:WorkflowViewState.IdRef="If_11">
                                               <If.Then>
-                                                <ui:ClickText ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Text 'TD'" FormattedText="False" sap2010:WorkflowViewState.IdRef="ClickText_2" KeyModifiers="None" MouseButton="BTN_LEFT" Occurrence="1" SendWindowMessages="False" Text="Ok">
-                                                  <ui:ClickText.CursorPosition>
-                                                    <ui:CursorPosition Position="Center">
-                                                      <ui:CursorPosition.OffsetX>
-                                                        <InArgument x:TypeArguments="x:Int32" />
-                                                      </ui:CursorPosition.OffsetX>
-                                                      <ui:CursorPosition.OffsetY>
-                                                        <InArgument x:TypeArguments="x:Int32" />
-                                                      </ui:CursorPosition.OffsetY>
-                                                    </ui:CursorPosition>
-                                                  </ui:ClickText.CursorPosition>
-                                                  <ui:ClickText.Target>
-                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bfc130589938c501ecc614a484780ab7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='btnOk' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
-                                                  </ui:ClickText.Target>
-                                                </ui:ClickText>
+                                                <Sequence>
+                                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                    <ui:Click.CursorPosition>
+                                                      <ui:CursorPosition Position="Center">
+                                                        <ui:CursorPosition.OffsetX>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetX>
+                                                        <ui:CursorPosition.OffsetY>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetY>
+                                                      </ui:CursorPosition>
+                                                    </ui:Click.CursorPosition>
+                                                    <ui:Click.Target>
+                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="dcf125ad39f00e8e7f69548936209e18" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;button' tableCol='3' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+                                                    </ui:Click.Target>
+                                                    <sap2010:WorkflowViewState.IdRef>Click_50</sap2010:WorkflowViewState.IdRef>
+                                                  </ui:Click>
+                                                  <sap2010:WorkflowViewState.IdRef>Sequence_56</sap2010:WorkflowViewState.IdRef>
+                                                </Sequence>
                                               </If.Then>
                                             </If>
                                           </Sequence>
@@ -388,7 +392,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID11</x:Reference>
-    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb180LnhhbWxUTAOIAw8CAQFUCYMDFAIBAlYNzQIZAgEV1QIR5gIcAgEM7gIR/wIcAgEDXhNsHgIBZm8XfSICAWSAARuZASsCAWGcAR+gAS0CAV2jASOnATMCAVuqASeqAW4CAVmtASvJATYCAUrMAS/QAT8CAUPTATPhAT4CAUHkATfyAUICAT/1ATurAkACARbWAhPdAhwCARHeAhPlAhwCAQ3vAhP2AhwCAQj3AhP+AhwCAQRqpgFqnAICAWd7qgF7pQICAWWAAcoBgAHXAQIBYpcBrgGXAZkCAgFjnAHGAZwB0gECAV6eAbIBngGQAgIBYKMBggKjAYkCAgFcqgE3qgFBAgFasQEttQE9AgFStgEtyAEyAgFLzAHUAcwB2QECAUfMAbsBzAHOAQIBRcwBsAHMAbMBAgFEzgGtAc4BjAICAUnOAZcCzgGfAgIBSN8BxgHfAakCAgFC8AHKAfABtwICAUD1AUn1AVwCARf3AT+PAkoCASuSAj+pAkoCARnbAj7bAksCARTYAj/YAkwCARLjAj7jAj8CARDgAj/gAk0CAQ70Aj70AksCAQvxAj/xAkwCAQn8Aj78Aj8CAQf5Aj/5Ak0CAQWxAckBsQHPAQIBVrEBtwGxAcMBAgFUsQGsAbEBrwECAVOzAasBswGWAgIBWLMBoQKzAakCAgFXtgE7tgFHAgFMuAExxgFAAgFO+AFB/wFKAgE7gAJBgAKIAQIBOYECQYUCVQIBNYYCQYYCnwICATCHAkGOAkoCASyTAkGaAkoCASebAkGfAlUCASOgAkGgAp0CAgEeoQJBqAJKAgEauAHZArgB3QICAVC4AbUCuAG4AgIBT8QBxAHEAccCAgFR/QFs/QFzAgE++gFt+gF6AgE8gAJRgAJbAgE6gwLUAYMCvAICATiBAuQBgQL2AQIBNoYCcYYC1AECATOGAooChgKcAgIBMYwCbIwCbQIBL4kCbYkCewIBLZgCbJgCgwECASqVAm2VAnoCASidAtQBnQK8AgIBJpsC5AGbAvYBAgEkoAJxoALSAQIBIaACiAKgApoCAgEfpgJspgJtAgEdowJtowJ7AgEb</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb180LnhhbWxTTAOMAw8CAQFUCYcDFAIBAlYN0QIZAgEV2QIR6gIcAgEM8gIRgwMcAgEDXhNsHgIBZW8XfSICAWOAARuZASsCAWCcAR+gAS0CAVyjASOnATMCAVqqASeqAW4CAVitASvNATYCAUrQAS/UAT8CAUPXATPlAT4CAUHoATf2AUICAT/5ATuvAkACARbaAhPhAhwCARHiAhPpAhwCAQ3zAhP6AhwCAQj7AhOCAxwCAQRqpgFqnAICAWZ7qgF7pQICAWSAAcoBgAHXAQIBYZcBrgGXAZkCAgFinAHGAZwB0gECAV2eAbIBngGQAgIBX6MBggKjAYkCAgFbqgE3qgFBAgFZsQEttQE9AgFRtgEtzAEyAgFL0AHUAdAB2QECAUfQAbsB0AHOAQIBRdABsAHQAbMBAgFE0gGtAdIBjAICAUnSAZcC0gGfAgIBSOMBxgHjAakCAgFC9AHKAfQBtwICAUD5AUn5AVwCARf7AT+TAkoCASuWAj+tAkoCARnfAj7fAksCARTcAj/cAkwCARLnAj7nAj8CARDkAj/kAk0CAQ74Aj74AksCAQv1Aj/1AkwCAQmAAz6AAz8CAQf9Aj/9Ak0CAQWxAckBsQHPAQIBVbEBtwGxAcMBAgFTsQGsAbEBrwECAVKzAasBswGWAgIBV7MBoQKzAakCAgFWtgE7tgFHAgFMuAExygE8AgFO/AFBgwJKAgE7hAJBhAKIAQIBOYUCQYkCVQIBNYoCQYoCnwICATCLAkGSAkoCASyXAkGeAkoCASefAkGjAlUCASOkAkGkAp0CAgEepQJBrAJKAgEauQEzyAE+AgFPgQJsgQJzAgE+/gFt/gF6AgE8hAJRhAJbAgE6hwLUAYcCvAICATiFAuQBhQL2AQIBNooCcYoC1AECATOKAooCigKcAgIBMZACbJACbQIBL40CbY0CewIBLZwCbJwCgwECASqZAm2ZAnoCASihAtQBoQK8AgIBJp8C5AGfAvYBAgEkpAJxpALSAQIBIaQCiAKkApoCAgEfqgJsqgJtAgEdpwJtpwJ7AgEbxQHGAcUBiwMCAVA=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -434,10 +438,17 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TextExists_3" sap:VirtualizedContainerService.HintSize="464,135.2" />
-      <sap2010:ViewStateData Id="ClickText_2" sap:VirtualizedContainerService.HintSize="314.4,135.2" />
-      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="464,284.8" />
-      <sap2010:ViewStateData Id="Sequence_51" sap:VirtualizedContainerService.HintSize="200,51">
+      <sap2010:ViewStateData Id="TextExists_3" sap:VirtualizedContainerService.HintSize="464,134" />
+      <sap2010:ViewStateData Id="Click_50" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_56" sap:VirtualizedContainerService.HintSize="336,230">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="464,378" />
+      <sap2010:ViewStateData Id="Sequence_51" sap:VirtualizedContainerService.HintSize="486,676">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -666,7 +677,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="673,1343" />
+      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="673,1383" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
