@@ -80,18 +80,18 @@
       <Variable x:TypeArguments="x:Boolean" Name="EvidenciaExiste" />
     </Flowchart.Variables>
     <Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID11">
-        <TryCatch DisplayName="Try Catch - Execução cenário.">
+      <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_32">
+        <TryCatch DisplayName="Try Catch - Execução cenário." sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <TryCatch.Try>
-            <Flowchart DisplayName="Cenario_3">
+            <Flowchart DisplayName="Cenario_3" sap2010:WorkflowViewState.IdRef="Flowchart_2">
               <Flowchart.Variables>
                 <Variable x:TypeArguments="x:Boolean" Name="UsuarioEmUso" />
                 <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia" />
                 <Variable x:TypeArguments="x:Boolean" Name="EvidenciaExiste" />
               </Flowchart.Variables>
               <Flowchart.StartNode>
-                <FlowStep x:Name="__ReferenceID0">
-                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Criar Nova Interação" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_31">
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Criar Nova Interação" sap2010:WorkflowViewState.IdRef="Click_47" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -105,11 +105,10 @@
                     <ui:Click.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="57eb4bbb5dd187fc575c2e5978a86814" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl aaname='Interação' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:Click.Target>
-                    <sap2010:WorkflowViewState.IdRef>Click_47</sap2010:WorkflowViewState.IdRef>
                   </ui:Click>
                   <FlowStep.Next>
-                    <FlowStep x:Name="__ReferenceID1">
-                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Nova Interação" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_30">
+                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Nova Interação" sap2010:WorkflowViewState.IdRef="Click_48" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
                             <ui:CursorPosition.OffsetX>
@@ -123,11 +122,10 @@
                         <ui:Click.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9c64d10cf939f607397e75059455bc9c" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl aaname='Nova Interação' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
                         </ui:Click.Target>
-                        <sap2010:WorkflowViewState.IdRef>Click_48</sap2010:WorkflowViewState.IdRef>
                       </ui:Click>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID2">
-                          <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select tipo de linha" Item="N° da Linha">
+                        <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_29">
+                          <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select tipo de linha" sap2010:WorkflowViewState.IdRef="SelectItem_18" Item="N° da Linha">
                             <ui:SelectItem.Items>
                               <scg:List x:TypeArguments="x:String" Capacity="32">
                                 <x:String>N° da Linha</x:String>
@@ -152,42 +150,39 @@
                             <ui:SelectItem.Target>
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0533c4db8f8e22493d06e4b30bab05e2" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='pesquisarPorListBox' tag='SELECT' /&gt;" WaitForReady="INTERACTIVE" />
                             </ui:SelectItem.Target>
-                            <sap2010:WorkflowViewState.IdRef>SelectItem_18</sap2010:WorkflowViewState.IdRef>
                           </ui:SelectItem>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID3">
-                              <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Posiciona a linha" Text="[ArgLinha]">
+                            <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_28">
+                              <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Posiciona a linha" sap2010:WorkflowViewState.IdRef="SetValue_7" Text="[ArgLinha]">
                                 <ui:SetValue.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="d4145cb8f42c889e95120f7a73083508" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_mask_1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                                 </ui:SetValue.Target>
-                                <sap2010:WorkflowViewState.IdRef>SetValue_7</sap2010:WorkflowViewState.IdRef>
                               </ui:SetValue>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID10">
-                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                                <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_27">
+                                  <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
                                     <ui:SendHotkey.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
                                     </ui:SendHotkey.Target>
-                                    <sap2010:WorkflowViewState.IdRef>SendHotkey_2</sap2010:WorkflowViewState.IdRef>
                                   </ui:SendHotkey>
                                   <FlowStep.Next>
-                                    <FlowStep x:Name="__ReferenceID9">
+                                    <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_26">
                                       <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_8" />
                                       <FlowStep.Next>
-                                        <FlowStep x:Name="__ReferenceID8">
-                                          <Sequence DisplayName="Alerta de Rede">
+                                        <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_25">
+                                          <Sequence DisplayName="Alerta de Rede" sap2010:WorkflowViewState.IdRef="Sequence_51">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:Boolean" Name="TipoRede" />
                                             </Sequence.Variables>
-                                            <ui:TextExists DisplayName="Text Exists 'DIV'" FormattedText="False" Occurrence="1" Result="[TipoRede]" Text="Rede">
+                                            <ui:TextExists DisplayName="Text Exists 'DIV'" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_3" Occurrence="1" Result="[TipoRede]" Text="Rede">
                                               <ui:TextExists.Target>
                                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="573bf2db4df5ef42dd6e0a775d2674ae" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl aaname='Alerta - Tipo Rede' tag='DIV' /&gt;" TimeoutMS="300000" WaitForReady="INTERACTIVE" />
                                               </ui:TextExists.Target>
-                                              <sap2010:WorkflowViewState.IdRef>TextExists_3</sap2010:WorkflowViewState.IdRef>
                                             </ui:TextExists>
-                                            <If Condition="[TipoRede]">
+                                            <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_10" />
+                                            <If Condition="[TipoRede]" sap2010:WorkflowViewState.IdRef="If_11">
                                               <If.Then>
-                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'TD'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                                   <ui:Click.CursorPosition>
                                                     <ui:CursorPosition Position="Center">
                                                       <ui:CursorPosition.OffsetX>
@@ -199,26 +194,23 @@
                                                     </ui:CursorPosition>
                                                   </ui:Click.CursorPosition>
                                                   <ui:Click.Target>
-                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bfc130589938c501ecc614a484780ab7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='btnOk' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="dcf125ad39f00e8e7f69548936209e18" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;button' tableCol='3' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
                                                   </ui:Click.Target>
-                                                  <sap2010:WorkflowViewState.IdRef>Click_49</sap2010:WorkflowViewState.IdRef>
+                                                  <sap2010:WorkflowViewState.IdRef>Click_52</sap2010:WorkflowViewState.IdRef>
                                                 </ui:Click>
                                               </If.Then>
-                                              <sap2010:WorkflowViewState.IdRef>If_11</sap2010:WorkflowViewState.IdRef>
                                             </If>
-                                            <sap2010:WorkflowViewState.IdRef>Sequence_51</sap2010:WorkflowViewState.IdRef>
                                           </Sequence>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID4">
-                                              <ui:TextExists DisplayName="ArgEvidencia existe" FormattedText="False" Occurrence="1" Result="[EvidenciaExiste]" Text="DSP">
+                                            <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_24">
+                                              <ui:TextExists DisplayName="ArgEvidencia existe" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_4" Occurrence="1" Result="[EvidenciaExiste]" Text="DSP">
                                                 <ui:TextExists.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="fbf5791d5816349221c5052d31e47c5a" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='plataforma' tag='DIV' /&gt;" TimeoutMS="300000" WaitForReady="COMPLETE" />
                                                 </ui:TextExists.Target>
-                                                <sap2010:WorkflowViewState.IdRef>TextExists_4</sap2010:WorkflowViewState.IdRef>
                                               </ui:TextExists>
                                               <FlowStep.Next>
-                                                <FlowStep x:Name="__ReferenceID5">
-                                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clicar Acelerador 1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_23">
+                                                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clicar Acelerador 1" sap2010:WorkflowViewState.IdRef="Click_50" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                                     <ui:Click.CursorPosition>
                                                       <ui:CursorPosition Position="Center">
                                                         <ui:CursorPosition.OffsetX>
@@ -232,11 +224,10 @@
                                                     <ui:Click.Target>
                                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0d40639efaf7360f8fef3fc8c91c8dc6" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='qtdLinhasImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
                                                     </ui:Click.Target>
-                                                    <sap2010:WorkflowViewState.IdRef>Click_50</sap2010:WorkflowViewState.IdRef>
                                                   </ui:Click>
                                                   <FlowStep.Next>
-                                                    <FlowStep x:Name="__ReferenceID6">
-                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clicar Acelerador 2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                    <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_22">
+                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clicar Acelerador 2" sap2010:WorkflowViewState.IdRef="Click_51" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                                         <ui:Click.CursorPosition>
                                                           <ui:CursorPosition Position="Center">
                                                             <ui:CursorPosition.OffsetX>
@@ -250,105 +241,84 @@
                                                         <ui:Click.Target>
                                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e6ee3d809a98c1b3f1a4a1ab2740e738" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='qtdLinhasCanceladasImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
                                                         </ui:Click.Target>
-                                                        <sap2010:WorkflowViewState.IdRef>Click_51</sap2010:WorkflowViewState.IdRef>
                                                       </ui:Click>
                                                       <FlowStep.Next>
-                                                        <FlowStep x:Name="__ReferenceID7">
-                                                          <If Condition="[EvidenciaExiste]">
+                                                        <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_21">
+                                                          <If Condition="[EvidenciaExiste]" sap2010:WorkflowViewState.IdRef="If_12">
                                                             <If.Then>
-                                                              <Sequence>
-                                                                <Assign>
+                                                              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                                                <Assign sap2010:WorkflowViewState.IdRef="Assign_27">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
                                                                   </Assign.To>
                                                                   <Assign.Value>
                                                                     <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
                                                                   </Assign.Value>
-                                                                  <sap2010:WorkflowViewState.IdRef>Assign_27</sap2010:WorkflowViewState.IdRef>
                                                                 </Assign>
                                                                 <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_9" />
-                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" Screenshot="[PrintEvidencia]">
+                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_19" Screenshot="[PrintEvidencia]">
                                                                   <ui:TakeScreenshot.Target>
                                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="68047ae0a6237dd6d20a49b6409f5b42" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='NFO Vivo 360º - Call Center - Internet Explorer' /&gt;" WaitForReady="INTERACTIVE" />
                                                                   </ui:TakeScreenshot.Target>
-                                                                  <sap2010:WorkflowViewState.IdRef>TakeScreenshot_19</sap2010:WorkflowViewState.IdRef>
                                                                 </ui:TakeScreenshot>
-                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" Image="[PrintEvidencia]" sap2010:WorkflowViewState.IdRef="SaveImage_15" />
-                                                                <Assign>
+                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_15" Image="[PrintEvidencia]" />
+                                                                <Assign sap2010:WorkflowViewState.IdRef="Assign_28">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
                                                                   </Assign.To>
                                                                   <Assign.Value>
                                                                     <InArgument x:TypeArguments="x:String">3</InArgument>
                                                                   </Assign.Value>
-                                                                  <sap2010:WorkflowViewState.IdRef>Assign_28</sap2010:WorkflowViewState.IdRef>
                                                                 </Assign>
-                                                                <sap2010:WorkflowViewState.IdRef>Sequence_52</sap2010:WorkflowViewState.IdRef>
                                                               </Sequence>
                                                             </If.Then>
                                                             <If.Else>
-                                                              <Sequence>
-                                                                <Assign>
+                                                              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                                                <Assign sap2010:WorkflowViewState.IdRef="Assign_29">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
                                                                   </Assign.To>
                                                                   <Assign.Value>
                                                                     <InArgument x:TypeArguments="x:String">Não Encontrou evidencia</InArgument>
                                                                   </Assign.Value>
-                                                                  <sap2010:WorkflowViewState.IdRef>Assign_29</sap2010:WorkflowViewState.IdRef>
                                                                 </Assign>
-                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" Screenshot="[PrintEvidencia]">
+                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_20" Screenshot="[PrintEvidencia]">
                                                                   <ui:TakeScreenshot.Target>
                                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="68047ae0a6237dd6d20a49b6409f5b42" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='NFO Vivo 360º - Call Center - Internet Explorer' /&gt;" WaitForReady="INTERACTIVE" />
                                                                   </ui:TakeScreenshot.Target>
-                                                                  <sap2010:WorkflowViewState.IdRef>TakeScreenshot_20</sap2010:WorkflowViewState.IdRef>
                                                                 </ui:TakeScreenshot>
-                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" Image="[PrintEvidencia]" sap2010:WorkflowViewState.IdRef="SaveImage_16" />
-                                                                <Assign>
+                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_16" Image="[PrintEvidencia]" />
+                                                                <Assign sap2010:WorkflowViewState.IdRef="Assign_30">
                                                                   <Assign.To>
                                                                     <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
                                                                   </Assign.To>
                                                                   <Assign.Value>
                                                                     <InArgument x:TypeArguments="x:String">2</InArgument>
                                                                   </Assign.Value>
-                                                                  <sap2010:WorkflowViewState.IdRef>Assign_30</sap2010:WorkflowViewState.IdRef>
                                                                 </Assign>
-                                                                <sap2010:WorkflowViewState.IdRef>Sequence_53</sap2010:WorkflowViewState.IdRef>
                                                               </Sequence>
                                                             </If.Else>
-                                                            <sap2010:WorkflowViewState.IdRef>If_12</sap2010:WorkflowViewState.IdRef>
                                                           </If>
-                                                          <sap2010:WorkflowViewState.IdRef>FlowStep_21</sap2010:WorkflowViewState.IdRef>
                                                         </FlowStep>
                                                       </FlowStep.Next>
-                                                      <sap2010:WorkflowViewState.IdRef>FlowStep_22</sap2010:WorkflowViewState.IdRef>
                                                     </FlowStep>
                                                   </FlowStep.Next>
-                                                  <sap2010:WorkflowViewState.IdRef>FlowStep_23</sap2010:WorkflowViewState.IdRef>
                                                 </FlowStep>
                                               </FlowStep.Next>
-                                              <sap2010:WorkflowViewState.IdRef>FlowStep_24</sap2010:WorkflowViewState.IdRef>
                                             </FlowStep>
                                           </FlowStep.Next>
-                                          <sap2010:WorkflowViewState.IdRef>FlowStep_25</sap2010:WorkflowViewState.IdRef>
                                         </FlowStep>
                                       </FlowStep.Next>
-                                      <sap2010:WorkflowViewState.IdRef>FlowStep_26</sap2010:WorkflowViewState.IdRef>
                                     </FlowStep>
                                   </FlowStep.Next>
-                                  <sap2010:WorkflowViewState.IdRef>FlowStep_27</sap2010:WorkflowViewState.IdRef>
                                 </FlowStep>
                               </FlowStep.Next>
-                              <sap2010:WorkflowViewState.IdRef>FlowStep_28</sap2010:WorkflowViewState.IdRef>
                             </FlowStep>
                           </FlowStep.Next>
-                          <sap2010:WorkflowViewState.IdRef>FlowStep_29</sap2010:WorkflowViewState.IdRef>
                         </FlowStep>
                       </FlowStep.Next>
-                      <sap2010:WorkflowViewState.IdRef>FlowStep_30</sap2010:WorkflowViewState.IdRef>
                     </FlowStep>
                   </FlowStep.Next>
-                  <sap2010:WorkflowViewState.IdRef>FlowStep_31</sap2010:WorkflowViewState.IdRef>
                 </FlowStep>
               </Flowchart.StartNode>
               <x:Reference>__ReferenceID0</x:Reference>
@@ -362,139 +332,129 @@
               <x:Reference>__ReferenceID8</x:Reference>
               <x:Reference>__ReferenceID9</x:Reference>
               <x:Reference>__ReferenceID10</x:Reference>
-              <sap2010:WorkflowViewState.IdRef>Flowchart_2</sap2010:WorkflowViewState.IdRef>
             </Flowchart>
           </TryCatch.Try>
           <TryCatch.Catches>
-            <Catch x:TypeArguments="s:ArgumentException">
+            <Catch x:TypeArguments="s:ArgumentException" sap2010:WorkflowViewState.IdRef="Catch`1_1">
               <ActivityAction x:TypeArguments="s:ArgumentException">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="s:ArgumentException" Name="exception" />
                 </ActivityAction.Argument>
-                <Sequence>
-                  <Assign>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_54">
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_31">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
                     </Assign.Value>
-                    <sap2010:WorkflowViewState.IdRef>Assign_31</sap2010:WorkflowViewState.IdRef>
                   </Assign>
-                  <Assign>
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_32">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">2</InArgument>
                     </Assign.Value>
-                    <sap2010:WorkflowViewState.IdRef>Assign_32</sap2010:WorkflowViewState.IdRef>
                   </Assign>
-                  <sap2010:WorkflowViewState.IdRef>Sequence_54</sap2010:WorkflowViewState.IdRef>
                 </Sequence>
               </ActivityAction>
-              <sap2010:WorkflowViewState.IdRef>Catch`1_1</sap2010:WorkflowViewState.IdRef>
             </Catch>
-            <Catch x:TypeArguments="s:Exception">
+            <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
               <ActivityAction x:TypeArguments="s:Exception">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                 </ActivityAction.Argument>
-                <Sequence>
-                  <Assign>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_55">
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_33">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
                     </Assign.Value>
-                    <sap2010:WorkflowViewState.IdRef>Assign_33</sap2010:WorkflowViewState.IdRef>
                   </Assign>
-                  <Assign>
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_34">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">2</InArgument>
                     </Assign.Value>
-                    <sap2010:WorkflowViewState.IdRef>Assign_34</sap2010:WorkflowViewState.IdRef>
                   </Assign>
-                  <sap2010:WorkflowViewState.IdRef>Sequence_55</sap2010:WorkflowViewState.IdRef>
                 </Sequence>
               </ActivityAction>
-              <sap2010:WorkflowViewState.IdRef>Catch`1_2</sap2010:WorkflowViewState.IdRef>
             </Catch>
           </TryCatch.Catches>
-          <sap2010:WorkflowViewState.IdRef>TryCatch_1</sap2010:WorkflowViewState.IdRef>
         </TryCatch>
-        <sap2010:WorkflowViewState.IdRef>FlowStep_32</sap2010:WorkflowViewState.IdRef>
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID11</x:Reference>
-    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18zLnhhbWxSTAOzAw8CAQFUCa0DFAIBAlYN7gIZAgEV9gIRigMcAgEMkwMRpwMcAgEDXhNtHgIBZHAXfyICAWKCARucASsCAV+fAR+kAS0CAVunASOsATMCAVmvASevAW4CAVeyASvSATYCAUrVAS/aAT8CAUPdATPsAT4CAUHvATf+AUICAT+BAjvAAkACARb3AhP/AhwCARGAAxOIAxwCAQ2UAxOcAxwCAQidAxOlAxwCAQRqpgFqnAICAWV8qgF8pQICAWOCAZoBggGnAQIBYJkBrgGZAZkCAgFhnwGZAZ8BpQECAVyhAbIBoQGQAgIBXqcB0wGnAdoBAgFarwE3rwFBAgFYtgEtuwE9AgFQvAEt0AEyAgFL1QGlAdUBqgECAUfVAYwB1QGfAQIBRdUBgQHVAYQBAgFE1wGtAdcBjAICAUnXAZcC1wGfAgIBSOkBxgHpAakCAgFC+wHKAfsBtwICAUCBAkmBAlwCAReDAj+fAkoCASuiAj+9AkoCARn8Aj78AksCART5Aj/5AkwCARKFAz6FAz8CARCCAz+CA00CAQ6ZAz6ZA0sCAQuWAz+WA0wCAQmiAz6iAz8CAQefAz+fA00CAQW2AZoBtgGgAQIBVLYBiAG2AZQBAgFStgF9tgGAAQIBUbgBqwG4AZYCAgFWuAGhArgBqQICAVW8ATu8AUcCAUy+ATHNATwCAU6EAkGMAkoCATuNAkGNAogBAgE5jgJBkwJVAgE1lAJBlAKfAgIBMJUCQZ0CSgIBLKMCQasCSgIBJ6wCQbECVQIBI7ICQbICnQICAR6zAkG7AkoCARrKAcQBygHHAgIBT4kCbIkCcwIBPoYCbYYCegIBPI0CUY0CWwIBOpAC1AGQArwCAgE4jgKwAY4CwgECATaUAnGUAtQBAgEzlALbAZQC7QECATGaAmyaAm0CAS+XAm2XAnsCAS2oAmyoAoMBAgEqpQJtpQJ6AgEorgLUAa4CvAICASasArABrALCAQIBJLICcbIC0gECASGyAtkBsgLrAQIBH7gCbLgCbQIBHbUCbbUCewIBGw==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18zLnhhbWxUTAOKAw8CAQFUCYUDFAIBAlYNzwIZAgEV1wIR6AIcAgEM8AIRgQMcAgEDXhNsHgIBZm8XfSICAWSAARuZASsCAWGcAR+gAS0CAV2jASOnATMCAVuqASeqAW4CAVmtASvLATYCAUrOAS/SAT8CAUPVATPjAT4CAUHmATf0AUICAT/3ATutAkACARbYAhPfAhwCARHgAhPnAhwCAQ3xAhP4AhwCAQj5AhOAAxwCAQRqpgFqnAICAWd7qgF7pQICAWWAAcoBgAHXAQIBYpcBrgGXAZkCAgFjnAHGAZwB0gECAV6eAbIBngGQAgIBYKMBggKjAYkCAgFcqgE3qgFBAgFasQEttQE9AgFStgEttgF1AgFQtwEtygEyAgFLzgHUAc4B2QECAUfOAbsBzgHOAQIBRc4BsAHOAbMBAgFE0AGtAdABjAICAUnQAZcC0AGfAgIBSOEBxgHhAakCAgFC8gHKAfIBtwICAUD3AUn3AVwCARf5AT+RAkoCASuUAj+rAkoCARndAj7dAksCARTaAj/aAkwCARLlAj7lAj8CARDiAj/iAk0CAQ72Aj72AksCAQvzAj/zAkwCAQn+Aj7+Aj8CAQf7Aj/7Ak0CAQWxAckBsQHPAQIBVrEBtwGxAcMBAgFUsQGsAbEBrwECAVOzAasBswGWAgIBWLMBoQKzAakCAgFXtgE9tgFHAgFRtwE7twFHAgFMuQExyAE8AgFO+gFBgQJKAgE7ggJBggKIAQIBOYMCQYcCVQIBNYgCQYgCnwICATCJAkGQAkoCASyVAkGcAkoCASedAkGhAlUCASOiAkGiAp0CAgEeowJBqgJKAgEaxQHEAcUBiQMCAU//AWz/AXMCAT78AW38AXoCATyCAlGCAlsCATqFAtQBhQK8AgIBOIMC5AGDAvYBAgE2iAJxiALUAQIBM4gCigKIApwCAgExjgJsjgJtAgEviwJtiwJ7AgEtmgJsmgKDAQIBKpcCbZcCegIBKJ8C1AGfArwCAgEmnQLkAZ0C9gECASSiAnGiAtIBAgEhogKIAqICmgICAR+oAmyoAm0CAR2lAm2lAnsCARs=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="Click_47" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="Click_47" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_48" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="Click_48" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SelectItem_18" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="SelectItem_18" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SetValue_7" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="SetValue_7" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SendHotkey_2" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="SendHotkey_2" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Delay_8" sap:VirtualizedContainerService.HintSize="200,22.4">
+      <sap2010:ViewStateData Id="Delay_8" sap:VirtualizedContainerService.HintSize="200,22">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TextExists_3" sap:VirtualizedContainerService.HintSize="464,135.2" />
-      <sap2010:ViewStateData Id="Click_49" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
-      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="464,256.8" />
-      <sap2010:ViewStateData Id="Sequence_51" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="TextExists_3" sap:VirtualizedContainerService.HintSize="464,134" />
+      <sap2010:ViewStateData Id="Delay_10" sap:VirtualizedContainerService.HintSize="464,22" />
+      <sap2010:ViewStateData Id="Click_52" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="If_11" sap:VirtualizedContainerService.HintSize="464,254" />
+      <sap2010:ViewStateData Id="Sequence_51" sap:VirtualizedContainerService.HintSize="486,614">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TextExists_4" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="TextExists_4" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_50" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="Click_50" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -542,7 +502,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,1133.66666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+            <av:Size x:Key="ShapeSize">200,53</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -550,7 +510,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,1023.66666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+            <av:Size x:Key="ShapeSize">200,53</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,1076.33333333333 300,1133.66666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -559,8 +519,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,913.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,966.333333333333 300,1023.66666666667</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,964.666666666667 300,1023.66666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -568,8 +528,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,813.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,866.333333333333 300,913.666666666667</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,864.666666666667 300,913.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -577,8 +537,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">190,703.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">290,756.333333333333 290,786.333333333333 300,786.333333333333 300,813.666666666667</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">290,754.666666666667 290,784.666666666667 300,784.666666666667 300,813.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -586,7 +546,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,639</av:Point>
-            <av:Size x:Key="ShapeSize">200,22.4</av:Size>
+            <av:Size x:Key="ShapeSize">200,22</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,661 300,691 290,691 290,703.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -595,8 +555,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">210,513.6</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">310,566.4 310,596.4 300,596.4 300,639</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">310,564.6 310,594.6 300,594.6 300,639</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -604,8 +564,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,413.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,466.466666666667 300,496.466666666667 310,496.466666666667 310,513.6</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,464.666666666667 300,494.666666666667 310,494.666666666667 310,513.6</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -613,8 +573,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,323.666666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,376.333333333333 300,413.666666666667</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,374.666666666667 300,413.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -622,8 +582,8 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,229.833333333333</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,282.5 300,323.666666666667</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,280.833333333333 300,323.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -631,33 +591,33 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,127.166666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,179.833333333333 300,229.833333333333</av:PointCollection>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,178.166666666667 300,229.833333333333</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="633.6,1264">
+      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="633,1263">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-            <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
             <x:Double x:Key="Height">1227</x:Double>
             <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,127.166666666667</av:PointCollection>
             <x:Double x:Key="Width">619</x:Double>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Assign_31" sap:VirtualizedContainerService.HintSize="243.2,60" />
+      <sap2010:ViewStateData Id="Assign_31" sap:VirtualizedContainerService.HintSize="243,60" />
       <sap2010:ViewStateData Id="Assign_32" sap:VirtualizedContainerService.HintSize="243.2,60" />
-      <sap2010:ViewStateData Id="Sequence_54" sap:VirtualizedContainerService.HintSize="265.6,281.6">
+      <sap2010:ViewStateData Id="Sequence_54" sap:VirtualizedContainerService.HintSize="265,281">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Catch`1_1" sap:VirtualizedContainerService.HintSize="403.2,22.4">
+      <sap2010:ViewStateData Id="Catch`1_1" sap:VirtualizedContainerService.HintSize="404,21">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -667,14 +627,14 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_33" sap:VirtualizedContainerService.HintSize="243.2,60" />
       <sap2010:ViewStateData Id="Assign_34" sap:VirtualizedContainerService.HintSize="243.2,60" />
-      <sap2010:ViewStateData Id="Sequence_55" sap:VirtualizedContainerService.HintSize="265.6,281.6">
+      <sap2010:ViewStateData Id="Sequence_55" sap:VirtualizedContainerService.HintSize="265,284">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Catch`1_2" sap:VirtualizedContainerService.HintSize="403.2,22.4">
+      <sap2010:ViewStateData Id="Catch`1_2" sap:VirtualizedContainerService.HintSize="404,21">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -682,7 +642,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="417.6,314.4">
+      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="418,309">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -692,24 +652,24 @@
       <sap2010:ViewStateData Id="FlowStep_32">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,133.6</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+            <av:Point x:Key="ShapeLocation">200,134.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="633.6,1264">
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="633,1263">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-            <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
             <x:Double x:Key="Height">1227</x:Double>
-            <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,133.6</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,133.6</av:PointCollection>
             <x:Double x:Key="Width">619</x:Double>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="673.6,1344" />
+      <sap2010:ViewStateData Id="Cenario_1_1" sap:VirtualizedContainerService.HintSize="673,1343" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
