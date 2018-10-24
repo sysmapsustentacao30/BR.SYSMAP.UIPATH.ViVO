@@ -228,6 +228,12 @@
                                                                 <InArgument x:TypeArguments="x:String">3</InArgument>
                                                               </Assign.Value>
                                                             </Assign>
+                                                            <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send hotkey" EmptyField="False" Key="pgup" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                                                              <ui:SendHotkey.Target>
+                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
+                                                              </ui:SendHotkey.Target>
+                                                              <sap2010:WorkflowViewState.IdRef>SendHotkey_6</sap2010:WorkflowViewState.IdRef>
+                                                            </ui:SendHotkey>
                                                           </Sequence>
                                                         </If.Then>
                                                         <If.Else>
@@ -345,7 +351,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID10</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ny54YW1sR0wD3QIPAgEBVAnYAhQCAQJWDaICGQIBFaoCEbsCHAIBDMMCEdQCHAIBA14TbB4CAVdvF30iAgFVgAEbmQErAgFSnAEfoAEtAgFOowEjpwEzAgFMqgEnqgFvAgFKrQEruwE2AgFIvgEvvgF3AgFGwQEzxQFIAgFByAE3gwI8AgEWqwITsgIcAgERswITugIcAgENxAITywIcAgEIzAIT0wIcAgEEaqYBapwCAgFYe6oBe6UCAgFWgAHKAYAB1wECAVOXAa4BlwGZAgIBVJwBxgGcAdIBAgFPngGyAZ4BkAICAVGjAYICowGJAgIBTaoBN6oBQQIBS7kBvgG5AaMCAgFJvgE/vgFJAgFHwwGxAcMB0QUCAUXDAdwFwwHiBQIBRMEBcMEBgwECAULIAUXIAVgCARfKATvnAUYCASvqATuBAkYCARmwAj6wAksCARStAj+tAkwCARK4Aj64Aj8CARC1Aj+1Ak0CAQ7JAj7JAksCAQvGAj/GAkwCAQnRAj7RAj8CAQfOAj/OAk0CAQXLAT3SAUYCAT3TAT3TAYUBAgE71AE92AFNAgE52QE93QFRAgE13gE93gGaAgIBMN8BPeYBRgIBLOsBPfIBRgIBJ/MBPfcBUQIBI/gBPfgBmAICAR75AT2AAkYCARrQAWjQAW8CAUDNAWnNAXYCAT7TAU3TAVcCATzUAZwC1AGiAgIBOtsB0AHbAbgCAgE42QHfAdkB8QECATbeAW3eAdABAgEz3gGFAt4BlwICATHkAWjkAWkCAS/hAWnhAXcCAS3wAWjwAX8CASrtAWntAXYCASj1AdAB9QG4AgIBJvMB3wHzAfEBAgEk+AFt+AHOAQIBIfgBgwL4AZUCAgEf/gFo/gFpAgEd+wFp+wF3AgEb</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ny54YW1sSUwD4wIPAgEBVAneAhQCAQJWDagCGQIBFbACEcECHAIBDMkCEdoCHAIBA14TbB4CAVlvF30iAgFXgAEbmQErAgFUnAEfoAEtAgFQowEjpwEzAgFOqgEnqgFvAgFMrQEruwE2AgFKvgEvvgF3AgFIwQEzxQFIAgFDyAE3iQI8AgEWsQITuAIcAgERuQITwAIcAgENygIT0QIcAgEI0gIT2QIcAgEEaqYBapwCAgFae6oBe6UCAgFYgAHKAYAB1wECAVWXAa4BlwGZAgIBVpwBxgGcAdIBAgFRngGyAZ4BkAICAVOjAYICowGJAgIBT6oBN6oBQQIBTbkBvgG5AaMCAgFLvgE/vgFJAgFJwwGxAcMB0QUCAUfDAdwFwwHiBQIBRsEBcMEBgwECAUTIAUXIAVgCARfKATvtAUYCASvwATuHAkYCARm2Aj62AksCARSzAj+zAkwCARK+Aj6+Aj8CARC7Aj+7Ak0CAQ7PAj7PAksCAQvMAj/MAkwCAQnXAj7XAj8CAQfUAj/UAk0CAQXLAT3SAUYCAT/TAT3TAYUBAgE91AE92AFNAgE72QE93QFRAgE33gE93gGaAgIBMt8BPeYBRgIBLucBPewBTQIBLPEBPfgBRgIBJ/kBPf0BUQIBI/4BPf4BmAICAR7/AT2GAkYCARrQAWjQAW8CAULNAWnNAXYCAUDTAU3TAVcCAT7UAZwC1AGiAgIBPNsB0AHbAbgCAgE62QHfAdkB8QECATjeAW3eAdABAgE13gGFAt4BlwICATPkAWjkAWkCATHhAWnhAXcCAS/nAe0B5wHzAQIBLfYBaPYBfwIBKvMBafMBdgIBKPsB0AH7AbgCAgEm+QHfAfkB8QECAST+AW3+Ac4BAgEh/gGDAv4BlQICAR+EAmiEAmkCAR2BAmmBAncCARs=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -418,7 +424,8 @@
       <sap2010:ViewStateData Id="TakeScreenshot_4" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="SaveImage_3" sap:VirtualizedContainerService.HintSize="314,92" />
       <sap2010:ViewStateData Id="Assign_6" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="336,780">
+      <sap2010:ViewStateData Id="SendHotkey_6" sap:VirtualizedContainerService.HintSize="314,116" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="336,936">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -436,7 +443,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="697,928">
+      <sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="697,1084">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -546,7 +553,7 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="242,60" />
       <sap2010:ViewStateData Id="Assign_10" sap:VirtualizedContainerService.HintSize="242,60" />
-      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="264,278">
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="264,281">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -563,7 +570,7 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_11" sap:VirtualizedContainerService.HintSize="243,60" />
       <sap2010:ViewStateData Id="Assign_12" sap:VirtualizedContainerService.HintSize="243.2,60" />
-      <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="265,281">
+      <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="265,284">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
