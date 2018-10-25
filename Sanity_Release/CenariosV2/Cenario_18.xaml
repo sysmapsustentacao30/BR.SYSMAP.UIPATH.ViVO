@@ -80,7 +80,7 @@
       <Variable x:TypeArguments="ui:GenericValue" Name="EvidenciaFinal" />
     </Flowchart.Variables>
     <Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_48">
+      <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_48">
         <TryCatch DisplayName="Try Catch - Execução cenário." sap2010:WorkflowViewState.IdRef="TryCatch_1">
           <TryCatch.Try>
             <Flowchart DisplayName="Cenario_18" sap2010:WorkflowViewState.IdRef="Flowchart_2">
@@ -206,7 +206,7 @@
                                                     </ui:Click.Target>
                                                   </ui:Click>
                                                   <FlowStep.Next>
-                                                    <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_38">
+                                                    <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_38">
                                                       <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_13" />
                                                       <FlowStep.Next>
                                                         <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_37">
@@ -219,74 +219,69 @@
                                                             </ui:GetValue.Value>
                                                           </ui:GetValue>
                                                           <FlowStep.Next>
-                                                            <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_36">
-                                                              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message box" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[EvidenciaFinal]" TopMost="True" />
-                                                              <FlowStep.Next>
-                                                                <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_35">
-                                                                  <If Condition="[EvidenciaFinal &lt;&gt; &quot;&quot;]" DisplayName="If Evidencia final for texto em branco = true" sap2010:WorkflowViewState.IdRef="If_12">
-                                                                    <If.Then>
-                                                                      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_53">
-                                                                        <Sequence.Variables>
-                                                                          <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia_2" />
-                                                                        </Sequence.Variables>
-                                                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_31">
-                                                                          <Assign.To>
-                                                                            <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                                                          </Assign.To>
-                                                                          <Assign.Value>
-                                                                            <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
-                                                                          </Assign.Value>
-                                                                        </Assign>
-                                                                        <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_14" />
-                                                                        <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_23" Screenshot="[PrintEvidencia_2]">
-                                                                          <ui:TakeScreenshot.Target>
-                                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
-                                                                          </ui:TakeScreenshot.Target>
-                                                                        </ui:TakeScreenshot>
-                                                                        <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_19" Image="[PrintEvidencia_2]" />
-                                                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_32">
-                                                                          <Assign.To>
-                                                                            <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                                                          </Assign.To>
-                                                                          <Assign.Value>
-                                                                            <InArgument x:TypeArguments="x:String">3</InArgument>
-                                                                          </Assign.Value>
-                                                                        </Assign>
-                                                                      </Sequence>
-                                                                    </If.Then>
-                                                                    <If.Else>
-                                                                      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_54">
-                                                                        <Sequence.Variables>
-                                                                          <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia_2" />
-                                                                        </Sequence.Variables>
-                                                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_33">
-                                                                          <Assign.To>
-                                                                            <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                                                          </Assign.To>
-                                                                          <Assign.Value>
-                                                                            <InArgument x:TypeArguments="x:String">Error</InArgument>
-                                                                          </Assign.Value>
-                                                                        </Assign>
-                                                                        <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_15" />
-                                                                        <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_24" Screenshot="[PrintEvidencia_2]">
-                                                                          <ui:TakeScreenshot.Target>
-                                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
-                                                                          </ui:TakeScreenshot.Target>
-                                                                        </ui:TakeScreenshot>
-                                                                        <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_20" Image="[PrintEvidencia_2]" />
-                                                                        <Assign sap2010:WorkflowViewState.IdRef="Assign_34">
-                                                                          <Assign.To>
-                                                                            <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                                                          </Assign.To>
-                                                                          <Assign.Value>
-                                                                            <InArgument x:TypeArguments="x:String">2</InArgument>
-                                                                          </Assign.Value>
-                                                                        </Assign>
-                                                                      </Sequence>
-                                                                    </If.Else>
-                                                                  </If>
-                                                                </FlowStep>
-                                                              </FlowStep.Next>
+                                                            <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_35">
+                                                              <If Condition="[EvidenciaFinal &lt;&gt; &quot;&quot;]" DisplayName="If Evidencia final for texto em branco = true" sap2010:WorkflowViewState.IdRef="If_12">
+                                                                <If.Then>
+                                                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                                                    <Sequence.Variables>
+                                                                      <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia_2" />
+                                                                    </Sequence.Variables>
+                                                                    <Assign sap2010:WorkflowViewState.IdRef="Assign_31">
+                                                                      <Assign.To>
+                                                                        <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                      </Assign.To>
+                                                                      <Assign.Value>
+                                                                        <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                                                      </Assign.Value>
+                                                                    </Assign>
+                                                                    <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_14" />
+                                                                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_23" Screenshot="[PrintEvidencia_2]">
+                                                                      <ui:TakeScreenshot.Target>
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                      </ui:TakeScreenshot.Target>
+                                                                    </ui:TakeScreenshot>
+                                                                    <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_19" Image="[PrintEvidencia_2]" />
+                                                                    <Assign sap2010:WorkflowViewState.IdRef="Assign_32">
+                                                                      <Assign.To>
+                                                                        <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                      </Assign.To>
+                                                                      <Assign.Value>
+                                                                        <InArgument x:TypeArguments="x:String">3</InArgument>
+                                                                      </Assign.Value>
+                                                                    </Assign>
+                                                                  </Sequence>
+                                                                </If.Then>
+                                                                <If.Else>
+                                                                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_54">
+                                                                    <Sequence.Variables>
+                                                                      <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia_2" />
+                                                                    </Sequence.Variables>
+                                                                    <Assign sap2010:WorkflowViewState.IdRef="Assign_33">
+                                                                      <Assign.To>
+                                                                        <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                      </Assign.To>
+                                                                      <Assign.Value>
+                                                                        <InArgument x:TypeArguments="x:String">Error</InArgument>
+                                                                      </Assign.Value>
+                                                                    </Assign>
+                                                                    <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_15" />
+                                                                    <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_24" Screenshot="[PrintEvidencia_2]">
+                                                                      <ui:TakeScreenshot.Target>
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                      </ui:TakeScreenshot.Target>
+                                                                    </ui:TakeScreenshot>
+                                                                    <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_20" Image="[PrintEvidencia_2]" />
+                                                                    <Assign sap2010:WorkflowViewState.IdRef="Assign_34">
+                                                                      <Assign.To>
+                                                                        <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                      </Assign.To>
+                                                                      <Assign.Value>
+                                                                        <InArgument x:TypeArguments="x:String">2</InArgument>
+                                                                      </Assign.Value>
+                                                                    </Assign>
+                                                                  </Sequence>
+                                                                </If.Else>
+                                                              </If>
                                                             </FlowStep>
                                                           </FlowStep.Next>
                                                         </FlowStep>
@@ -323,7 +318,6 @@
               <x:Reference>__ReferenceID9</x:Reference>
               <x:Reference>__ReferenceID10</x:Reference>
               <x:Reference>__ReferenceID11</x:Reference>
-              <x:Reference>__ReferenceID12</x:Reference>
             </Flowchart>
           </TryCatch.Try>
           <TryCatch.Catches>
@@ -381,8 +375,8 @@
         </TryCatch>
       </FlowStep>
     </Flowchart.StartNode>
-    <x:Reference>__ReferenceID13</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18xOC54YW1sTkwDggMPAgEBVAn9AhQCAQJWDccCGQIBFc8CEeACHAIBDOgCEfkCHAIBA14TbB4CAWBvF30iAgFegAEbmQErAgFbnAEfoAEtAgFXowEjsQEuAgFVtAEntAFvAgFTtwEruwE/AgFPvgEvvgGRAgIBSsEBM88BPgIBSNIBN9IBfwIBRtUBO9wBSQIBQt8BP98B+AECAUDiAUOfAkgCARbQAhPXAhwCARHYAhPfAhwCAQ3pAhPwAhwCAQjxAhP4AhwCAQRqpgFqmwICAWF7qgF7qAICAV+AAcoBgAHPAQIBXJcBrgGXAZkCAgFdnAHOAZwB2gECAVieAbIBngGQAgIBWq8BtgGvAZoCAgFWtAE3tAFBAgFUuQG+AbkBlgICAVK3Ac4BtwHiAQIBUL4BX74BxAECAU2+AfoBvgGOAgIBS80BxgHNAf4FAgFJ0gFH0gFRAgFH2gFu2gF+AgFD1wHOAdcB3QICAUXfAdQB3wHmAQIBQeIBUeIBeQIBF+QBR/8BUgIBLIICR50CUgIBGNUCPtUCSwIBFNICP9ICTAIBEt0CPt0CPwIBENoCP9oCTQIBDu4CPu4CSwIBC+sCP+sCTAIBCfYCPvYCPwIBB/MCP/MCTQIBBegBSe8BUgIBPPABSfABkQECATrxAUn1AV0CATb2AUn2AasCAgEx9wFJ/gFSAgEthgJJjQJSAgEojgJJjgKRAQIBJo8CSZMCXQIBIpQCSZQCqwICAR2VAkmcAlICARntAXTtAXsCAT/qAXXqAYIBAgE98AFZ8AFjAgE78wHcAfMBtAICATnxAewB8QGAAgIBN/YBefYB3gECATT2AZQC9gGoAgIBMvwBdPwBdQIBMPkBdfkBgwECAS6LAnSLAnkCASuIAnWIAoIBAgEpjgJZjgJjAgEnkQLcAZECtAICASWPAuwBjwKAAgIBI5QCeZQC3gECASCUApQClAKoAgIBHpoCdJoCdQIBHJcCdZcCgwECARo=</sads:DebugSymbol.Symbol>
+    <x:Reference>__ReferenceID12</x:Reference>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18xOC54YW1sTEwD/AIPAgEBVAn3AhQCAQJWDcECGQIBFckCEdoCHAIBDOICEfMCHAIBA14TbB4CAV5vF30iAgFcgAEbmQErAgFZnAEfoAEtAgFVowEjsQEuAgFTtAEntAFvAgFRtwEruwE/AgFNvgEvvgGRAgIBSMEBM88BPgIBRtIBN9IBfwIBRNUBO9wBSQIBQN8BP5wCRAIBFsoCE9ECHAIBEdICE9kCHAIBDeMCE+oCHAIBCOsCE/ICHAIBBGqmAWqbAgIBX3uqAXuoAgIBXYABygGAAc8BAgFalwGuAZcBmQICAVucAc4BnAHaAQIBVp4BsgGeAZACAgFYrwG2Aa8BmgICAVS0ATe0AUECAVK5Ab4BuQGWAgIBULcBzgG3AeIBAgFOvgFfvgHEAQIBS74B+gG+AY4CAgFJzQHGAc0B/gUCAUfSAUfSAVECAUXaAW7aAX4CAUHXAc4B1wHdAgIBQ98BTd8BdQIBF+EBQ/wBTgIBLP8BQ5oCTgIBGM8CPs8CSwIBFMwCP8wCTAIBEtcCPtcCPwIBENQCP9QCTQIBDugCPugCSwIBC+UCP+UCTAIBCfACPvACPwIBB+0CP+0CTQIBBeUBRewBTgIBPO0BRe0BjQECATruAUXyAVkCATbzAUXzAacCAgEx9AFF+wFOAgEtgwJFigJOAgEoiwJFiwKNAQIBJowCRZACWQIBIpECRZECpwICAR2SAkWZAk4CARnqAXDqAXcCAT/nAXHnAX4CAT3tAVXtAV8CATvwAdgB8AGwAgIBOe4B6AHuAfwBAgE38wF18wHaAQIBNPMBkALzAaQCAgEy+QFw+QFxAgEw9gFx9gF/AgEuiAJwiAJ1AgErhQJxhQJ+AgEpiwJViwJfAgEnjgLYAY4CsAICASWMAugBjAL8AQIBI5ECdZEC2gECASCRApACkQKkAgIBHpcCcJcCcQIBHJQCcZQCfwIBGg==</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -451,13 +445,6 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="MessageBox_3" sap:VirtualizedContainerService.HintSize="200,52.8">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_31" sap:VirtualizedContainerService.HintSize="314,60.6666666666667" />
       <sap2010:ViewStateData Id="Delay_14" sap:VirtualizedContainerService.HintSize="314,22" />
       <sap2010:ViewStateData Id="TakeScreenshot_23" sap:VirtualizedContainerService.HintSize="314,106" />
@@ -492,17 +479,8 @@
       <sap2010:ViewStateData Id="FlowStep_35">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,1196.33333333333</av:Point>
+            <av:Point x:Key="ShapeLocation">200,1103.6</av:Point>
             <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_36">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,1093.66666666667</av:Point>
-            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,1146.33333333333 300,1196.33333333333</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -511,7 +489,7 @@
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,1003.66666666667</av:Point>
             <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,1056.33333333333 300,1093.66666666667</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,1056.46666666667 300,1103.6</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -605,7 +583,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="633.6,1383.2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -651,7 +629,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="200,52.8">
+      <sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="417.6,314.4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

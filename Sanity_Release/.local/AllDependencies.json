@@ -1339,14 +1339,14 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcelo.martins\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas.silva\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Teste_V2",
       "projectName": "Teste_V2",
       "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
-      "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\lucas.silva\\.nuget\\packages\\",
       "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
     },
     "frameworks": {

@@ -61,7 +61,7 @@
         <wz:Zip Password="{x:Null}" FileorDir="Evidencias\" sap2010:WorkflowViewState.IdRef="Zip_1" ZipPath="evidencias.zip" />
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
-            <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários realizados pelo UiPath" Cc="lucas.silva@sysmap.com.br" DisplayName="Send SMTP Mail Message" Email="yodanero@outlook.com" EnableSSL="True" From="marcelo.martins@sysmap.com.br" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Marcelo Martins" Password="Anakin1977" Port="587" SecureConnection="Auto" Server="smtp-mail.outlook.com" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
+            <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Segue evidências dos cenários realizados pelo UiPath" Cc="lucas.silva@sysmap.com.br" DisplayName="Send SMTP Mail Message" Email="yodanero@outlook.com" EnableSSL="True" From="yodanero@outlook.com" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="Automação Vivo360" Password="Anakin1977" Port="587" SecureConnection="Auto" Server="smtp-mail.outlook.com" Subject="Evidências-Release" To="marcelo.martins@sysmap.com.br">
               <ui:SendMail.Files>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                   <InArgument x:TypeArguments="x:String">evidencias.zip</InArgument>
@@ -74,18 +74,18 @@
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
-    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwQOgNODwIBAT0JPYABAgEOQA1GGwIBAj1tPX0CARA9Lz08AgEPQPcDQJYEAgENQzpDSAIBDECUAUCvAQIBC0BaQJABAgEKQN8DQPMDAgEJQIgCQKcCAgEIQNsBQPEBAgEHQJoDQJ8DAgEGQL8DQNYDAgEFQIgDQJQDAgEEQO0CQP4CAgED</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0JDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXHppcC1ldmlkZW5jaWFzLnhhbWwQOgNODwIBAT0JPYABAgEOQA1GGwIBAj1tPX0CARA9Lz08AgEPQPADQI8EAgENQzpDSAIBDECUAUCvAQIBC0BaQJABAgEKQNgDQOwDAgEJQIgCQJ4CAgEIQNsBQPEBAgEHQJMDQJgDAgEGQLgDQM8DAgEFQIEDQI0DAgEEQOQCQPcCAgED</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="Zip_1" sap:VirtualizedContainerService.HintSize="200,22">
+      <sap2010:ViewStateData Id="Zip_1" sap:VirtualizedContainerService.HintSize="200,22.4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="314,145">
+      <sap2010:ViewStateData Id="SendMail_1" sap:VirtualizedContainerService.HintSize="314.4,146.4">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -96,7 +96,7 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,183.6</av:Point>
-            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:Size x:Key="ShapeSize">200,52.8</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -104,22 +104,22 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,128.8</av:Point>
-            <av:Size x:Key="ShapeSize">200,22</av:Size>
+            <av:Size x:Key="ShapeSize">200,22.4</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,151.2 300,183.6</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614,636">
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614.4,636.8">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
-            <av:Size x:Key="ShapeSize">60,75</av:Size>
+            <av:Size x:Key="ShapeSize">60,75.2</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,128.8</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="zip_evidencias_1" sap:VirtualizedContainerService.HintSize="654,716" />
+      <sap2010:ViewStateData Id="zip_evidencias_1" sap:VirtualizedContainerService.HintSize="654.4,716.8" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
