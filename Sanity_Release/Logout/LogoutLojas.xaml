@@ -70,14 +70,14 @@
               </ui:CursorPosition>
             </ui:Click.CursorPosition>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="77cc9073f94a4f859443856ef7fb8dfc" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='sairImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="27535df6966c570bb3b8145d6a8a6f9f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='sairImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
             </ui:Click.Target>
           </ui:Click>
           <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
             </ui:SendHotkey.Target>
-            <sap2010:WorkflowViewState.IdRef>SendHotkey_1</sap2010:WorkflowViewState.IdRef>
+            <sap2010:WorkflowViewState.IdRef>SendHotkey_2</sap2010:WorkflowViewState.IdRef>
           </ui:SendHotkey>
           <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  Fechar'" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
             <ui:Click.CursorPosition>
@@ -103,7 +103,7 @@
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="Click_8" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
-      <sap2010:ViewStateData Id="SendHotkey_1" sap:VirtualizedContainerService.HintSize="314.4,117.6" />
+      <sap2010:ViewStateData Id="SendHotkey_2" sap:VirtualizedContainerService.HintSize="314.4,117.6" />
       <sap2010:ViewStateData Id="Click_2" sap:VirtualizedContainerService.HintSize="314.4,107.2" />
       <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336.8,536.8">
         <sap:WorkflowViewStateService.ViewState>
