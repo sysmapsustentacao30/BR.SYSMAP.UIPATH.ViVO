@@ -286,11 +286,6 @@
                                                           <AssemblyReference>System.Xaml</AssemblyReference>
                                                         </sco:Collection>
                                                       </TextExpression.References>
-                                                      <sap2010:WorkflowViewState.ViewStateManager>
-                                                        <sap2010:ViewStateManager>
-                                                          <sap2010:ViewStateData Id="Delay_1" sap2010:WorkflowViewState.IdRef="ViewStateData_1" />
-                                                        </sap2010:ViewStateManager>
-                                                      </sap2010:WorkflowViewState.ViewStateManager>
                                                     </Delay>
                                                     <ui:ImageFound DisplayName="Image Exists Visualizar Boleto" Found="[VisuBoleto]" sap2010:WorkflowViewState.IdRef="ImageFound_2">
                                                       <ui:ImageFound.Image>
@@ -311,7 +306,7 @@
                                                               <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
                                                             </Assign.Value>
                                                           </Assign>
-                                                          <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 10 seconds" Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_1">
+                                                          <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 10 seconds" Duration="00:00:10">
                                                             <TextExpression.Namespaces>
                                                               <sco:Collection x:TypeArguments="x:String">
                                                                 <x:String>System.Activities</x:String>
@@ -351,6 +346,7 @@
                                                                 <AssemblyReference>System.Xaml</AssemblyReference>
                                                               </sco:Collection>
                                                             </TextExpression.References>
+                                                            <sap2010:WorkflowViewState.IdRef>Delay_20</sap2010:WorkflowViewState.IdRef>
                                                           </Delay>
                                                           <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take Screenshot 'SysListView32'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_32" Screenshot="[boletoVisu]">
                                                             <ui:TakeScreenshot.Target>
@@ -489,7 +485,7 @@
                                                       </ui:Click.Target>
                                                     </ui:Click>
                                                     <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_19" />
-                                                    <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                                                    <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe'" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
                                                       <ui:ClickImage.CursorPosition>
                                                         <ui:CursorPosition Position="Center">
                                                           <ui:CursorPosition.OffsetX>
@@ -501,12 +497,11 @@
                                                         </ui:CursorPosition>
                                                       </ui:ClickImage.CursorPosition>
                                                       <ui:ClickImage.Image>
-                                                        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA0AAAAPCAYAAAA/I0V3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhPpZLRDcMgDEQZmW92YAh+mYAFmAOJEVjg2mfJURspakLvA8vnO7CBoA18mcYYqrUq56wYo0Vy+E8cptaaUkrqvWvOaRyRHJ66w0wQpRSttYw8A566GwNHs9OVwUEdHfpAz7RwB+jQB4b1GX4BHfrALT0B+r2Ttmbauj2Ix+9k6xsQ7EQLPiORHN4N4L+/dx/SC2tay8/wdsYtAAAAAElFTkSuQmCC" />
+                                                        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACSSURBVChTnZLBDcQgDASvZN70QBF8qYAGqAOJEmhgT2PFkVB04sJ8LK+9YJN8dMDD1HtXKUUpJYUQLJKjO4up1qoYo1prGmOYRiRHpw63CSHnrDnnpaygU6fPTFzNSb8MDnX6zMTMjPAP9JmJZX2HHfSZiVd6w/lNRzsdvR68/k4OAicxgu9IJEenDosJ9v+e9AVRE58aJzcGEQAAAABJRU5ErkJggg==" />
                                                       </ui:ClickImage.Image>
                                                       <ui:ClickImage.Target>
                                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" WaitForReady="INTERACTIVE" />
                                                       </ui:ClickImage.Target>
-                                                      <sap2010:WorkflowViewState.IdRef>ClickImage_1</sap2010:WorkflowViewState.IdRef>
                                                     </ui:ClickImage>
                                                     <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  selecionarBotao'" sap2010:WorkflowViewState.IdRef="Click_64" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                                       <ui:Click.CursorPosition>
@@ -624,7 +619,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID9</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb182NS54YW1sYlMD9AQPAgEBXAnvBBQCAQJhDbkEGQIBFcEEEdIEHAIBDNoEEesEHAIBA2QTfSMCAW+AAReEASUCAWuHARuVASYCAWmYAR+YAWcCAWebASOpAS4CAWWsASewATcCAWOzASvBATYCAV/EAS/IAT8CAVvLATOdBD4CARbCBBPJBBwCARHKBBPRBBwCAQ3bBBPiBBwCAQjjBBPqBBwCAQRk1gFk4wECAXB7pgF7swICAXGAAccBgAHTAQIBbIIBqgGCAaoCAgFukwGuAZMBtAICAWqYAS+YATkCAWinAbYBpwHBAgIBZqwBhgKsAYwCAgFkvwG+Ab8ByAICAWKzAWqzAXECAWGzAVqzAWECAWDEAZ8BxAGmAQIBXsQBkAHEAZYBAgFdxAGHAsQBjQICAVzMATXaAUACAVnbATXpAUACAVfqATX4AUACAVP5ATWmAj0CAVGnAjWuAkUCAUuvAjXMAzoCASTNAzXbA0ACASLcAzXqA0ACASDrAzXrA30CAR7sAzX+A0UCARv/AzWNBEACARmOBDWcBEACARfHBD7HBEsCARTEBD/EBEwCARLPBD7PBD8CARDMBD/MBE0CAQ7gBD7gBEsCAQvdBD/dBEwCAQnoBD7oBD8CAQflBD/lBE0CAQXYAcgB2AHKAgIBWucByAHnAcoCAgFY9gHIAfYB2AICAVbqAXTqAXoCAVXqAWTqAWsCAVT5AYgB+QGSAQIBUqwCeqwCrwECAVCsAroBrALAAQIBT6cCd6cChQECAU2pAmOpAmgCAUyvAkOvAlECASWxAjn8AkQCATn/AjnKA0QCASfZA8gB2QPKAgIBI+gDyAHoA8oCAgEh6wNF6wNPAgEf+wOPAfsD5QECAR34A2P4A2gCARyLBMgBiwTRAgIBGpoEyAGaBNgCAgEYsgI7uQJEAgFHugI74gJDAgFF4wI76wJPAgFB7AI77AKVAgIBPO0CO/sCRgIBOoADO4cDRAIBNYgDO7ADQwIBM7EDO7kDTwIBL7oDO7oDlQICASq7AzvJA0YCASi3Ama3Am0CAUq0Ame0AnQCAUi6Ao4BugKYAQIBRuUCtAHlAukBAgFE4wLRAeMC3wECAULsAmvsAs4BAgE/7AKEAuwCkgICAT35As4B+QL/AgIBO4UDZoUDfQIBOIIDZ4IDdAIBNogDjgGIA5gBAgE0swO0AbMD6QECATKxA9EBsQPfAQIBMLoDa7oDzgECAS26A4QCugOSAgIBK8cDzgHHA/8CAgEp</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb182NS54YW1sYlMD7wQPAgEBXAnqBBQCAQJhDbQEGQIBFbwEEc0EHAIBDNUEEeYEHAIBA2QTfSMCAW+AAReEASUCAWuHARuVASYCAWmYAR+YAWcCAWebASOpAS4CAWWsASewATcCAWOzASvBATYCAV/EAS/IAT8CAVvLATOYBD4CARa9BBPEBBwCARHFBBPMBBwCAQ3WBBPdBBwCAQjeBBPlBBwCAQRk1gFk4wECAXB7pgF7swICAXGAAccBgAHTAQIBbIIBqgGCAaoCAgFukwGuAZMBtAICAWqYAS+YATkCAWinAbYBpwHBAgIBZqwBhgKsAYwCAgFkvwG+Ab8ByAICAWKzAWqzAXECAWGzAVqzAWECAWDEAZ8BxAGmAQIBXsQBkAHEAZYBAgFdxAGHAsQBjQICAVzMATXaAUACAVnbATXpAUACAVfqATX4AUACAVP5ATWhAj0CAVGiAjWpAkUCAUuqAjXIAzoCASTJAzXXA0ACASLYAzXmA0ACASDnAzXnA30CAR7oAzX5A0UCARv6AzWIBEACARmJBDWXBEACARfCBD7CBEsCARS/BD+/BEwCARLKBD7KBD8CARDHBD/HBE0CAQ7bBD7bBEsCAQvYBD/YBEwCAQnjBD7jBD8CAQfgBD/gBE0CAQXYAcgB2AHKAgIBWucByAHnAcoCAgFY9gHIAfYB2AICAVbqAXTqAXoCAVXqAWTqAWsCAVT5AYgB+QGSAQIBUqcCeqcCrwECAVCnAroBpwLAAQIBT6ICd6IChQECAU2kAmOkAmgCAUyqAkOqAlECASWsAjn4AkQCATn7AjnGA0QCASfVA8gB1QPKAgIBI+QDyAHkA8oCAgEh5wNF5wNPAgEf9wOPAfcD5QECAR30A2P0A2gCARyGBMgBhgTRAgIBGpUEyAGVBNgCAgEYrQI7tAJEAgFHtQI73gJDAgFF3wI75wJPAgFB6AI76AKVAgIBPOkCO/cCRgIBOvwCO4MDRAIBNYQDO6wDQwIBM60DO7UDTwIBL7YDO7YDlQICASq3AzvFA0YCASiyAmayAm0CAUqvAmevAnQCAUi1Ao4BtQKYAQIBRuECtAHhAukBAgFE3wLRAd8C3wECAULoAmvoAs4BAgE/6AKEAugCkgICAT31As4B9QL/AgIBO4EDZoEDfQIBOP4CZ/4CdAIBNoQDjgGEA5gBAgE0rwO0Aa8D6QECATKtA9EBrQPfAQIBMLYDa7YDzgECAS22A4QCtgOSAgIBK8MDzgHDA/8CAgEp</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -687,10 +682,10 @@
       <sap2010:ViewStateData Id="Click_54" sap:VirtualizedContainerService.HintSize="697,106" />
       <sap2010:ViewStateData Id="Click_55" sap:VirtualizedContainerService.HintSize="697,106" />
       <sap2010:ViewStateData Id="Click_56" sap:VirtualizedContainerService.HintSize="697,106" />
-      <sap2010:ViewStateData Id="ViewStateData_1" sap:VirtualizedContainerService.HintSize="200,22" />
-      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="314,22" />
+      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="697,22" />
       <sap2010:ViewStateData Id="ImageFound_2" sap:VirtualizedContainerService.HintSize="697,106" />
       <sap2010:ViewStateData Id="Assign_46" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Delay_20" sap:VirtualizedContainerService.HintSize="314,22" />
       <sap2010:ViewStateData Id="TakeScreenshot_32" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="SaveImage_25" sap:VirtualizedContainerService.HintSize="314,92" />
       <sap2010:ViewStateData Id="Click_59" sap:VirtualizedContainerService.HintSize="314,106" />
@@ -821,7 +816,7 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_42" sap:VirtualizedContainerService.HintSize="242,60" />
       <sap2010:ViewStateData Id="Assign_43" sap:VirtualizedContainerService.HintSize="242,60" />
-      <sap2010:ViewStateData Id="Sequence_59" sap:VirtualizedContainerService.HintSize="264,284">
+      <sap2010:ViewStateData Id="Sequence_59" sap:VirtualizedContainerService.HintSize="264,278">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
