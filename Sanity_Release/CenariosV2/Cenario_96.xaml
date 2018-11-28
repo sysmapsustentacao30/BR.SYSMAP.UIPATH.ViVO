@@ -93,11 +93,11 @@
                 <Variable x:TypeArguments="x:Boolean" Name="BotaoSair" />
               </Flowchart.Variables>
               <Flowchart.StartNode>
-                <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_35">
+                <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_35">
                   <Delay Duration="00:00:20" sap2010:WorkflowViewState.IdRef="Delay_10" />
                   <FlowStep.Next>
-                    <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_33">
-                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap2010:WorkflowViewState.IdRef="Click_55" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_33">
+                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Alterar Senha'" sap2010:WorkflowViewState.IdRef="Click_55" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
                             <ui:CursorPosition.OffsetX>
@@ -113,11 +113,11 @@
                         </ui:Click.Target>
                       </ui:Click>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_36">
+                        <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_36">
                           <Delay Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_11" />
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_29">
-                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Botao informativo'" sap2010:WorkflowViewState.IdRef="Click_52" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                            <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_44">
+                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Pop-up msg informativa" sap2010:WorkflowViewState.IdRef="Click_66" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition Position="Center">
                                     <ui:CursorPosition.OffsetX>
@@ -129,19 +129,19 @@
                                   </ui:CursorPosition>
                                 </ui:Click.CursorPosition>
                                 <ui:Click.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="18a09fb1e6b8d37b19c9cc9cf89e7cbd" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='okButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e6b0df8cc919652314376b07b3271ae1" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;button' tableRow='1' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
                                 </ui:Click.Target>
                               </ui:Click>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_28">
-                                  <ui:UiElementExists DisplayName="Element Exists 'INPUT  usuario'" Exists="[Evidencia]" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
-                                    <ui:UiElementExists.Target>
+                                <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_46">
+                                  <ui:TextExists DisplayName="Text Exists 'INPUT  usuario'" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[Evidencia]" Text="80640917">
+                                    <ui:TextExists.Target>
                                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="72a0feda285d6f49d6238f7b533cc043" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='usuario' tag='INPUT' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-                                    </ui:UiElementExists.Target>
-                                  </ui:UiElementExists>
+                                    </ui:TextExists.Target>
+                                  </ui:TextExists>
                                   <FlowStep.Next>
-                                    <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_27">
-                                      <If Condition="[Evidencia]" sap2010:WorkflowViewState.IdRef="If_12">
+                                    <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_27">
+                                      <If Condition="[Evidencia]" DisplayName="If evidencia existe" sap2010:WorkflowViewState.IdRef="If_12">
                                         <If.Then>
                                           <Sequence sap2010:WorkflowViewState.IdRef="Sequence_53">
                                             <Assign sap2010:WorkflowViewState.IdRef="Assign_31">
@@ -155,7 +155,11 @@
                                             <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_9" />
                                             <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_21" Screenshot="[PrintEvidencia]">
                                               <ui:TakeScreenshot.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="49a9f3ef77f9d27a03e9deb8e54f8420" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b5c45d0e831af5abb14c48d1abddfe49" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;" WaitForReady="INTERACTIVE">
+                                                  <ui:Target.ClippingRegion>
+                                                    <ui:Region Rectangle="0, -78, 1365, 767" />
+                                                  </ui:Target.ClippingRegion>
+                                                </ui:Target>
                                               </ui:TakeScreenshot.Target>
                                             </ui:TakeScreenshot>
                                             <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaSucesso.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_17" Image="[PrintEvidencia]" />
@@ -167,22 +171,27 @@
                                                 <InArgument x:TypeArguments="x:String">3</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                                              <ui:Click.CursorPosition>
-                                                <ui:CursorPosition Position="Center">
-                                                  <ui:CursorPosition.OffsetX>
-                                                    <InArgument x:TypeArguments="x:Int32" />
-                                                  </ui:CursorPosition.OffsetX>
-                                                  <ui:CursorPosition.OffsetY>
-                                                    <InArgument x:TypeArguments="x:Int32" />
-                                                  </ui:CursorPosition.OffsetY>
-                                                </ui:CursorPosition>
-                                              </ui:Click.CursorPosition>
-                                              <ui:Click.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
-                                              </ui:Click.Target>
-                                              <sap2010:WorkflowViewState.IdRef>Click_64</sap2010:WorkflowViewState.IdRef>
-                                            </ui:Click>
+                                            <Sequence DisplayName="Web cancelar" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Httpvivo3 Page'" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="05c4715b91b2e23ee0121c559931bd2c" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;">
+                                                <ui:BrowserScope.Body>
+                                                  <ActivityAction x:TypeArguments="x:Object">
+                                                    <ActivityAction.Argument>
+                                                      <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                                                    </ActivityAction.Argument>
+                                                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" sap2010:WorkflowViewState.IdRef="Click_69" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                                                        <ui:Click.CursorPosition>
+                                                          <ui:CursorPosition OffsetX="39" OffsetY="13" Position="TopLeft" />
+                                                        </ui:Click.CursorPosition>
+                                                        <ui:Click.Target>
+                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                                                        </ui:Click.Target>
+                                                      </ui:Click>
+                                                    </Sequence>
+                                                  </ActivityAction>
+                                                </ui:BrowserScope.Body>
+                                              </ui:BrowserScope>
+                                            </Sequence>
                                           </Sequence>
                                         </If.Then>
                                         <If.Else>
@@ -195,9 +204,14 @@
                                                 <InArgument x:TypeArguments="x:String">Não Encontrou evidencia</InArgument>
                                               </Assign.Value>
                                             </Assign>
+                                            <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_12" />
                                             <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap2010:WorkflowViewState.IdRef="TakeScreenshot_22" Screenshot="[PrintEvidencia]">
                                               <ui:TakeScreenshot.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="49a9f3ef77f9d27a03e9deb8e54f8420" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b5c45d0e831af5abb14c48d1abddfe49" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;" WaitForReady="INTERACTIVE">
+                                                  <ui:Target.ClippingRegion>
+                                                    <ui:Region Rectangle="0, -78, 1365, 767" />
+                                                  </ui:Target.ClippingRegion>
+                                                </ui:Target>
                                               </ui:TakeScreenshot.Target>
                                             </ui:TakeScreenshot>
                                             <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;EvidenciaError.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_18" Image="[PrintEvidencia]" />
@@ -209,22 +223,27 @@
                                                 <InArgument x:TypeArguments="x:String">2</InArgument>
                                               </Assign.Value>
                                             </Assign>
-                                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                                              <ui:Click.CursorPosition>
-                                                <ui:CursorPosition Position="Center">
-                                                  <ui:CursorPosition.OffsetX>
-                                                    <InArgument x:TypeArguments="x:Int32" />
-                                                  </ui:CursorPosition.OffsetX>
-                                                  <ui:CursorPosition.OffsetY>
-                                                    <InArgument x:TypeArguments="x:Int32" />
-                                                  </ui:CursorPosition.OffsetY>
-                                                </ui:CursorPosition>
-                                              </ui:Click.CursorPosition>
-                                              <ui:Click.Target>
-                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
-                                              </ui:Click.Target>
-                                              <sap2010:WorkflowViewState.IdRef>Click_65</sap2010:WorkflowViewState.IdRef>
-                                            </ui:Click>
+                                            <Sequence DisplayName="Web cancelar" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Httpvivo3 Page'" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="05c4715b91b2e23ee0121c559931bd2c" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;">
+                                                <ui:BrowserScope.Body>
+                                                  <ActivityAction x:TypeArguments="x:Object">
+                                                    <ActivityAction.Argument>
+                                                      <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                                                    </ActivityAction.Argument>
+                                                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" sap2010:WorkflowViewState.IdRef="Click_70" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                                                        <ui:Click.CursorPosition>
+                                                          <ui:CursorPosition OffsetX="39" OffsetY="13" Position="TopLeft" />
+                                                        </ui:Click.CursorPosition>
+                                                        <ui:Click.Target>
+                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                                                        </ui:Click.Target>
+                                                      </ui:Click>
+                                                    </Sequence>
+                                                  </ActivityAction>
+                                                </ui:BrowserScope.Body>
+                                              </ui:BrowserScope>
+                                            </Sequence>
                                           </Sequence>
                                         </If.Else>
                                       </If>
@@ -246,13 +265,6 @@
               <x:Reference>__ReferenceID3</x:Reference>
               <x:Reference>__ReferenceID4</x:Reference>
               <x:Reference>__ReferenceID5</x:Reference>
-              <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_42">
-                <ui:UiElementExists DisplayName="Element Exists 'BUTTON  cancelarButton'" Exists="[BotaoSair]" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
-                  <ui:UiElementExists.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-                  </ui:UiElementExists.Target>
-                </ui:UiElementExists>
-              </FlowStep>
             </Flowchart>
           </TryCatch.Try>
           <TryCatch.Catches>
@@ -311,7 +323,30 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID6</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sP0wDuwIPAgEBVQm2AhQCAQJXDYACGQIBFYgCEZkCHAIBDKECEbICHAIBA2ETYVsCAU5kF3IiAgFMdRt1YwIBSngfhgEqAgFIiQEjjQE4AgFDkAEn5gEsAgEWiQITkAIcAgERkQITmAIcAgENogITqQIcAgEIqgITsQIcAgEEYSNhLQIBT3CqAXDGAgIBTXUrdTUCAUuEAbIBhAHjCAIBSYsBoQGLAdAIAgFHiwHbCIsB4QgCAUaJAWyJAXkCAUSQATWQAUICAReSASu6ATYCAS29ASvkATYCARmOAj6OAksCARSLAj+LAkwCARKWAj6WAj8CARCTAj+TAk0CAQ6nAj6nAksCAQukAj+kAkwCAQmvAj6vAj8CAQesAj+sAk0CAQWTAS2aATYCAT+bAS2bAXQCAT2cAS2gAUECATmhAS2hAYsCAgE0ogEtqQE2AgEwqgEtuQE4AgEuvgEtxQE2AgEpxgEtygFBAgElywEtywGJAgIBIMwBLdMBNgIBHNQBLeMBOAIBGpgBWJgBXwIBQpUBWZUBZgIBQJsBPZsBRwIBPp4BwAGeAekIAgE8nAHQAZwB4gECATqhAV2hAcABAgE3oQH2AaEBiAICATWnAVinAVkCATOkAVmkAWcCATG2AcABtgH3CAIBL8MBWMMBbwIBLMABWcABZgIBKsgBwAHIAekIAgEoxgHQAcYB4gECASbLAV3LAb4BAgEjywH0AcsBhgICASHRAVjRAVkCAR/OAVnOAWcCAR3gAcAB4AH3CAIBGw==</sads:DebugSymbol.Symbol>
+    <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_45">
+      <Sequence DisplayName="Web" sap2010:WorkflowViewState.IdRef="Sequence_61">
+        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Httpvivo3 Page'" InformativeScreenshot="05c4715b91b2e23ee0121c559931bd2c" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;">
+          <ui:BrowserScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do">
+                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition OffsetX="39" OffsetY="13" Position="TopLeft" />
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
+                  </ui:Click.Target>
+                </ui:Click>
+              </Sequence>
+            </ActivityAction>
+          </ui:BrowserScope.Body>
+        </ui:BrowserScope>
+      </Sequence>
+    </FlowStep>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sT0wD3gIPAgEBVQnCAhQCAQJXDYwCGQIBFZQCEaUCHAIBDK0CEb4CHAIBA2ETYVsCAV5kF3IiAgFcdRt1YwIBWngfhgEqAgFYiQEjjQEzAgFRkAEn+QEsAgEWlQITnAIcAgERnQITpAIcAgENrgITtQIcAgEItgITvQIcAgEEYSNhLQIBX3CqAXDGAgIBXXUrdTUCAVuEAbIBhAHICQIBWYkBywGJAdUBAgFViQG4AYkBxQECAVOJAa0BiQGwAQIBUosBoQGLAdAIAgFXiwHbCIsB4QgCAVaQATWQAUICAReSASvDATYCATXGASv3ATYCARmaAj6aAksCARSXAj+XAkwCARKiAj6iAj8CARCfAj+fAk0CAQ6zAj6zAksCAQuwAj+wAkwCAQm7Aj67Aj8CAQe4Aj+4Ak0CAQWTAS2aATYCAU2bAS2bAXQCAUucAS2kAUECAUelAS2lAYsCAgFCpgEtrQE2AgE+rgEtwgE4AgE2xwEtzgE2AgExzwEtzwF1AgEv0AEt2AFBAgEr2QEt2QGJAgIBJtoBLeEBNgIBIuIBLfYBOAIBGpgBWJgBXwIBUJUBWZUBZgIBTpsBPZsBRwIBTJ4BpgGeAasIAgFKnAHQAZwB4gECAUilAV2lAcABAgFFpQH2AaUBiAICAUOrAVirAVkCAUGoAVmoAWcCAT+vAS/BAUECATfMAVjMAW8CATTJAVnJAWYCATLPAT3PAUcCATDSAaYB0gGrCAIBLtAB0AHQAeIBAgEs2QFd2QG+AQIBKdkB9AHZAYYCAgEn3wFY3wFZAgEl3AFZ3AFnAgEj4wEv9QFBAgEbrwHGAq8BywkCAT21ATW+AUACATjjAcYC4wHLCQIBIekBNfIBQAIBHLYBN70BQgIBOeoBN/EBQgIBHbsBygG7Af4BAgE8uAFjuAFnAgE7uAFWuAFaAgE67wHKAe8B/gECASDsAWPsAWcCAR/sAVbsAVoCAR4=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -336,46 +371,77 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Click_52" sap:VirtualizedContainerService.HintSize="200,51">
+      <sap2010:ViewStateData Id="Click_66" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="UiElementExists_2" sap:VirtualizedContainerService.HintSize="200,51">
+      <sap2010:ViewStateData Id="TextExists_1" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Assign_31" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="Delay_9" sap:VirtualizedContainerService.HintSize="314,22" />
-      <sap2010:ViewStateData Id="TakeScreenshot_21" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="SaveImage_17" sap:VirtualizedContainerService.HintSize="314,92" />
-      <sap2010:ViewStateData Id="Assign_32" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="Click_64" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="Sequence_53" sap:VirtualizedContainerService.HintSize="336,770">
+      <sap2010:ViewStateData Id="Assign_31" sap:VirtualizedContainerService.HintSize="436,60" />
+      <sap2010:ViewStateData Id="Delay_9" sap:VirtualizedContainerService.HintSize="436,22" />
+      <sap2010:ViewStateData Id="TakeScreenshot_21" sap:VirtualizedContainerService.HintSize="436,106" />
+      <sap2010:ViewStateData Id="SaveImage_17" sap:VirtualizedContainerService.HintSize="436,92" />
+      <sap2010:ViewStateData Id="Assign_32" sap:VirtualizedContainerService.HintSize="436,60" />
+      <sap2010:ViewStateData Id="Click_69" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_57" sap:VirtualizedContainerService.HintSize="336,230">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Assign_33" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="TakeScreenshot_22" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="SaveImage_18" sap:VirtualizedContainerService.HintSize="314,92" />
-      <sap2010:ViewStateData Id="Assign_34" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="Click_65" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="Sequence_54" sap:VirtualizedContainerService.HintSize="336,708">
+      <sap2010:ViewStateData Id="BrowserScope_1" sap:VirtualizedContainerService.HintSize="414,376" />
+      <sap2010:ViewStateData Id="Sequence_58" sap:VirtualizedContainerService.HintSize="436,500">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="If_12" sap:VirtualizedContainerService.HintSize="697,918">
+      <sap2010:ViewStateData Id="Sequence_53" sap:VirtualizedContainerService.HintSize="458,1164">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_33" sap:VirtualizedContainerService.HintSize="436,60" />
+      <sap2010:ViewStateData Id="Delay_12" sap:VirtualizedContainerService.HintSize="436,22" />
+      <sap2010:ViewStateData Id="TakeScreenshot_22" sap:VirtualizedContainerService.HintSize="436,106" />
+      <sap2010:ViewStateData Id="SaveImage_18" sap:VirtualizedContainerService.HintSize="436,92" />
+      <sap2010:ViewStateData Id="Assign_34" sap:VirtualizedContainerService.HintSize="436,60" />
+      <sap2010:ViewStateData Id="Click_70" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_59" sap:VirtualizedContainerService.HintSize="336,230">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="BrowserScope_2" sap:VirtualizedContainerService.HintSize="414,376" />
+      <sap2010:ViewStateData Id="Sequence_60" sap:VirtualizedContainerService.HintSize="436,500">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_54" sap:VirtualizedContainerService.HintSize="458,1164">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_12" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -385,35 +451,35 @@
       <sap2010:ViewStateData Id="FlowStep_27">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,584.5</av:Point>
+            <av:Point x:Key="ShapeLocation">200,564.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_28">
+      <sap2010:ViewStateData Id="FlowStep_46">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">180,464.5</av:Point>
+            <av:Point x:Key="ShapeLocation">200,455.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">280,515.5 280,545.5 300,545.5 300,584.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,506.5 300,564.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_29">
+      <sap2010:ViewStateData Id="FlowStep_44">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">190,364.5</av:Point>
+            <av:Point x:Key="ShapeLocation">200,354.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">290,415.5 290,445.5 280,445.5 280,464.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,405.5 300,455.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="FlowStep_36">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,295.5</av:Point>
+            <av:Point x:Key="ShapeLocation">200,275.5</av:Point>
             <av:Size x:Key="ShapeSize">200,22</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,317.5 300,347.5 290,347.5 290,364.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,297.5 300,354.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -422,7 +488,7 @@
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,194.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,245.5 300,295.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,245.5 300,275.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -435,22 +501,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="UiElementExists_3" sap:VirtualizedContainerService.HintSize="200,51">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_42">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">160,784.5</av:Point>
-            <av:Size x:Key="ShapeSize">200,51</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="633,1263">
+      <sap2010:ViewStateData Id="Flowchart_2" sap:VirtualizedContainerService.HintSize="634,1263">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -458,7 +509,7 @@
             <av:Size x:Key="ShapeSize">60,75</av:Size>
             <x:Double x:Key="Height">1227</x:Double>
             <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,129</av:PointCollection>
-            <x:Double x:Key="Width">619</x:Double>
+            <x:Double x:Key="Width">620</x:Double>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -507,6 +558,21 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,113.6</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_61" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_45">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,213.6</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
