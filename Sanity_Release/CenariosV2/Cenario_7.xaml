@@ -78,7 +78,6 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Plugin.Workflow</AssemblyReference>
       <AssemblyReference>Microsoft.VisualStudio.Services.Common</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="Cenario_7" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -92,11 +91,6 @@
         <TryCatch DisplayName="Try Catch - Execução cenário." sap2010:WorkflowViewState.IdRef="TryCatch_2">
           <TryCatch.Try>
             <Flowchart DisplayName="Cenario_7" sap2010:WorkflowViewState.IdRef="Flowchart_2">
-              <Flowchart.Variables>
-                <Variable x:TypeArguments="x:Boolean" Name="UsuarioEmUso" />
-                <Variable x:TypeArguments="ui:Image" Name="PrintEvidencia" />
-                <Variable x:TypeArguments="x:Boolean" Name="EvidenciaExiste" />
-              </Flowchart.Variables>
               <Flowchart.StartNode>
                 <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_35">
                   <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select item 'SELECT  pesquisarPorLis...'" sap2010:WorkflowViewState.IdRef="SelectItem_20" Item="N° da Linha">
@@ -313,7 +307,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID7</x:Reference>
-    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb183LnhhbWxDVAO9Ag8CAQFcCbgCFAIBAl4NggIZAgEVigIRmwIcAgEMowIRtAIcAgEDZhN/IwIBUoIBF4YBJQIBTokBG5cBJgIBTJoBH5oBZwIBSp0BI6EBMwIBQ6QBJ7IBMgIBQbUBK+wBMAIBFosCE5ICHAIBEZMCE5oCHAIBDaQCE6sCHAIBCKwCE7MCHAIBBGbWAWbjAQIBU32mAX2zAgIBVIIBtgGCAcIBAgFPhAGqAYQBqgICAVGVAa4BlQG0AgIBTZoBL5oBOQIBS50BxgGdAcwBAgFHnQGtAZ0BwAECAUWdAaIBnQGlAQIBRJ8BoQGfAdQCAgFJnwHfAp8B5QICAUiwAboBsAHJAgIBQrUBObUBTAIBF7cBL88BOgIBLdIBL+oBOgIBGZACPpACSwIBFI0CP40CTAIBEpgCPpgCPwIBEJUCP5UCTQIBDqkCPqkCSwIBC6YCP6YCTAIBCbECPrECPwIBB64CP64CTQIBBbgBMb8BOgIBPcABMcABeQIBO8EBMcUBRQIBN8YBMcYBjwICATLHATHOAToCAS7TATHaAToCASnbATHbAXkCASfcATHgAUUCASPhATHhAY0CAgEe4gEx6QE6AgEavQFcvQFjAgFAugFdugFqAgE+wAFBwAFLAgE8wwHEAcMBvgICATrBAccBwQHZAQIBOMYBYcYBxAECATXGAfoBxgGMAgIBM8wBXMwBXQIBMckBXckBawIBL9gBXNgBcwIBLNUBXdUBagIBKtsBQdsBSwIBKN4BxAHeAb4CAgEm3AHHAdwB2QECASThAWHhAcIBAgEh4QH4AeEBigICAR/nAVznAV0CAR3kAV3kAWsCARs=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0hDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb183LnhhbWxDUwO3Ag8CAQFbCbICFAIBAl0N/AEZAgEVhAIRlQIcAgEMnQIRrgIcAgEDYBN5IwIBUnwXgAElAgFOgwEbkQEmAgFMlAEflAFnAgFKlwEjmwEzAgFDngEnrAEyAgFBrwEr5gEwAgEWhQITjAIcAgERjQITlAIcAgENngITpQIcAgEIpgITrQIcAgEEYNYBYOMBAgFTd6YBd7MCAgFUfLYBfMIBAgFPfqoBfqoCAgFRjwGuAY8BtAICAU2UAS+UATkCAUuXAcYBlwHMAQIBR5cBrQGXAcABAgFFlwGiAZcBpQECAUSZAaEBmQHUAgIBSZkB3wKZAeUCAgFIqgG6AaoByQICAUKvATmvAUwCARexAS/JAToCAS3MAS/kAToCARmKAj6KAksCARSHAj+HAkwCARKSAj6SAj8CARCPAj+PAk0CAQ6jAj6jAksCAQugAj+gAkwCAQmrAj6rAj8CAQeoAj+oAk0CAQWyATG5AToCAT26ATG6AXkCATu7ATG/AUUCATfAATHAAY8CAgEywQExyAE6AgEuzQEx1AE6AgEp1QEx1QF5AgEn1gEx2gFFAgEj2wEx2wGNAgIBHtwBMeMBOgIBGrcBXLcBYwIBQLQBXbQBagIBProBQboBSwIBPL0BxAG9Ab4CAgE6uwHHAbsB2QECATjAAWHAAcQBAgE1wAH6AcABjAICATPGAVzGAV0CATHDAV3DAWsCAS/SAVzSAXMCASzPAV3PAWoCASrVAUHVAUsCASjYAcQB2AG+AgIBJtYBxwHWAdkBAgEk2wFh2wHCAQIBIdsB+AHbAYoCAgEf4QFc4QFdAgEd3gFd3gFrAgEb</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -483,7 +477,7 @@
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_44" sap:VirtualizedContainerService.HintSize="243,60" />
       <sap2010:ViewStateData Id="Assign_45" sap:VirtualizedContainerService.HintSize="243.2,60" />
-      <sap2010:ViewStateData Id="Sequence_60" sap:VirtualizedContainerService.HintSize="265,281">
+      <sap2010:ViewStateData Id="Sequence_60" sap:VirtualizedContainerService.HintSize="265,284">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

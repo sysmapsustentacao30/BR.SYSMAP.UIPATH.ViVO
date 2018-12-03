@@ -659,14 +659,14 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities/18.3.6864.20582": {
+      "UiPath.UIAutomation.Activities/18.3.6877.28298": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "5.0.3",
           "Caliburn.Micro": "3.0.1",
           "Extended.Wpf.Toolkit": "2.8.0",
           "Humanizer.Core": "2.4.2",
-          "UiPath": "9.0.6856.19270",
+          "UiPath": "9.0.6877.24355",
           "UiPath.Vision": "1.1.0"
         },
         "compile": {
@@ -776,10 +776,11 @@
   },
   "libraries": {
     "AvalonEdit/5.0.3": {
-      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
+      "sha512": "O7qf3H3SP2VrQujwmzvb3hJ+lw4rNWcZkpMH8T0qb/cA1UccoJIZ9qL/+DM7bws9l8Hxnyk7GUYVFrCSZeH+uA==",
       "type": "package",
       "path": "avalonedit/5.0.3",
       "files": [
+        ".signature.p7s",
         "avalonedit.5.0.3.nupkg.sha512",
         "avalonedit.nuspec",
         "lib/Net35/ICSharpCode.AvalonEdit.dll",
@@ -800,10 +801,11 @@
       ]
     },
     "Caliburn.Micro/3.0.1": {
-      "sha512": "6RaRnvbHnwm2kx9N+xyI6+qCLDJaAGsV1JgKlQ2QWApYNinpqO1GglwZdCWQ6eWj0var+XjbM8V7NYqB/C1elg==",
+      "sha512": "34GUogBL8tS1rWCSugKwaOdmZZz162JC0K3HCSPuSlkCZwA1zDTspUp7owXigOjliCSiBzP1ltBFMWpLxs9BtQ==",
       "type": "package",
       "path": "caliburn.micro/3.0.1",
       "files": [
+        ".signature.p7s",
         "caliburn.micro.3.0.1.nupkg.sha512",
         "caliburn.micro.nuspec",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.dll",
@@ -862,10 +864,11 @@
       ]
     },
     "Caliburn.Micro.Core/3.0.1": {
-      "sha512": "CZPp0HVaHiW/N6JGsXpyJXnoyVRhFMY+H2uZcD24oNPczLOX1WuWsyVrSdagqUhjZnP1wV42Y6PkIUXEWWgOCg==",
+      "sha512": "rYCObUe1g/ks4kTEPMFc4yFShYWkL6P5sfUsJOPGSKPXCsnKXL0XaclU3XGWAHBeNTPBgJO9pJBfMBcaq3iyRg==",
       "type": "package",
       "path": "caliburn.micro.core/3.0.1",
       "files": [
+        ".signature.p7s",
         "caliburn.micro.core.3.0.1.nupkg.sha512",
         "caliburn.micro.core.nuspec",
         "lib/net40/Caliburn.Micro.XML",
@@ -948,10 +951,11 @@
       ]
     },
     "Extended.Wpf.Toolkit/2.8.0": {
-      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
+      "sha512": "YzLQ/sB91g0gRftvlPGOqYJe6TwiPTQoYhO+4ZSsnxaMEQZ5KZIQySTtsTWZ0HJC5+xrgk1Z/if7kjY4cSRPdw==",
       "type": "package",
       "path": "extended.wpf.toolkit/2.8.0",
       "files": [
+        ".signature.p7s",
         "extended.wpf.toolkit.2.8.0.nupkg.sha512",
         "extended.wpf.toolkit.nuspec",
         "lib/net35/WPFToolkit.dll",
@@ -976,10 +980,11 @@
       ]
     },
     "FluentFTP/19.1.2": {
-      "sha512": "0xvKcao/sUbZQgD2PhXHejl9msxUzuU7cSpczDb2MnI1cUwp1ViS8FjkPjPE9C6UucLgII4nIpq8VYEvNyjgoQ==",
+      "sha512": "UIKSc2ylmnnndZSxdi3vvFUGUQqIjiAyQvEAuwo32DcrQNj8DuyYuGRdXyB6L7J4V+LgvPGDEVvIYpqSeIXxwg==",
       "type": "package",
       "path": "fluentftp/19.1.2",
       "files": [
+        ".signature.p7s",
         "fluentftp.19.1.2.nupkg.sha512",
         "fluentftp.nuspec",
         "lib/net20/FluentFTP.dll",
@@ -997,7 +1002,7 @@
       ]
     },
     "Humanizer.Core/2.4.2": {
-      "sha512": "bdHOGpZNL92TebkGuaBe/RpxUrDeRDZQLRdFPEbM+miGV1V3ITmw6iZtGYzp44DUd60Fmw5mgHG2HaFSC4hQdQ==",
+      "sha512": "A8amPZrfrFU+6BO+t/NLejofWah39XsRuovQqaHdYYtXANM+dexMrc+AbLmuH3qNV4hJv6FArBsBBtZcaODLZg==",
       "type": "package",
       "path": "humanizer.core/2.4.2",
       "files": [
@@ -1048,10 +1053,11 @@
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
-      "sha512": "JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
+      "sha512": "a30J6t7LRkYx974tLaRnJc/dYZ1M7uhc5vdgULxdhL7HJNJydG7e+jyAVD15gK+vFR1i9MH+5Ch9t1zhb/Lp1g==",
       "type": "package",
       "path": "microsoft.rest.clientruntime/2.3.10",
       "files": [
+        ".signature.p7s",
         "lib/net452/Microsoft.Rest.ClientRuntime.dll",
         "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
         "lib/net452/Microsoft.Rest.ClientRuntime.xml",
@@ -1074,10 +1080,11 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1127,10 +1134,11 @@
       ]
     },
     "RestSharp/105.0.1": {
-      "sha512": "2jEivNmSZFsK/iyoOu0l9+pEM2hXLQCvOQdLgQcr92cdnirl2xm+Wddy7lP6JTwZSLjAQ1ogHlal1tLu5hfZPw==",
+      "sha512": "NtGkYUFbDNw3FGWvQlkqM4wpNM/0lExEudDN3rP1MNbH8f0qM/K9EagDNhq5XzSMST40RD3ikV1J2YaHKvZZ8Q==",
       "type": "package",
       "path": "restsharp/105.0.1",
       "files": [
+        ".signature.p7s",
         "lib/net35-client/RestSharp.dll",
         "lib/net35-client/RestSharp.xml",
         "lib/net35/RestSharp.dll",
@@ -1454,10 +1462,10 @@
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/18.3.6864.20582": {
-      "sha512": "MBoKd9V+FJEB7lGZ30uuE7+jDmF9FHLZTYu6NUj7SiZ7TLM3jQKH/6tAgaEngkSfv0sJkYLvxpYpT7UvVgmWxg==",
+    "UiPath.UIAutomation.Activities/18.3.6877.28298": {
+      "sha512": "X9mKJDG9QM4poEhpav3DfE9PS1fCdrWFwmCW8nM8pVjrxdRewMAuw15+sLWnmqUAttMYDlRB1yIHbrR7fNbK0w==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/18.3.6864.20582",
+      "path": "uipath.uiautomation.activities/18.3.6877.28298",
       "files": [
         "build/Caliburn.Micro.Platform.Core.dll",
         "build/Caliburn.Micro.Platform.dll",
@@ -1500,7 +1508,7 @@
         "lib/net461/ja/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net461/ja/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/ja/UiPath.Wizards.resources.dll",
-        "uipath.uiautomation.activities.18.3.6864.20582.nupkg.sha512",
+        "uipath.uiautomation.activities.18.3.6877.28298.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
@@ -1591,7 +1599,7 @@
       "UiPath.PDF.Activities >= 1.2.6863.34697 <= 1.2.6863.34697",
       "UiPath.Python.Activities >= 1.1.6863.33404 <= 1.1.6863.33404",
       "UiPath.System.Activities >= 18.3.6864.20561 <= 18.3.6864.20561",
-      "UiPath.UIAutomation.Activities >= 18.3.6864.20582 <= 18.3.6864.20582",
+      "UiPath.UIAutomation.Activities >= 18.3.6877.28298 <= 18.3.6877.28298",
       "UiPath.WebAPI.Activities >= 1.2.6863.33980 <= 1.2.6863.33980"
     ]
   },
@@ -1677,7 +1685,7 @@
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[18.3.6864.20582, 18.3.6864.20582]"
+            "version": "[18.3.6877.28298, 18.3.6877.28298]"
           },
           "UiPath.WebAPI.Activities": {
             "include": "Runtime",
