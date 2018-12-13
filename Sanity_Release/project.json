@@ -17,11 +17,13 @@
     "UiPath.UIAutomation.Activities": "[18.3.6877.28298]",
     "UiPath.Database.Activities": "[1.2.6863.32528]",
     "UiPath.Excel.Activities": "[2.4.6863.30657]",
-    "UiPath": "[9.0.6877.24355]"
+    "UiPath": "[9.0.6877.24355]",
+    "WaitManager.nuspec": "[1.0.0]",
+    "MultiWait": "[1.1.1]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.2",
-  "projectVersion": "1.0.6915.38120",
+  "projectVersion": "1.0.6919.18997",
   "runtimeOptions": {
     "autoDispose": false,
     "excludedLoggedData": [

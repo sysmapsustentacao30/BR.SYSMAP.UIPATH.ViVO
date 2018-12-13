@@ -223,6 +223,15 @@
           "lib/Microsoft.VisualStudio.OLE.Interop.dll": {}
         }
       },
+      "MultiWait/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MultiWait.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.3": {
         "type": "package",
         "compile": {
@@ -254,6 +263,33 @@
         },
         "runtime": {
           "lib/net4/RestSharp.dll": {}
+        }
+      },
+      "Selenium.Support/3.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.7.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
         }
       },
       "SharpZipLib/0.86.0": {
@@ -771,6 +807,23 @@
             "locale": "ja"
           }
         }
+      },
+      "WaitManager.nuspec/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.Support": "3.7.0",
+          "Selenium.WebDriver": "3.7.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/WaitManager.dll": {}
+        }
       }
     }
   },
@@ -1079,6 +1132,16 @@
         "microsoft.visualstudio.ole.interop.nuspec"
       ]
     },
+    "MultiWait/1.1.1": {
+      "sha512": "ZqIl1KZgqJKZjgCh1qHya42uNErfePxiovhmzvhgV564lqYvG5SfwFZjYzQQWynjSAIzMWYGkdkRYjzlBhGzUg==",
+      "type": "package",
+      "path": "multiwait/1.1.1",
+      "files": [
+        "lib/netstandard2.0/MultiWait.dll",
+        "multiwait.1.1.1.nupkg.sha512",
+        "multiwait.nuspec"
+      ]
+    },
     "Newtonsoft.Json/10.0.3": {
       "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
       "type": "package",
@@ -1154,6 +1217,42 @@
         "readme.txt",
         "restsharp.105.0.1.nupkg.sha512",
         "restsharp.nuspec"
+      ]
+    },
+    "Selenium.Support/3.7.0": {
+      "sha512": "ZmNhRLiCE28FMCq6G9cBN9wR4ZpMtZH8NxRPUvXFieQgdiZ0oI0uFmZXOddML2ze2izT4zOGw8gCKC/Hw+9uNQ==",
+      "type": "package",
+      "path": "selenium.support/3.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.7.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.7.0": {
+      "sha512": "G1SB8/Jmn/ujGQpd6XQwfhd7cLQ2Mk1X/msSFaGjFnQ0rTGT7wIp+tTM7Ut39k6ugFbF2mVFlnlXeVH8Bqa9yg==",
+      "type": "package",
+      "path": "selenium.webdriver/3.7.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.7.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
       ]
     },
     "SharpZipLib/0.86.0": {
@@ -1581,6 +1680,16 @@
         "uipath.webapi.activities.1.2.6863.33980.nupkg.sha512",
         "uipath.webapi.activities.nuspec"
       ]
+    },
+    "WaitManager.nuspec/1.0.0": {
+      "sha512": "U2mVnsTW7fdroqxip/WO/oGqUkAUSneGxWfTc9N0MTXcebhEQPNJQk4wErIerClvkQim63h6L68CCH4ZPraKYQ==",
+      "type": "package",
+      "path": "waitmanager.nuspec/1.0.0",
+      "files": [
+        "lib/WaitManager.dll",
+        "waitmanager.nuspec.1.0.0.nupkg.sha512",
+        "waitmanager.nuspec.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1588,6 +1697,7 @@
     ".NETFramework,Version=v4.6.1": [
       "DH.WindowsXT.Activities >= 1.4.14.3 <= 1.4.14.3",
       "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
+      "MultiWait >= 1.1.1 <= 1.1.1",
       "UiPath >= 9.0.6877.24355 <= 9.0.6877.24355",
       "UiPath.Cognitive.Activities >= 2.1.6863.31992 <= 2.1.6863.31992",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
@@ -1600,7 +1710,8 @@
       "UiPath.Python.Activities >= 1.1.6863.33404 <= 1.1.6863.33404",
       "UiPath.System.Activities >= 18.3.6864.20561 <= 18.3.6864.20561",
       "UiPath.UIAutomation.Activities >= 18.3.6877.28298 <= 18.3.6877.28298",
-      "UiPath.WebAPI.Activities >= 1.2.6863.33980 <= 1.2.6863.33980"
+      "UiPath.WebAPI.Activities >= 1.2.6863.33980 <= 1.2.6863.33980",
+      "WaitManager.nuspec >= 1.0.0 <= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1626,6 +1737,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[2.0.6.9, 2.0.6.9]"
+          },
+          "MultiWait": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.1, 1.1.1]"
           },
           "UiPath": {
             "include": "Runtime",
@@ -1691,6 +1807,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.2.6863.33980, 1.2.6863.33980]"
+          },
+          "WaitManager.nuspec": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
           }
         }
       }
