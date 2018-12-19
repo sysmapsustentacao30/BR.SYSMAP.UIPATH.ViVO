@@ -961,10 +961,11 @@
       ]
     },
     "CsvHelper/2.13.5": {
-      "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
+      "sha512": "Y3SQyxU86+V5sZm6X93ko3kToYbiGLcVYW5tvK8rrrk5b1lvw2Nh5NewUJmkw0gMRHF+jANi7pGnb5p+4rVPOw==",
       "type": "package",
       "path": "csvhelper/2.13.5",
       "files": [
+        ".signature.p7s",
         "csvhelper.2.13.5.nupkg.sha512",
         "csvhelper.nuspec",
         "lib/net20/CsvHelper.dll",
@@ -1715,15 +1716,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcelo.martins\\.nuget\\packages\\": {}
+    "C:\\Users\\gustavo.lima\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Teste_V2",
       "projectName": "Teste_V2",
-      "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
-      "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
+      "projectPath": "C:\\Users\\gustavo.lima\\Desktop\\Github\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
+      "packagesPath": "C:\\Users\\gustavo.lima\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gustavo.lima\\Desktop\\Github\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
     },
     "frameworks": {
       "net461": {
