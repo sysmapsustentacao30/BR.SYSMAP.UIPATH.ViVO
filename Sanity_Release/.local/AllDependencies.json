@@ -953,11 +953,10 @@
   },
   "libraries": {
     "AvalonEdit/5.0.3": {
-      "sha512": "O7qf3H3SP2VrQujwmzvb3hJ+lw4rNWcZkpMH8T0qb/cA1UccoJIZ9qL/+DM7bws9l8Hxnyk7GUYVFrCSZeH+uA==",
+      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
       "type": "package",
       "path": "avalonedit/5.0.3",
       "files": [
-        ".signature.p7s",
         "avalonedit.5.0.3.nupkg.sha512",
         "avalonedit.nuspec",
         "lib/Net35/ICSharpCode.AvalonEdit.dll",
@@ -978,11 +977,10 @@
       ]
     },
     "Caliburn.Micro/3.0.1": {
-      "sha512": "34GUogBL8tS1rWCSugKwaOdmZZz162JC0K3HCSPuSlkCZwA1zDTspUp7owXigOjliCSiBzP1ltBFMWpLxs9BtQ==",
+      "sha512": "6RaRnvbHnwm2kx9N+xyI6+qCLDJaAGsV1JgKlQ2QWApYNinpqO1GglwZdCWQ6eWj0var+XjbM8V7NYqB/C1elg==",
       "type": "package",
       "path": "caliburn.micro/3.0.1",
       "files": [
-        ".signature.p7s",
         "caliburn.micro.3.0.1.nupkg.sha512",
         "caliburn.micro.nuspec",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.dll",
@@ -1041,11 +1039,10 @@
       ]
     },
     "Caliburn.Micro.Core/3.0.1": {
-      "sha512": "rYCObUe1g/ks4kTEPMFc4yFShYWkL6P5sfUsJOPGSKPXCsnKXL0XaclU3XGWAHBeNTPBgJO9pJBfMBcaq3iyRg==",
+      "sha512": "CZPp0HVaHiW/N6JGsXpyJXnoyVRhFMY+H2uZcD24oNPczLOX1WuWsyVrSdagqUhjZnP1wV42Y6PkIUXEWWgOCg==",
       "type": "package",
       "path": "caliburn.micro.core/3.0.1",
       "files": [
-        ".signature.p7s",
         "caliburn.micro.core.3.0.1.nupkg.sha512",
         "caliburn.micro.core.nuspec",
         "lib/net40/Caliburn.Micro.XML",
@@ -1128,11 +1125,10 @@
       ]
     },
     "Extended.Wpf.Toolkit/2.8.0": {
-      "sha512": "YzLQ/sB91g0gRftvlPGOqYJe6TwiPTQoYhO+4ZSsnxaMEQZ5KZIQySTtsTWZ0HJC5+xrgk1Z/if7kjY4cSRPdw==",
+      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
       "type": "package",
       "path": "extended.wpf.toolkit/2.8.0",
       "files": [
-        ".signature.p7s",
         "extended.wpf.toolkit.2.8.0.nupkg.sha512",
         "extended.wpf.toolkit.nuspec",
         "lib/net35/WPFToolkit.dll",
@@ -1198,7 +1194,7 @@
       ]
     },
     "Humanizer.Core/2.4.2": {
-      "sha512": "A8amPZrfrFU+6BO+t/NLejofWah39XsRuovQqaHdYYtXANM+dexMrc+AbLmuH3qNV4hJv6FArBsBBtZcaODLZg==",
+      "sha512": "bdHOGpZNL92TebkGuaBe/RpxUrDeRDZQLRdFPEbM+miGV1V3ITmw6iZtGYzp44DUd60Fmw5mgHG2HaFSC4hQdQ==",
       "type": "package",
       "path": "humanizer.core/2.4.2",
       "files": [
@@ -1249,11 +1245,10 @@
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
-      "sha512": "a30J6t7LRkYx974tLaRnJc/dYZ1M7uhc5vdgULxdhL7HJNJydG7e+jyAVD15gK+vFR1i9MH+5Ch9t1zhb/Lp1g==",
+      "sha512": "JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
       "type": "package",
       "path": "microsoft.rest.clientruntime/2.3.10",
       "files": [
-        ".signature.p7s",
         "lib/net452/Microsoft.Rest.ClientRuntime.dll",
         "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
         "lib/net452/Microsoft.Rest.ClientRuntime.xml",
@@ -1286,11 +1281,10 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1340,11 +1334,10 @@
       ]
     },
     "RestSharp/105.0.1": {
-      "sha512": "NtGkYUFbDNw3FGWvQlkqM4wpNM/0lExEudDN3rP1MNbH8f0qM/K9EagDNhq5XzSMST40RD3ikV1J2YaHKvZZ8Q==",
+      "sha512": "2jEivNmSZFsK/iyoOu0l9+pEM2hXLQCvOQdLgQcr92cdnirl2xm+Wddy7lP6JTwZSLjAQ1ogHlal1tLu5hfZPw==",
       "type": "package",
       "path": "restsharp/105.0.1",
       "files": [
-        ".signature.p7s",
         "lib/net35-client/RestSharp.dll",
         "lib/net35-client/RestSharp.xml",
         "lib/net35/RestSharp.dll",
@@ -1956,14 +1949,14 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcelo.martins\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas.silva\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Teste_V2",
       "projectName": "Teste_V2",
       "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
-      "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\lucas.silva\\.nuget\\packages\\",
       "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
     },
     "frameworks": {
