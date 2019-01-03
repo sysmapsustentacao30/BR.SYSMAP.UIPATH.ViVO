@@ -84,17 +84,17 @@
       <Variable x:TypeArguments="ui:Image" Name="printEvidencia" />
     </Flowchart.Variables>
     <Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID22" sap2010:WorkflowViewState.IdRef="FlowStep_85">
+      <FlowStep x:Name="__ReferenceID46" sap2010:WorkflowViewState.IdRef="FlowStep_85">
         <Flowchart DisplayName="Cenario_65" sap2010:WorkflowViewState.IdRef="Flowchart_5">
           <Flowchart.StartNode>
-            <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_84">
+            <FlowStep x:Name="__ReferenceID33" sap2010:WorkflowViewState.IdRef="FlowStep_84">
               <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BuscaLinha_Lojas workflow" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Componentes\BuscaLinha_Lojas.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <InArgument x:TypeArguments="x:String" x:Key="linha">[ArgLinha]</InArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
               <FlowStep.Next>
-                <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_92">
+                <FlowStep x:Name="__ReferenceID34" sap2010:WorkflowViewState.IdRef="FlowStep_92">
                   <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 15 seconds" Duration="00:00:15" sap2010:WorkflowViewState.IdRef="Delay_1">
                     <TextExpression.Namespaces>
                       <sco:Collection x:TypeArguments="x:String">
@@ -137,7 +137,7 @@
                     </TextExpression.References>
                   </Delay>
                   <FlowStep.Next>
-                    <FlowStep x:Name="__ReferenceID14" sap2010:WorkflowViewState.IdRef="FlowStep_91">
+                    <FlowStep x:Name="__ReferenceID35" sap2010:WorkflowViewState.IdRef="FlowStep_91">
                       <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Lupa Faturamento" sap2010:WorkflowViewState.IdRef="Click_129" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
@@ -154,7 +154,7 @@
                         </ui:Click.Target>
                       </ui:Click>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID20" sap2010:WorkflowViewState.IdRef="FlowStep_113">
+                        <FlowStep x:Name="__ReferenceID41" sap2010:WorkflowViewState.IdRef="FlowStep_113">
                           <ui:OnImageAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="Boletos" sap2010:WorkflowViewState.IdRef="OnImageAppear_4" RepeatForever="False">
                             <ui:OnImageAppear.Body>
                               <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_6" />
@@ -167,14 +167,14 @@
                             </ui:OnImageAppear.Target>
                           </ui:OnImageAppear>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID15" sap2010:WorkflowViewState.IdRef="FlowStep_96">
+                            <FlowStep x:Name="__ReferenceID36" sap2010:WorkflowViewState.IdRef="FlowStep_96">
                               <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus Envio de Documentos" sap2010:WorkflowViewState.IdRef="SetFocus_1">
                                 <ui:SetFocus.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="beaa4822ab0f1a66a9802cfa66f6d2c1" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='segundaViaButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
                                 </ui:SetFocus.Target>
                               </ui:SetFocus>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID16" sap2010:WorkflowViewState.IdRef="FlowStep_97">
+                                <FlowStep x:Name="__ReferenceID37" sap2010:WorkflowViewState.IdRef="FlowStep_97">
                                   <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="5000" DisplayName="Click 'Envio de Documento'" sap2010:WorkflowViewState.IdRef="Click_131" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                     <ui:Click.CursorPosition>
                                       <ui:CursorPosition Position="Center">
@@ -191,7 +191,7 @@
                                     </ui:Click.Target>
                                   </ui:Click>
                                   <FlowStep.Next>
-                                    <FlowStep x:Name="__ReferenceID19" sap2010:WorkflowViewState.IdRef="FlowStep_108">
+                                    <FlowStep x:Name="__ReferenceID40" sap2010:WorkflowViewState.IdRef="FlowStep_108">
                                       <ui:OnImageAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="Botões de envio " sap2010:WorkflowViewState.IdRef="OnImageAppear_1" RepeatForever="False">
                                         <ui:OnImageAppear.Body>
                                           <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_1" />
@@ -204,14 +204,14 @@
                                         </ui:OnImageAppear.Target>
                                       </ui:OnImageAppear>
                                       <FlowStep.Next>
-                                        <FlowStep x:Name="__ReferenceID17" sap2010:WorkflowViewState.IdRef="FlowStep_98">
+                                        <FlowStep x:Name="__ReferenceID38" sap2010:WorkflowViewState.IdRef="FlowStep_98">
                                           <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'Logo'" sap2010:WorkflowViewState.IdRef="SetFocus_2">
                                             <ui:SetFocus.Target>
                                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="caaaffb807181c3e1b530ebaff3c8267" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='panelLogo' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
                                             </ui:SetFocus.Target>
                                           </ui:SetFocus>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID18" sap2010:WorkflowViewState.IdRef="FlowStep_100">
+                                            <FlowStep x:Name="__ReferenceID39" sap2010:WorkflowViewState.IdRef="FlowStep_100">
                                               <Flowchart DisplayName="Vizualizar Boleto(Remessa)" sap2010:WorkflowViewState.IdRef="Flowchart_6">
                                                 <Flowchart.StartNode>
                                                   <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_99">
@@ -291,7 +291,7 @@
                                                                                   <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
                                                                                 </Assign.Value>
                                                                               </Assign>
-                                                                              <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 15 seconds" Duration="00:00:15" sap2010:WorkflowViewState.IdRef="Delay_1">
+                                                                              <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 15 seconds" Duration="00:00:15">
                                                                                 <TextExpression.Namespaces>
                                                                                   <sco:Collection x:TypeArguments="x:String">
                                                                                     <x:String>System.Activities</x:String>
@@ -331,11 +331,6 @@
                                                                                     <AssemblyReference>System.Xaml</AssemblyReference>
                                                                                   </sco:Collection>
                                                                                 </TextExpression.References>
-                                                                                <sap2010:WorkflowViewState.ViewStateManager>
-                                                                                  <sap2010:ViewStateManager>
-                                                                                    <sap2010:ViewStateData Id="Delay_1" sap2010:WorkflowViewState.IdRef="ViewStateData_1" />
-                                                                                  </sap2010:ViewStateManager>
-                                                                                </sap2010:WorkflowViewState.ViewStateManager>
                                                                               </Delay>
                                                                               <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Evidencia" sap2010:WorkflowViewState.IdRef="TakeScreenshot_1" Screenshot="[printEvidencia]">
                                                                                 <ui:TakeScreenshot.Target>
@@ -429,7 +424,7 @@
                                                 <x:Reference>__ReferenceID5</x:Reference>
                                               </Flowchart>
                                               <FlowStep.Next>
-                                                <FlowStep x:Name="__ReferenceID21" sap2010:WorkflowViewState.IdRef="FlowStep_120">
+                                                <FlowStep x:Name="__ReferenceID42" sap2010:WorkflowViewState.IdRef="FlowStep_120">
                                                   <Flowchart DisplayName="Vizualizar Boleto SMP" sap2010:WorkflowViewState.IdRef="Flowchart_7">
                                                     <Flowchart.StartNode>
                                                       <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_119">
@@ -608,6 +603,620 @@
                                                     <x:Reference>__ReferenceID10</x:Reference>
                                                     <x:Reference>__ReferenceID11</x:Reference>
                                                   </Flowchart>
+                                                  <FlowStep.Next>
+                                                    <FlowStep x:Name="__ReferenceID43" sap2010:WorkflowViewState.IdRef="FlowStep_127">
+                                                      <Flowchart DisplayName="Vizualizar Boleto Segunda via " sap2010:WorkflowViewState.IdRef="Flowchart_8">
+                                                        <Flowchart.StartNode>
+                                                          <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_126">
+                                                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Boleto Segunda Via'" sap2010:WorkflowViewState.IdRef="Click_140" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                              <ui:Click.CursorPosition>
+                                                                <ui:CursorPosition Position="Center">
+                                                                  <ui:CursorPosition.OffsetX>
+                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                  </ui:CursorPosition.OffsetX>
+                                                                  <ui:CursorPosition.OffsetY>
+                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                  </ui:CursorPosition.OffsetY>
+                                                                </ui:CursorPosition>
+                                                              </ui:Click.CursorPosition>
+                                                              <ui:Click.Target>
+                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7d6e9e4393a8dfdf39d4858d23dec537" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-3' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                                                              </ui:Click.Target>
+                                                            </ui:Click>
+                                                            <FlowStep.Next>
+                                                              <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_125">
+                                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Vizualizar'" sap2010:WorkflowViewState.IdRef="Click_141" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                  <ui:Click.CursorPosition>
+                                                                    <ui:CursorPosition Position="Center">
+                                                                      <ui:CursorPosition.OffsetX>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:CursorPosition.OffsetX>
+                                                                      <ui:CursorPosition.OffsetY>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:CursorPosition.OffsetY>
+                                                                    </ui:CursorPosition>
+                                                                  </ui:Click.CursorPosition>
+                                                                  <ui:Click.Target>
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8433b0dee8b649fe013b6bbe1b50587d" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-5' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                                                                  </ui:Click.Target>
+                                                                </ui:Click>
+                                                                <FlowStep.Next>
+                                                                  <FlowStep x:Name="__ReferenceID14" sap2010:WorkflowViewState.IdRef="FlowStep_124">
+                                                                    <ui:SetFocus DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Set Focus 'Gerar Solicitacao'" sap2010:WorkflowViewState.IdRef="SetFocus_5">
+                                                                      <ui:SetFocus.Target>
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8991b8ae89e084fed67c851252c23ce6" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gerarSolicitacaoButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="COMPLETE" />
+                                                                      </ui:SetFocus.Target>
+                                                                    </ui:SetFocus>
+                                                                    <FlowStep.Next>
+                                                                      <FlowStep x:Name="__ReferenceID15" sap2010:WorkflowViewState.IdRef="FlowStep_123">
+                                                                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Gerar Solicitacao'" sap2010:WorkflowViewState.IdRef="Click_142" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                          <ui:Click.CursorPosition>
+                                                                            <ui:CursorPosition Position="Center">
+                                                                              <ui:CursorPosition.OffsetX>
+                                                                                <InArgument x:TypeArguments="x:Int32" />
+                                                                              </ui:CursorPosition.OffsetX>
+                                                                              <ui:CursorPosition.OffsetY>
+                                                                                <InArgument x:TypeArguments="x:Int32" />
+                                                                              </ui:CursorPosition.OffsetY>
+                                                                            </ui:CursorPosition>
+                                                                          </ui:Click.CursorPosition>
+                                                                          <ui:Click.Target>
+                                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8991b8ae89e084fed67c851252c23ce6" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gerarSolicitacaoButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="COMPLETE" />
+                                                                          </ui:Click.Target>
+                                                                        </ui:Click>
+                                                                        <FlowStep.Next>
+                                                                          <FlowStep x:Name="__ReferenceID16" sap2010:WorkflowViewState.IdRef="FlowStep_122">
+                                                                            <ui:UiElementExists DisplayName="Popup Boleto existe" Exists="[evidencia]" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+                                                                              <ui:UiElementExists.Target>
+                                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="4a0259e32d9f097f3e8f8acbdde2803d" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/atendimento/visual*' /&gt;" TimeoutMS="100000" WaitForReady="COMPLETE" />
+                                                                              </ui:UiElementExists.Target>
+                                                                            </ui:UiElementExists>
+                                                                            <FlowStep.Next>
+                                                                              <FlowStep x:Name="__ReferenceID17" sap2010:WorkflowViewState.IdRef="FlowStep_121">
+                                                                                <If Condition="[evidencia]" DisplayName="If Evidencia Sucesso" sap2010:WorkflowViewState.IdRef="If_3">
+                                                                                  <If.Then>
+                                                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_9">
+                                                                                        <Assign.To>
+                                                                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                        </Assign.To>
+                                                                                        <Assign.Value>
+                                                                                          <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                                                                        </Assign.Value>
+                                                                                      </Assign>
+                                                                                      <ui:OnImageAppear Body="{x:Null}" FoundElement="{x:Null}" ContinueOnError="True" DisplayName="boleto" sap2010:WorkflowViewState.IdRef="OnImageAppear_6" RepeatForever="False">
+                                                                                        <ui:OnImageAppear.Image>
+                                                                                          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="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" />
+                                                                                        </ui:OnImageAppear.Image>
+                                                                                        <ui:OnImageAppear.Target>
+                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html htmlwindowname='VisualizarDocumento' /&gt;" TimeoutMS="100000" WaitForReady="INTERACTIVE" />
+                                                                                        </ui:OnImageAppear.Target>
+                                                                                      </ui:OnImageAppear>
+                                                                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Evidencia" sap2010:WorkflowViewState.IdRef="TakeScreenshot_5" Screenshot="[printEvidencia]">
+                                                                                        <ui:TakeScreenshot.Target>
+                                                                                          <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="20033e6e91d6f59d83a7f60dd85f2da1" Selector="&lt;html htmlwindowname='VisualizarDocumento' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                            <ui:Target.ClippingRegion>
+                                                                                              <ui:Region Rectangle="-8, -60, 1365, 767" />
+                                                                                            </ui:Target.ClippingRegion>
+                                                                                          </ui:Target>
+                                                                                        </ui:TakeScreenshot.Target>
+                                                                                      </ui:TakeScreenshot>
+                                                                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SegundaVia_Vizualizar.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_5" Image="[printEvidencia]" />
+                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_10">
+                                                                                        <Assign.To>
+                                                                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                        </Assign.To>
+                                                                                        <Assign.Value>
+                                                                                          <InArgument x:TypeArguments="x:String">3</InArgument>
+                                                                                        </Assign.Value>
+                                                                                      </Assign>
+                                                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Fechar Boleto'" sap2010:WorkflowViewState.IdRef="Click_143" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                                        <ui:Click.CursorPosition>
+                                                                                          <ui:CursorPosition Position="Center">
+                                                                                            <ui:CursorPosition.OffsetX>
+                                                                                              <InArgument x:TypeArguments="x:Int32" />
+                                                                                            </ui:CursorPosition.OffsetX>
+                                                                                            <ui:CursorPosition.OffsetY>
+                                                                                              <InArgument x:TypeArguments="x:Int32" />
+                                                                                            </ui:CursorPosition.OffsetY>
+                                                                                          </ui:CursorPosition>
+                                                                                        </ui:Click.CursorPosition>
+                                                                                        <ui:Click.Target>
+                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9f096a2f4a4dcfee48daeb20544cdad9" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/atendimento/visual*' /&gt;&lt;ctrl idx='1' name='Fechar' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                        </ui:Click.Target>
+                                                                                      </ui:Click>
+                                                                                    </Sequence>
+                                                                                  </If.Then>
+                                                                                  <If.Else>
+                                                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_11">
+                                                                                        <Assign.To>
+                                                                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                        </Assign.To>
+                                                                                        <Assign.Value>
+                                                                                          <InArgument x:TypeArguments="x:String">Não encontrou evidencia</InArgument>
+                                                                                        </Assign.Value>
+                                                                                      </Assign>
+                                                                                      <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                                                                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Error" sap2010:WorkflowViewState.IdRef="TakeScreenshot_6" Screenshot="[printEvidencia]">
+                                                                                        <ui:TakeScreenshot.Target>
+                                                                                          <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="329379276b853b7912abb00541d80a16" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                            <ui:Target.ClippingRegion>
+                                                                                              <ui:Region Rectangle="3, -78, 1362, 767" />
+                                                                                            </ui:Target.ClippingRegion>
+                                                                                          </ui:Target>
+                                                                                        </ui:TakeScreenshot.Target>
+                                                                                      </ui:TakeScreenshot>
+                                                                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SegundaVia_Vizualizar_Error.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_6" Image="[printEvidencia]" />
+                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_12">
+                                                                                        <Assign.To>
+                                                                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                        </Assign.To>
+                                                                                        <Assign.Value>
+                                                                                          <InArgument x:TypeArguments="x:String">2</InArgument>
+                                                                                        </Assign.Value>
+                                                                                      </Assign>
+                                                                                      <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Enter Erro Boleto" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                                                                                        <ui:SendHotkey.Target>
+                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e9f570be1571dca5bb09c221a646138f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                        </ui:SendHotkey.Target>
+                                                                                      </ui:SendHotkey>
+                                                                                    </Sequence>
+                                                                                  </If.Else>
+                                                                                </If>
+                                                                              </FlowStep>
+                                                                            </FlowStep.Next>
+                                                                          </FlowStep>
+                                                                        </FlowStep.Next>
+                                                                      </FlowStep>
+                                                                    </FlowStep.Next>
+                                                                  </FlowStep>
+                                                                </FlowStep.Next>
+                                                              </FlowStep>
+                                                            </FlowStep.Next>
+                                                          </FlowStep>
+                                                        </Flowchart.StartNode>
+                                                        <x:Reference>__ReferenceID12</x:Reference>
+                                                        <x:Reference>__ReferenceID13</x:Reference>
+                                                        <x:Reference>__ReferenceID14</x:Reference>
+                                                        <x:Reference>__ReferenceID15</x:Reference>
+                                                        <x:Reference>__ReferenceID16</x:Reference>
+                                                        <x:Reference>__ReferenceID17</x:Reference>
+                                                      </Flowchart>
+                                                      <FlowStep.Next>
+                                                        <FlowStep x:Name="__ReferenceID44" sap2010:WorkflowViewState.IdRef="FlowStep_130">
+                                                          <Flowchart DisplayName="Imprimir Segunda Via" sap2010:WorkflowViewState.IdRef="Flowchart_9">
+                                                            <Flowchart.StartNode>
+                                                              <FlowStep x:Name="__ReferenceID18" sap2010:WorkflowViewState.IdRef="FlowStep_129">
+                                                                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Segunda Via'" sap2010:WorkflowViewState.IdRef="Click_144" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                  <ui:Click.CursorPosition>
+                                                                    <ui:CursorPosition Position="Center">
+                                                                      <ui:CursorPosition.OffsetX>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:CursorPosition.OffsetX>
+                                                                      <ui:CursorPosition.OffsetY>
+                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                      </ui:CursorPosition.OffsetY>
+                                                                    </ui:CursorPosition>
+                                                                  </ui:Click.CursorPosition>
+                                                                  <ui:Click.Target>
+                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a90a601f0ad0608ff839dea003c3e802" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-3' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                  </ui:Click.Target>
+                                                                </ui:Click>
+                                                                <FlowStep.Next>
+                                                                  <FlowStep x:Name="__ReferenceID19" sap2010:WorkflowViewState.IdRef="FlowStep_128">
+                                                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Imprimir'" sap2010:WorkflowViewState.IdRef="Click_145" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                      <ui:Click.CursorPosition>
+                                                                        <ui:CursorPosition Position="Center">
+                                                                          <ui:CursorPosition.OffsetX>
+                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                          </ui:CursorPosition.OffsetX>
+                                                                          <ui:CursorPosition.OffsetY>
+                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                          </ui:CursorPosition.OffsetY>
+                                                                        </ui:CursorPosition>
+                                                                      </ui:Click.CursorPosition>
+                                                                      <ui:Click.Target>
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="458ad907f2b0874747884effdb75901f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-7' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                      </ui:Click.Target>
+                                                                    </ui:Click>
+                                                                    <FlowStep.Next>
+                                                                      <FlowStep x:Name="__ReferenceID20" sap2010:WorkflowViewState.IdRef="FlowStep_131">
+                                                                        <ui:OnImageAppear Body="{x:Null}" ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Image Appear 'intervalo proximo'" sap2010:WorkflowViewState.IdRef="OnImageAppear_7" RepeatForever="False">
+                                                                          <ui:OnImageAppear.Image>
+                                                                            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAgCAYAAABq3VYXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAABWVJREFUeF7tm0uLXVUQhY8/wD/gLxBHgkMRHIigRnxgg6IJCOLAQYPOnAgiKipIQB1EMRA0g0AgPkAEHxgCbUdRQ4h5o0mMmECSFlsNQeF6v913XVfX3ffR3YfkDGrB4u6z67GraqUgCml6iUSiNeRCJRItIhcqkWgRuVCJRIvIhUokWkQuVCLRInKhEokWkQuVSLSIXKhEokXkQiUSLaIsVPPYQq/ZvJjsAh/5qgjjSH06xopGQoNYW97+qffk9lPJDnDu1YOrBEt9useokWO4UJu3JbvAcQtV801eG05eqEf3FcHm3jyZ7ALjQqU+3ePEheobEGzT68eTHeCdz//Qax7+YiBPX6CW9QGLJ/+s2pKzMWrkaDDct/VE745Xjg351ufni/GD75ZW3deIzyx+G+HTO8+UehZOLFftk6hezl66UrWP4+FfL5d3a7ZxpD6w1jjnyEJN0McxS3/oNOscADOo2TZCagD0ULM716PBWrmWesSZFurWF44MufXTc8W4+5tLq+4jZ/XbKJ/acbq8s+/YctU+iYfO/l1iAXlqPpG8sxb/NnnzM99WF8p94tz1vZ75XG1SM6Dmml28WhrMWo8zauQoC3X7y0d7tzz345CvffJbMe5avNh74t2fy/ngL///weSMn2Pv0T9G7sjDnWJ//+vf4e/pC1eG7wHF+zv4caca5KNvgTqVKxIop+IhMcDf4069C3zHO+WgPvVEP+QH1Ie91gvEV3F+D4tYD+4pNjBNH90B3tNslL+mi+6Uh2/XuZaPmgX1CVxHzVTQHJzy4e22NYg9K4Zf+Qrq0+vxb6HWQ9TI0TQPfVQEu+nZQ0O+9PFKITsXLpb/qwFO9QeH7cCZlea5dz9sS/2CsXP+8vDK0D0G/2gjFigfObiv1UAcNqB3FK/cTrfhr9xuU05ssqs+3tXb+GNjDpoF/oBzjPOzfBXHr9ucN87vX71QU/Txb95UvXoL+tsxVtrEXgA25dO8vXaf77i8yid6jM5tauA215x86sFzr6eHqJGjLNQN8wd6zZb+1g04/97KX7He+Ox877YXj5Tzh98vFRu/gPuaXwT3X/f/Ixgov3yJw3b83OURmxBr0Jv8KgaQR98ieS8s/1POMY68/u2+3qP8HPLj12v3OO4n2ZRjhHN7RxZqnD4OveWz8m/6UHysW6jNNObz2lUHudWf4t2mO8g3wO5nbJ7b5yU/h/xiL/IlDpvqdpvgualh1h6iRo4GQ5sL5Q2IcaEgQ9A98dwpN3nH5dY9v8oF4kIpJkJ+5AXKM01Mf0+MYnoc95NsemuEiPXA7uILpunj99Bn5d/u63XLDhQDQdcWSn7OqAEE+rNFPHf4AM7jcs/aQ9TI0WBY70LJpge9ORrScNQcZ5EYQU27n+z8xhoAvu4Xh606/b6WX3YXUzbvUW/jo7ejmD4bP0dff2uEiHX/rhILpunj9zDWC/3tGKtaNBvVC7iL+bx2zxXz+qyd2AH+fsbmuWXj/ViD6tVZvYl6W7min/fqNczaQ9TI0WBY70LxTaGAx+UryGdcYcCH4fHcA96LNcR3qFM5ROrygUL85K9zTUzP777Ac3L2+uNs1DfwOH9rhHGhpujj9zDOSnTIpno1A6C6gGuqGK891sGvQ3NwyodYP2NrQwOounwGHo8/qNXgfqDWw5oXKnkNiVj3vj+Qp75QyWvMoJGjwZCCdYiItWnHQJ6+QKlP9xg0cjQYUrAOEbHu2T6Qpy9Q6tM9Bo0cDQYEu/7x/ckO8DrEuvudgTx9gVKfzjFq5Fj5B4Z90Zq7tiW7wIpQqU/HOGaZQP4T+ESiReRCJRItIhcqkWgRuVCJRGvo9f4DLIirr3TE6yIAAAAASUVORK5CYII=" />
+                                                                          </ui:OnImageAppear.Image>
+                                                                          <ui:OnImageAppear.Target>
+                                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" TimeoutMS="180000" WaitForReady="INTERACTIVE" />
+                                                                          </ui:OnImageAppear.Target>
+                                                                        </ui:OnImageAppear>
+                                                                        <FlowStep.Next>
+                                                                          <FlowStep x:Name="__ReferenceID21" sap2010:WorkflowViewState.IdRef="FlowStep_132">
+                                                                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Gerar Solicitacao'" sap2010:WorkflowViewState.IdRef="Click_146" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                              <ui:Click.CursorPosition>
+                                                                                <ui:CursorPosition Position="Center">
+                                                                                  <ui:CursorPosition.OffsetX>
+                                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                                  </ui:CursorPosition.OffsetX>
+                                                                                  <ui:CursorPosition.OffsetY>
+                                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                                  </ui:CursorPosition.OffsetY>
+                                                                                </ui:CursorPosition>
+                                                                              </ui:Click.CursorPosition>
+                                                                              <ui:Click.Target>
+                                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6082f4a7b20f7cdb65e690fd6c7d589e" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gerarSolicitacaoButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="COMPLETE" />
+                                                                              </ui:Click.Target>
+                                                                            </ui:Click>
+                                                                            <FlowStep.Next>
+                                                                              <FlowStep x:Name="__ReferenceID24" sap2010:WorkflowViewState.IdRef="FlowStep_135">
+                                                                                <ui:OnImageAppear Body="{x:Null}" ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Image Appear 'Imprimir'" sap2010:WorkflowViewState.IdRef="OnImageAppear_8" RepeatForever="False">
+                                                                                  <ui:OnImageAppear.Image>
+                                                                                    <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAASwAAAEUCAYAAACRVAu1AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAKLBJREFUeF7t3euPLFXZBXD+qfPh5YN/gIlRSZBIJB6MOYkRCLcgxIAG4gEMIgFBvIRLFIiOoAQhBhFB8IKaYwRFRFBRYzAGUEAQCal3fjW95+zp6e7pOdO7Z2pmrWRNVe1bVdfUXvU8+1Yn/etf/+rCMAyHwAhWGIaD4UnPPfdcF4ZhOATGwgrDcDCMYIVhOBhGsMIwHAx3IFgr3eGTTupOqnl4ZUK6JXHlcH8Nh44e2xC+cti1HeqOHqvS1pySL9zI3MdwL3DngnXoaHdsYvySOanC9GGHu5U63ThT0Y5zdC8Or0wKz30Md5/7WrBWVnbR4hsg16yozYKV+xjuFbYRrJF4FK6LyLGj3aEqvH9rl7BDh6q4Q93hw4eOpyuu5pgoHTu6lqavYHXc+HnKNU46/7jQTbv2cRd4kvs77bxbpNvy3Nu5RxPKX7+OUn5dziiuiNU6lTetnPHwRd/HMJzChbZh1cJRHsQNorL+oFdtIeuVca0ylPRr+Y91Rw9V6ccqxVTB6q9vxDp80vnr+BnXvmUbTrkfpQKWc41XyLHfux4+49zbukezrqOcY6yc/hyrx9MsrJ5Lu49hOJ0Lt7A2PfR1hZlUWev41ePycBfh2fCA15WiStufayzueKVa44aKVp+/yjfr2tdFYpS2j69ZKuk4R7+rcPz3Fc5137ZxjzZR3hI3s5zqGnDZ9zEMZ3BfCla5hj5dnWcHFa1O23Psd49f9zRuuOYqfK77Nsc9mnkd5fpnlnP8GpZ1H/uwMJyDi2/Dqh/s1eMNFXTSg76Nyjhe4TZUjPXzrmxwkTaUt0VFm3ntJf20313KrnvTVo6uXfekdCdy3+a5R7OuY+z+jZez8fdudDU3pF3wfTweFoazuTuN7nWe7VTG9Uo0KvdQVREmVJg6TR++VUWrjtfzb7iOwnI9Y1wXi+2l2+rc27tHm8tfjyvlTyln/X9a0uzWfQzDKdyBYIVhGC6XEawwDAfDCFYYhoNhBCsMw8EwghWG4WAYwQrDcDCMYIVhOBiesGDdfffdYRjucU6qu0PmjgTrhRdeCMNwjzKCVTGCFYZ7mxGsirVgBUGwGNSCs1NGsCpGsIJg8agFZ6eMYFWMYAXB4lELzk4ZwaoYwQqCxaMWnJ0yglVxsmA90B2plhTBk6/7wyguGBoeOOJ/eGT1v/qH7roj163+DVqjFpydMoJVcbpgndwd16iRgB15YHQ8NIz/noOE1d/u//aH67qT8+JZGmrB2SkjWBXnE6xV9A+8t/QQcZAFK9gN1IKzU0awKs4tWNyJk0/q1o2s0Ru7uIwbja+1tBvjxsusj0f7Dxwvc80oOHm9jA2WwYZzFxEdlXHdkbE8wkvaVZYLnXn9FSaeq8b2rn3NPRtx/aRrZRw5Ik85x6R7OC0/TE4/83dO/G1Tygm2hVpwxnnfffdNDMdJcRGsiicmWGsisLFSlPRr6Ta7HuNl1sdr5Z108qh95YE10Vkvoz8eE6ZSzmrcBmEqFzUrzyjt5OuvMe1cNUbnnevaa9Rlr5VxvOxp97BGnX/WPZ/2O+v8Dke/zfWuZwhOFLXg1Pztb3/bfeADH+i+8pWvbIoTJk6aOjyCVXF7gjUK6x/8jZXQm79/zifErWG8zPp4VhxUx335xy2Anv2Jt1H+rOuvMfVcNWadF8aOR4K2xvmvbx2T8k9LP+t3Tvtto/DZYhlshVpwxjlJtKaJFUawKs4tWPXDv2VFmFTZZlXkWXFQHS+i/FnXX2PquWrMOi9UxxvKq14A43mmnXda/rnSr2Hr/9Maiku76Z4Ec6EWnEmsRWuWWGEEq+J8guW4fnjHjjdVpElv6LXw9Ty9pTClws48Xjv3ZPdnVp7xuGnXX2PauWrMOi9Ux35zcR37c067vin3cGr+afd87fon/861uFm/jWjN/u3BNNSCM41FtGaJFUawKk4XrNpdqCvTCP3DPy1+Y/6NIjUKP3KkqqTjFXaL4w3nVpYTzM7DsjiedhUzr7/CxHPV2M61rwlLX87Jq79/moXVQ9jx866ddlp+mJR+FbN+56TftsHlnG6BBbNRC84sEqpZYoURrIqTBSsYJEYCFKto91ELzk4ZwaoYwdpvWLW0NlmBwbJRC85OGcGqGMHaPyhub/Rq91ELzk4ZwaoYwQqCxaMWnJ0yglUxghUEi0ctODtlBKtiLVhhGO49RrAqRrDCcG8zglXRzQjDcG9zUt0dMk9YsMIwDJfNCFYYhoNhBCsMw8EwghWG4WAYwQrDcDCMYIVhOBhGsMIwHAwjWGEYDoYRrDAMB8MIVhiGg2EEKwzDwTCCFYbhYBjBCsNwMIxghWE4GEawwjAcDCNYYRgOhhGsMAwHwwhWGIaDYQQrDMPBMIIVhuFgGMEKw3AwjGCFYTgYRrDCMBwMI1hhGA6GEawwDAfDCFYYhoNhBCsMw8EwghWG4WAYwQrDcDCMYIVhOBhGsMIwHAwjWGEYDoYRrDAMB8MIVhiGg2EEKwzDwTCCFYbhYBjBCsNwMDzpueee68IwDIfAWFhhGA6GEawwDAfDuIRhGA6GsbDCMBwMI1hhGA6GEawwDAfDBQnWSnf4pJO6kyoeXpmU7kSo7EPd0WOT4rbJlcPr13fo6LE+7NjRQxuue42Hu5WxuPr3rBxe5O8Lw3BeLlCwFiQqm7igso8d7Q6NhGhWmURqTcxW0xw62h0r6cu+cg6vbMgThuFyeGAE67gQTT5eo3NVorZJsI51Rw+V+DAMl83GgqWCH3e1jrtRk8O5WiXspHUrZmPZE9Nw9dbFZTLnEqzVcsbTlHO5RsdxBcNw99ioDWtkhRCSTe7Tmlhttm5q1iI1TQyr8DkEa639qlhHk65B2KTzFK6eb6tzhGHYlG0trL7daEwYNrQljbEXlSJ6UwRrYpr5eNxiWrWUDo9ZWFu0Ta2spneucatrUtowDNtwKW1YpZL3FXyaYG0Ir62dquypabbP8Z6+me7eupjVVla9H4bhMri0RneCsGbRTHEJa7euF6YJgjUtTR0+DzelnyV+4opIRrDCcDfZqA1rJEgb3LfaqtqYfs2yWROyPmxVIA5PsrCmpZlLsOpzjlt44sbD1nhcaI8fb7zuMAyXxQUJVhiGYXtGsMIwHAwjWGEYDoYRrDAMB8MIVhiGg2EEKwzDwTCCFYbhYBjBCsNwMIxghWE4GEawwjAcDCNYYRgOhhGsMAwHwwhWGIaDYQQrDMPBMIIVhuFgeCAEq/5wxcSFA8fXwqrW8dqUfos0M881J6eWMeGc9fpcxzlhba9Zv2nSPQjDPcj9L1jHjnZH1xfam7AY4OHDY4v31Yv51elrTkkz9Vzb4LQy+hVWt7quzQsOrnHK9U69B2G4N3nAXEIVdLyi15V5layN6mMUEwVgnjQTz7VdHi9j/BxbC1PFLa93Sr4w3GM8YII1qWJuDNtUmccq+7xpJp9rzaJZzyvfzKWdj5cxl2CtlrcpbJVbX+8swRK3KporLLw1l9LS0Mrc7GJuJ20Ybp8HSrC0DW2uMBsr69aVe740k8+F5XyzRGKNG8pwjvX0Y8K3HjbZotu5YK2KTRHW/jqmXdd20obh9nlABGtSBS/cWFl3LlizzjXiqCJP/4jF5DKcd81S2d53FXcuWLUQzjreTtow3D4PgGBNtzzWqBJVlXWsMm+q7DPTbHWuEWcK1nxlsL7q/K5hqgBu+ZvG7sEGbkeEtpM2DLfP/S9Ym6yJcapEVWWdpzduWpotz4XlfGPnLZynDGk2tH1tIXJb/qYp17IeV6efdbydtGG4fe57wWJNrLlRx7mldUEQRmnXrZZxkZiQZutzbXT1+vRjje7Ty3CdJWxcXKb8hi2u9zgn5N8QN68IbSdtGG6fB6rRfSccd8H2Ood2vWE4DyNYc5FlMM0C2Ysc2vWG4XyMYIVhOBhGsMIwHAwjWGEYDoYRrDAMB8MIVhiGg2EEKwzDwTCCFYbhYBjBCsNwMIxghWE4GO5bwSrz5sIwbMdJda8lI1hhGJ4wJ9W9ltz3gvWnP/0pDMMFM4K1YNaCFQTB4hDBasAIVhC0QQSrASNYQdAGEawGjGAFQRtEsBowghUEbRDBasAIVhC0QQSrASNYQdAGEawGjGAFQRtEsBowghUEbRDBasAIVhC0QQSrASNYQdAGEawGjGAFQRtEsBowghUEbRDBasAIVhC0QQSrASNYQdAGEawGjGAFu4nf//733d///vfR0XwYz/PLX/5ytDcdjzzyyGhveYhgNeBBFqx//vOf3X333dfddttt3QsvvNDdf//93R//+MfuwQcf7H71q191jz32WPe9732v34crr7yy++IXv9jdcccd/f7dd9/dXXbZZevhZT/o+nt63XXXdTfccEN/b+yfffbZ/VbcK6+80t+/c889t7v88sv7+3zttdf2fOedd7ovfelL62H33ntvd+GFF3af/OQnu5/85Cf9/+z888/v0yjjE5/4RB//6U9/uk/r/3D77bd3X/va17pbbrml30pre/3113dXX3119/Of/3x0pe0QwWrAgyxYL7/8cvejH/2o3/7mN7/pH/Knnnqqe+CBB7rvf//7/Vv5G9/4Ri9k4KH/6le/2j/s9gmZ+BJe9oOu++xnP9udcsop3RVXXNH93//9X/ee97ynDzv11FO7s846q3vttde69773vd1nPvOZ7tZbb+3e9a53dZdeeml/zHq6+OKLu+985zt9fkKEROkLX/hCt7Ky0n3uc5/rTjvttO5b3/pWv1/SCHvf+97Xi+M555zTl33eeef1cbbCv/71r3ef//znR1faDhGsBjzIggX//e9/u//85z/9Wx3efvvtflsgDv73v//1W+lKWhCu8hE9aR2//vrro9iDi3/84x+968ZyffLJJ7unn366f96EFXo5SCec+LN4uXfPP/98/wL561//2h8Ll14ZykIvE2VLW86FwsT97W9/637605/2/5vnnnuuj7P1vxHv/94aEawGPOiC5a3uLc66UkFYSvfcc09vRXk7ezNzM7yR77zzzt4dEV7aUFhU3vAXXHBBd9FFF62/zVWQ4GAjgtWAB12wtJMQJ294b+pHH3203ydIwn/84x/3b3b73vaOf/CDH/RpgSXAFUTh0v3whz/sLa6DDJYOQrFStwNWleezoLaISnl1ub/73e/6PFCHz3NuFvO4Zb0IRLAa8CALFveN4IAK4cF94403+mMgOqwu7gXXAllOxMy9s63dQxW0hMunAtk6lvfFF18cpdz/8CJwr2xZrD/72c/6+0PQWancMp0b3DZtVbYE30uBeDiWv6RlyXoRlPTK0hYlzH12Du2O0juncPmEOdZWic7p5aIc4eX6tFNyNReJCFYDHmTBIiR6/PQk6cm66667etfQlnCxtPT6fepTn+p7tqS75JJL+l4tvVtcSdaXnisVRA/YkSNHenIj9UZdc801fS/WjTfe2DcoHxS4L+6v361hXG/es88+2/e8ujeE67vf/W5/rPfO/SMehI1g2bqv7ikRIyq//vWv+/+X8rRdKefLX/5yL1jaw5QlfXHblSctMXI9/q/CWdGOpbUvn44W51kkIlgNeJAFi1WF3uTe2Bpln3nmmX7LlbD1EAvjAkrDJRTGcvLQy28fvcGlUZmkQRWTu6LyKueggHXDYjFMxH0gCqxZ95pV6r55KbByy/+h8K233urvvzhiZFtcO9tCzy+4v47L/0u4/4OyStpShnOKd1yX2wIRrAY8yILFTeOGuA8ecMe2HmKVyrEK89JLL/VhKgQ30YMOrAKC5O2sgiJLoA4/qCDQLBxum04JVpQODYJC9N0rYe69jg/DFVi5yIL1fyjDRJThvrLQ5LcvvS3LytY5lMtCZkUZv2Xrf+A6dJpwJVnKLLC63bEVIlgNeJAFS6UqY33QA85NsK+Nw1Yl49oZcGgcEbdOpQHjguTnAqpoegelK+HGGx1ksKhYWO4z9451RfSJEatIexJwvaUlYrbcQS+IMoRBHtarFwdRsi9MuZ5boqM8Vq7/jf+drbylXcy+eC6gfWnQfitEsBrwIAsWK6qMn2JN2RqnU1tY3IoSZt89KxYW90JYSWfLdSzhGBxcRLAa8CALVtAGxJ3FU/bLEBD7BVxtFlKBY/HCXn311VHosBHBasAIVtAC3DC9qtqjtEPddNNNvXutfc+xRvibb7657+krbVdcQ+FlLufQEcFqwAhW0AKeLW1W2ohYWIYkaLtCYSypElbauuTRNqWtqra+hooIVgNGsIIW0KDNzQO9dEWsCBFx0otqIC2x0hgujktIsDyLXEp0zForrqIeQWFF+PQSgn2N9hrlcS8ggtWAEaxg0SBIZXgBEbIsDPdQL+tVV13VD0nAsvSMfT1/elbFP/TQQ+tDROTlSiKL7GMf+1ifxlAHeQ3sdQ6iJowrKX4vIILVgBGsYFlgdbXAXu2NjWA1YAQrWDS4aywkgzU1sLOcWFgsLscGbhofZWyWFTBYXo4NCxFncKdBnVxFY9mEcfNMy2G9SSdePu7mXkUEqwEjWMGiYdwaMTIA1Oh0eOKJJ/oeQDSZHP/yl7/0bVkGc5rOJJ82KWLHLdRuJZ08hOnhhx/uxVA6rh83cC8jgtWAEaxg0ShjrDSOg8G55l0WkampJ1HDOyFiUdlvsdTLbiCC1YARrGDRIETaqwiWBnFuHAvJ1CUN6RrFbTWYa1QvbiO3T16Tn/cDIlgNGMEKFo0yYp1gsbZMZXI8zjK6vWxRnlhYO2cEKwjmhOdKO1QZmsDa8nxpWEdDGNCodyKlUd1Ce9xD+2hcFWvLvnKsumBdK8fK4Gba1/61VxHBasAIVrBoaIsiMoRFTx7h0QhvnJTxVFa84AJaGYNg6T10bKCo3j9p5Cdajm3ltRyNtMrVHsaVTC/hZEawgmAb0JPHtTM6veybcuPYfu32Wd0CrZAh3rAF7Vglv3xlUT/pSn5hb7755qiUvYcIVgNGsIJFQzuU4QqsIRYW180o9TIOizVllDoQIVYUC4qFZWsEPMuJJeWY+ygfy8uo+LJ2u0X7bPcqIlgNOHTB8sCjRlxvXaOevak19Pp9vjAsvoyGFo7S2govYdKxBkqDsHYS+2XFUfvKLnmEl/tY1s8S7s3vWLhyhNvul96vreD+EBmuYWlvsjy0+8c9rOf7ua/CCJyhDdq7jLviBkrv2JYLaFyXY+WWOOF7FRGsBhy6YHnbelt7IxsJ7e1t38qfKo0R1t7CutKJiMqB3vjaSaQrb3GVq3yD0HggDb3mxH3zm9/sy9Atr2zpSyVjNbAMlCVOuErkupSjUjkHWjZFRQwOBiJYDTh0wSIOhIZQeEPb97sIEAqz1QNV3vhcFj1UpWG3uDCEh5ARHoIjTl73hoCh/M6pXA3JxTJQBquBQBkkKZ3yUBm2RnG7juBgIILVgEMXrCI4XDHTOAxSJA7F0iEe5Ys3jrkSaCqIfFw1x4THvvtQ0juWBggNljzK4hKWNM4pXnj5/qAyiJxw+8HBQgSrAYcuWFw1FpHxOFw4DbPaOggWC8h367h50jnWPiKOe+bjEsIca2PhUnLdpLdvqyud1VUafXXFCyNyzuu7d6Wc8i098+bANQmTjkAGBwsRrAYcumBptPU7bHV522rktmXVsII0AkvjuKQvFg/LiIWE4ur0jlG5LClkyYmTvoSXcuwrl5iBvNxQjIV18BDBasChC5Y2I+1FrBiiUBq/iUUQ7CYiWA04dMHiBuolZOFwuzSWG9fDEgqC3UQEqwGHLlhlzBVyxVhWflcZK2XsU4kXDrbGW5WxUlDSSF8+SxUEO0EEqwGHLlhEamVlpXcFfVKKdVVGQrO8LARn3JRjwwukNXaK22hbehk1vCtDw7p82sGCYCeIYDXg0AVLL5xePL18toYnEB/DGfTSETTDHYSVOHmMiSphGs/1Hgp7/PHH+3txUEalB+0QwWrAoQuWcU9657RhES1WUln3u1hOjoWDhnljoyzdK494olaoHawejW7fUIU6LAjmQQSrAYcuWGXqC7ePK8clJEJIpEyr4QYKB+FGpLOoiJ0JtBrui/Vly3Ukgu4P99K4qwhWsF1EsBpw6IJljJPG8zJeigVVGtBNujWuqoxcB7/ZcRmzBY6Vw+IySp2lVSCfCdTB9uDlod1wr7F885CV3RoRrAYcumAFexOs1b2M0jTQEhGsBoxgBS1wIoJVenu55VxygsIKJi6sI+2OrF/WsHhtlFx+x4axbBelXbMVIlgNGMEKWuBEBIsYnXLKKd1NN93UL+J39tln95+m1/traZ/3v//93bXXXtt/aefcc8/t42+++eY+zHCU7YIAajJohQhWA0awghY4UZdQh4chKTo5lKFjRMeKfUsCaWeUxnGh4xMZ7Ft6hlshgtWAEaygBQjJXkcEa4CMYAUtcCKCZfaB4Snnn39+b1UdOXKkdwlZW760Y3iJVVytE3/mmWf2bV2XXXZZv8678O0igjVARrCCFjgRwdKIbt2xCy+8sDvvvPO6008/vW+7Em5722239WPoPvrRj/bHxtZdc801vVideuqpo1LmRwRrgIxgBS1wIoKlHapYWJdeemlvcbGwjKkzwFeP4Lvf/e5+3X4WlhkMZbxXLKyNjGAFwTaQNqwIVhNGsIIWiGBFsJowghW0QBmKsJep0f5EBpzOiwhWA0awgqANIlgNGMEKgjaIYDVgBCtogSG4hK6x5cdKIlgNGMEKWoAg7Bbefvvt0d5spNF9gIxgBS0wj2BZutpodl/GtuLC7bff3hkketddd/Xx9o3BMpj04osv7p9RFpFVHAiNFRvqD9Qai3XRRRf1g0qtErsVIlgDZAQraIF5LazyRW0DQwvPOOOMPs5+GRRqgCga0W61BoNHiZPpOiZEW4LG9J2zzjqru/POO/tBplshgjVARrCCFphXsKRjSVmK2gdx77nnnv7z/2C/rLsP999/fy9Gp512Wp9WntrCks7qDkbL226FCNYAGcEKWmBewdouuIQEbhGIYA2QEaygBVoJ1iIRwRogI1hBCyxCsLiA2rc0zvuWJHHRjmWfu7hTRLAGyAhW0AKLECyrMRCsq666qm+c17alUd0yylZr2CkiWANkBCtogUUIFmvK0AW9gWht9w996EN9o3oEazYjWEGwDSxCsIqYGItl2IKxVawuDe+LEJoI1gAZwQpawPgporWXaWgEC64VIlgNGMEKgjaIYDVgBCsI2iCC1YCtBcsCaaWtINxfnPUtwPFvB+5F+qDFa6+9NrrixSOC1YCtBWsIy4yEJ07/X1NkxlfuFAcPPPBATz18Naz2iWXUug9OFIynbYUivK0QwWrA1oJVHtxgf0Mje43yfzeOCn395oILLui/KXjrrbf2jd0f+chH+nzGWVm14ZxzzumuuOKKfrUFE5/lM+6qFSJYA+SyBMsk1votWuPZZ5/tu609xJYZ2QrWO7IkiTe0fMHuw1AD1lZB+b9zDfGhhx7qP3hqhPojjzzSx1133XX9qgsrKyu9OFmVgYD5JL20lpsR3goRrAFyWYJVHr57772335p1j2bVWyLEekeWB/EAC/fWtS6SY/sGC3rYr7/++u6dd97pBxUK9/06acTHmttdEKaCIfwvIlgD5LIEi3V1+eWX96J0ww039C4CQfI1X29YUy98dpw7QMB80dcHNW+55Zb+2NvYlhvx5ptvdldeeWX/JhYvj/gHH3ywP1ewO6jdwvJ/f/TRR7unn356vS3zqaee6t544431fdayrfmCrGXpDQ51/Oqrr3bPPPPMuvXNSte+Jdx8QnEPP/xwn7ZwEjxj8txxxx3dzTff3D+HEMEaIFsL1pNPPjnaC/Y79LoV1C8qVvHVV1/dW9bFErbvJUOcvHCInTiWM4HxGXpuv8X6xHmpCfdiM+CzrEJ67bXX9vHKq89fwFXVDla+Kk2stJdBBGuAbC1Y5cHlxnnQvAU9iMD1s+/h01uk3QL0KnkIvZlBnHLES881fPnll9fLDvYG6v/Hdv43LUVjFiJYA+SyBEtblbelt2RxHfQKmXn/8Y9/vDvvvPP6XiSi5g1on/sI9rWBmQDLleQqarcidMHewSTB8n9jZXHrvHhYSv7/LO9XXnllfR33RU6RMcSC5eV5Y6l5Tsp+WWYZIlgD5LIEC5j+2iA8OKwkFpMwIqSHSAO6bu/3vOc9fdf3hRde2D/gH/7wh3vzX1c39+KDH/xg/6BFsPYWJgkWsfK/JFJcNv8z/2MvHGn8P7lqxepeBEyW5oJ6ZowRw7JvjS3iBRGsAXKZguWh1PhZRkiLM9LYLHxbwxRAOl9Geemll/pj1+nBYn3ZJ3reohnSsLcwSbD2MjyHs0br7xQRrAZcpmAF+xuTBIuFpUePVa2XV88uGHv3+OOP900EXlh6eI3Vkt7WC0oP4mOPPdan16Sgp1FaC/mVcn7xi1/01pvhMtw9eX0xh+Vmq2eQtWWfC1pekPLHwhogI1jBojBJsFjN3D8iY1uWNtZuRZzEExz7RE0+4mMAMStaGBjjRdS0fSlH2xcY2lDyKZNlbviDtAaoOp9OHPvKI1rOKTyCNUBGsIJFYZJgGVZQN6g7RjAeC8pxgWdx2qTkOj+89dZbo73N5UAdpgnh9ddf7597ghjBGiAjWMGiMEmwuHHGSLF4uHUEolhT3DSdKtomhZUpO9KyujTWs6y0abKSpFEWKpeocfdYXeKFg8Z9FpRGdpaYLeGSxjm5jtJEsAbICFawKEwSLO6XwaEEiLsGxIZbZ1Q7kSIoBERaPXzG6nHvCIw89sVpnyrCpXyWG/dRnHDlaESXR8eMcxI8x8bt2dd25fzyRLAGyGUKloezuAGTYHCph9vDVTDtgSqmvnj723nwSsWpUfJr47A/rbz62l588cXR3mzUefYzJgnWVpg0/orYlLFZ/g/apLD0GtcQJk56bt48k+cLZv2fF4EIVgMuS7A8WEaumz+ot0jvkN4j8Y7NCWSuewOigX933313n14cNwGZ83qA7BtTI7+wG2+8sfv2t7+9XhZ4IyvDuZRtDqPKYJ6iOWV6qpTjbasMboSyTRlRhnPLc9NNN/X5UZzzyiutcUV+m/TOrQyVR17XVK7Z3Mf9jkmC5X7oqfP/ZFHpoRPHlePCuWfuqX0WkUb08n90D6VFz4oeQffb/8HW/8Y8RPn9D8uzMy8iWAPksgQLtDVo+CxvRG9QJnx5cFhX4oVJU+KlFe96xXuoHWvbKGEovTDnkU95fpdw8eIKCU75GosynANVANtyXmVwUWxLmcLlJcD2WXjOWX6fsWbOIU7Z9ll1Gnz3M+r/ddl3D9A9dC9YQCxObl25f1j+h9IIt3U/PQfuObqv8pW04lnsxbKSB+uG9lkoz10rRLAacJmCFexvTBKsvYwI1gAZwQoWhfp/rQF8ryOCNUC2FqzSlR3uf2pHKvB/58btZZTrboUIVgO2Fiyji+uHOty/HB/sqe3OUAKW116ka1MHWiGC1YCtBSsIDioiWA0YwQqCNohgNWAEKwjaIILVgBGsIGiDCFYDthasSY2dYbhb1JOpsV0vZmtEsBpwGYIVBHsNRsq3Fq0IVgMuU7BMbjar3hSLrfD88893//73v0dHmyF+HH/+859He8cxKawFTD0xT7GGKUGmjogDXf8FJayGydTjAj9ehqED5f7ZzrqXzlfy1ecrQw3KV4nmRV1G/VtOBMoyDcoUqXpCfH2OWTB/0zNrVdI6jzmH4hBmlbedeYcngghWAy5TsLzRvNlMiLXWkY8R+AiFicFWcijH6KMUZ5xxRj8v7PTTT+/jfKTCBwRMfPUFHZOKzUMzcda6R5dcckmfz8cqfGnniiuu6CfI+vqO87YEV8O6Tibwui4f2HDNfqe1n1y3Sdeu07X4jfbrClXKcM+k9TvKBxtMtFaGScH2zbFzH+yr9JNAkLwgfCHb9bg35vG5X86D24Ey/O9cj+tQjvNvtxzwG12/Mv3v3SPX6b6YLD3PChfyenZ8xMJ9N7peuZaPMSHa/cVp8Ox4IbRCBKsBlylYJgx7GE0i9pCXCudNpxJ7cL39y8MnXh4PXVk3SbzVElQalZHFIV551kZSoUyK9c1Di8OZLCt+3gmxJwrX4bcaLMn683uM9GaJEBfXRECEGUzr2H69YqZwoiXcBG9bk3qVIb0J1MRJuP+dc9mfZmWxaOWVz/WooCB9mXC8HUhfzuv6bJVzItaWsso12SrLdfqd8z6Lzus6PE/l2gr9D7b6jfKfyLXPiwhWAy5TsMbh/PsJRNPbvYYKI7yuGMRzfFQ4uB/SzrovXKCtKqJKT9jHhcyLQFwNlX0WiKyyxq/JsjnzluVaWdeEu6BOq/zye9yb2uqc9TtruCcWAdzq/tWIYA2QuylY+w3cGhYdN4V7QyC4K8KRm+KYm8iyHL83Kg+3V3hxZVmH0rM2lcFy4AqxHh1zy8ah0mJxTYsrpwwWnLKLS64c8dPgqzXKkpeLasu6Vbay/E5luQ5lWfdqHH5P+cx8fV+sF+bc8ipLuN/LHeb+OubWs5a3mkztRSG9a5tX5CJYA2QEa3Eo95RVotKgNhJhKoZ7zIUTzgUabz/hEpa1nUp+6VkjxapiNSmrlCl8HOKUVVxT6Vg3wrmJtTun7NryGYfzKUta1+Kay7UrixtXlzWpPc15pS+/SXpb94OVpr1KOdIJd/8cO59yUfgsyIvK04wwD9wXbIUIVgNGsIKDigjWANlasJjqRCsM9xq5mdPa3RaBCFYDthYsD0YBF2L8PK5hHFwibkiBfAVlf1K+INgOYmENkMsULEKkQVojq0ZgjcaGJpTGVsfeeBpkvf30RAk3NkdjtnFE0vqKsH1x0k7qcQuCrRDBGiCXKVgaXvUU6SErH7s0vqr0ZhEsja16m/QMGVdlK08RLGInPaGSRw9Vy4cu2L+IYA2QyxSsaYjgBLsB1nzasAbGZQoWYTIo0Hwv88hsdWEbVOjY1ih24eblabDXTW5fOVi+T2d0vDjHUNL59p0wdK6HH3545nyyZcBv3Cl2Uob77t65D8ZVPfHEE6OY/QvNBJ4pz4TfjOOIhTVALlOwjI/R/sTF4/YZ5KetirtncCI3T5yRz465hI6R66f9qhzbl87gR2NvuJM+vFnmIQpXhvmF9TXsBhZx/p2U4f4YmFncavdvp5j3q9fzYtHCYUK150uzg9+M44hgDZDLFKzdgt/Zei7hEFD3vB4UzPrNEawBcjcEy8hlb3zU6M59E8YlZHF5M7IKWFEsMfvCpDEqm6nPWrBfLC1xzH7hZRK1fWHiai4bu21hgfukQ8N2q1HjBwURrAFyNwTL8AamOnLbtDsRq+K2qFQonJuoR7G4hPJoz+Hy2Te0gUARNcMgpNeziMKsDmHfdZTVHZYN17FT7LQM98+9tjU1Z6dYZLugpoKWwgGe9XErO4I1QLYWrEVU1mAxmHeO3UFBegkHyNaCtQh3KAhaIBbWALlMwdJ2cvXVV/dum2VDLFfCRbHMiBVEg2BRMEhZz6De4zPPPLPnOCJYA+QyBcv5tEN5kLQ9aUgnWNqZFtHVHgQFr7/+et+2aVaFdlEcRwRrgFymYAXBXkIEa4BsLVh1o7vzEbAw3A1yE2uk0X2AbC1YHpQg2IuIhTVALlOwfCvOgM5XXnmlH8eD9YcSytgeYeYGjn9zroYxWtopCupyyr7zvfnmm/1+cPBggLFnxMBk1lX9/UOIYA2QyxQs+75nZ9CnDyyY92e5GD2HehAvvvji/iMMruuss87qbrnllr5H0YcLpBOnwd61GjSqB8ig0PI9Ox9XKGk0tvo2ocZ8vZEGTQYHC2UAsmfDUkTj4hTBGiCXKVgeDg+Q6TdGneslFC/MCHTiI8yqoka369kx+p04mYYjjoXG6pJHGtQbhA899FA/lUf54pVn9HsZCR8cLFjtw/PiWTO7YnyWw/4VrH91/w99ZlLfcpzHKAAAAABJRU5ErkJggg==" />
+                                                                                  </ui:OnImageAppear.Image>
+                                                                                  <ui:OnImageAppear.Target>
+                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;" TimeoutMS="120000" WaitForReady="COMPLETE" />
+                                                                                  </ui:OnImageAppear.Target>
+                                                                                </ui:OnImageAppear>
+                                                                                <FlowStep.Next>
+                                                                                  <FlowStep x:Name="__ReferenceID22" sap2010:WorkflowViewState.IdRef="FlowStep_133">
+                                                                                    <ui:UiElementExists DisplayName="Element Exists 'Imprimir boleto'" Exists="[evidencia]" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+                                                                                      <ui:UiElementExists.Target>
+                                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="509c5958ab1dcbe32c4db41b1500a261" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;&lt;wnd cls='Static' idx='30' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+                                                                                      </ui:UiElementExists.Target>
+                                                                                    </ui:UiElementExists>
+                                                                                    <FlowStep.Next>
+                                                                                      <FlowStep x:Name="__ReferenceID23" sap2010:WorkflowViewState.IdRef="FlowStep_134">
+                                                                                        <If Condition="[evidencia]" DisplayName="If Evidencia Sucesso" sap2010:WorkflowViewState.IdRef="If_4">
+                                                                                          <If.Then>
+                                                                                            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                                                                              <Assign sap2010:WorkflowViewState.IdRef="Assign_13">
+                                                                                                <Assign.To>
+                                                                                                  <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                                </Assign.To>
+                                                                                                <Assign.Value>
+                                                                                                  <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                                                                                </Assign.Value>
+                                                                                              </Assign>
+                                                                                              <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Evidencia" sap2010:WorkflowViewState.IdRef="TakeScreenshot_7" Screenshot="[printEvidencia]">
+                                                                                                <ui:TakeScreenshot.Target>
+                                                                                                  <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3c0353021bd8cb89b69321199505c06e" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                                    <ui:Target.ClippingRegion>
+                                                                                                      <ui:Region Rectangle="9, -295, 1356, 740" />
+                                                                                                    </ui:Target.ClippingRegion>
+                                                                                                  </ui:Target>
+                                                                                                </ui:TakeScreenshot.Target>
+                                                                                              </ui:TakeScreenshot>
+                                                                                              <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SegundaVia_Imprimir.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_7" Image="[printEvidencia]" />
+                                                                                              <Assign sap2010:WorkflowViewState.IdRef="Assign_14">
+                                                                                                <Assign.To>
+                                                                                                  <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                                </Assign.To>
+                                                                                                <Assign.Value>
+                                                                                                  <InArgument x:TypeArguments="x:String">3</InArgument>
+                                                                                                </Assign.Value>
+                                                                                              </Assign>
+                                                                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Fechar Boleto'" sap2010:WorkflowViewState.IdRef="Click_147" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                                                <ui:Click.CursorPosition>
+                                                                                                  <ui:CursorPosition Position="Center">
+                                                                                                    <ui:CursorPosition.OffsetX>
+                                                                                                      <InArgument x:TypeArguments="x:Int32" />
+                                                                                                    </ui:CursorPosition.OffsetX>
+                                                                                                    <ui:CursorPosition.OffsetY>
+                                                                                                      <InArgument x:TypeArguments="x:Int32" />
+                                                                                                    </ui:CursorPosition.OffsetY>
+                                                                                                  </ui:CursorPosition>
+                                                                                                </ui:Click.CursorPosition>
+                                                                                                <ui:Click.Target>
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="351adb05a46fd56f334fe791476e18e9" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;&lt;ctrl idx='1' name='Fechar' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                                </ui:Click.Target>
+                                                                                              </ui:Click>
+                                                                                            </Sequence>
+                                                                                          </If.Then>
+                                                                                          <If.Else>
+                                                                                            <Sequence sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                                                                              <Assign sap2010:WorkflowViewState.IdRef="Assign_15">
+                                                                                                <Assign.To>
+                                                                                                  <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                                </Assign.To>
+                                                                                                <Assign.Value>
+                                                                                                  <InArgument x:TypeArguments="x:String">Não encontrou evidencia</InArgument>
+                                                                                                </Assign.Value>
+                                                                                              </Assign>
+                                                                                              <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                                                                              <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Error" sap2010:WorkflowViewState.IdRef="TakeScreenshot_8" Screenshot="[printEvidencia]">
+                                                                                                <ui:TakeScreenshot.Target>
+                                                                                                  <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="329379276b853b7912abb00541d80a16" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                                    <ui:Target.ClippingRegion>
+                                                                                                      <ui:Region Rectangle="3, -78, 1362, 767" />
+                                                                                                    </ui:Target.ClippingRegion>
+                                                                                                  </ui:Target>
+                                                                                                </ui:TakeScreenshot.Target>
+                                                                                              </ui:TakeScreenshot>
+                                                                                              <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SegundaVia_Imprimir_Error.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_8" Image="[printEvidencia]" />
+                                                                                              <Assign sap2010:WorkflowViewState.IdRef="Assign_16">
+                                                                                                <Assign.To>
+                                                                                                  <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                                </Assign.To>
+                                                                                                <Assign.Value>
+                                                                                                  <InArgument x:TypeArguments="x:String">2</InArgument>
+                                                                                                </Assign.Value>
+                                                                                              </Assign>
+                                                                                              <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Enter Erro Boleto" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                                                                                                <ui:SendHotkey.Target>
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e9f570be1571dca5bb09c221a646138f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                                </ui:SendHotkey.Target>
+                                                                                              </ui:SendHotkey>
+                                                                                            </Sequence>
+                                                                                          </If.Else>
+                                                                                        </If>
+                                                                                      </FlowStep>
+                                                                                    </FlowStep.Next>
+                                                                                  </FlowStep>
+                                                                                </FlowStep.Next>
+                                                                              </FlowStep>
+                                                                            </FlowStep.Next>
+                                                                          </FlowStep>
+                                                                        </FlowStep.Next>
+                                                                      </FlowStep>
+                                                                    </FlowStep.Next>
+                                                                  </FlowStep>
+                                                                </FlowStep.Next>
+                                                              </FlowStep>
+                                                            </Flowchart.StartNode>
+                                                            <x:Reference>__ReferenceID18</x:Reference>
+                                                            <x:Reference>__ReferenceID19</x:Reference>
+                                                            <x:Reference>__ReferenceID20</x:Reference>
+                                                            <x:Reference>__ReferenceID21</x:Reference>
+                                                            <x:Reference>__ReferenceID22</x:Reference>
+                                                            <x:Reference>__ReferenceID23</x:Reference>
+                                                            <x:Reference>__ReferenceID24</x:Reference>
+                                                          </Flowchart>
+                                                          <FlowStep.Next>
+                                                            <FlowStep x:Name="__ReferenceID45" sap2010:WorkflowViewState.IdRef="FlowStep_143">
+                                                              <Flowchart DisplayName="Imprimir Boleto SMP" sap2010:WorkflowViewState.IdRef="Flowchart_10">
+                                                                <Flowchart.StartNode>
+                                                                  <FlowStep x:Name="__ReferenceID25" sap2010:WorkflowViewState.IdRef="FlowStep_142">
+                                                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Boleto Smp'" sap2010:WorkflowViewState.IdRef="Click_148" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                      <ui:Click.CursorPosition>
+                                                                        <ui:CursorPosition Position="Center">
+                                                                          <ui:CursorPosition.OffsetX>
+                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                          </ui:CursorPosition.OffsetX>
+                                                                          <ui:CursorPosition.OffsetY>
+                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                          </ui:CursorPosition.OffsetY>
+                                                                        </ui:CursorPosition>
+                                                                      </ui:Click.CursorPosition>
+                                                                      <ui:Click.Target>
+                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="1f3088c52e865408d3ad3b58016a59ad" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-2' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                      </ui:Click.Target>
+                                                                    </ui:Click>
+                                                                    <FlowStep.Next>
+                                                                      <FlowStep x:Name="__ReferenceID32">
+                                                                        <Delay mva:VisualBasic.Settings="{x:Null}" DisplayName="Delay 10 seconds" Duration="00:00:10" sap2010:WorkflowViewState.IdRef="Delay_1">
+                                                                          <TextExpression.Namespaces>
+                                                                            <sco:Collection x:TypeArguments="x:String">
+                                                                              <x:String>System.Activities</x:String>
+                                                                              <x:String>System.Activities.Statements</x:String>
+                                                                              <x:String>System.Activities.Expressions</x:String>
+                                                                              <x:String>System.Activities.Validation</x:String>
+                                                                              <x:String>System.Activities.XamlIntegration</x:String>
+                                                                              <x:String>Microsoft.VisualBasic.Activities</x:String>
+                                                                              <x:String>System</x:String>
+                                                                              <x:String>System.Collections.Generic</x:String>
+                                                                              <x:String>System.Data</x:String>
+                                                                              <x:String>System.Diagnostics</x:String>
+                                                                              <x:String>System.IO</x:String>
+                                                                              <x:String>System.Linq</x:String>
+                                                                              <x:String>System.Management.Automation</x:String>
+                                                                              <x:String>System.Net.Mail</x:String>
+                                                                              <x:String>System.Xml</x:String>
+                                                                              <x:String>System.Xml.Linq</x:String>
+                                                                              <x:String>UiPath.Library</x:String>
+                                                                              <x:String>System.Windows.Markup</x:String>
+                                                                            </sco:Collection>
+                                                                          </TextExpression.Namespaces>
+                                                                          <TextExpression.References>
+                                                                            <sco:Collection x:TypeArguments="AssemblyReference">
+                                                                              <AssemblyReference>System.Activities</AssemblyReference>
+                                                                              <AssemblyReference>mscorlib</AssemblyReference>
+                                                                              <AssemblyReference>System.Data</AssemblyReference>
+                                                                              <AssemblyReference>System</AssemblyReference>
+                                                                              <AssemblyReference>System.Core</AssemblyReference>
+                                                                              <AssemblyReference>System.Management.Automation</AssemblyReference>
+                                                                              <AssemblyReference>System.Xml</AssemblyReference>
+                                                                              <AssemblyReference>System.Xml.Linq</AssemblyReference>
+                                                                              <AssemblyReference>UiPath.Library</AssemblyReference>
+                                                                              <AssemblyReference>PresentationFramework</AssemblyReference>
+                                                                              <AssemblyReference>WindowsBase</AssemblyReference>
+                                                                              <AssemblyReference>PresentationCore</AssemblyReference>
+                                                                              <AssemblyReference>System.Xaml</AssemblyReference>
+                                                                            </sco:Collection>
+                                                                          </TextExpression.References>
+                                                                          <sap2010:WorkflowViewState.ViewStateManager>
+                                                                            <sap2010:ViewStateManager>
+                                                                              <sap2010:ViewStateData Id="Delay_1" sap2010:WorkflowViewState.IdRef="ViewStateData_1" />
+                                                                            </sap2010:ViewStateManager>
+                                                                          </sap2010:WorkflowViewState.ViewStateManager>
+                                                                        </Delay>
+                                                                        <FlowStep.Next>
+                                                                          <FlowStep x:Name="__ReferenceID26" sap2010:WorkflowViewState.IdRef="FlowStep_141">
+                                                                            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Imprimir'" sap2010:WorkflowViewState.IdRef="Click_149" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                              <ui:Click.CursorPosition>
+                                                                                <ui:CursorPosition Position="Center">
+                                                                                  <ui:CursorPosition.OffsetX>
+                                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                                  </ui:CursorPosition.OffsetX>
+                                                                                  <ui:CursorPosition.OffsetY>
+                                                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                                                  </ui:CursorPosition.OffsetY>
+                                                                                </ui:CursorPosition>
+                                                                              </ui:Click.CursorPosition>
+                                                                              <ui:Click.Target>
+                                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="458ad907f2b0874747884effdb75901f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gwt-uid-7' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                              </ui:Click.Target>
+                                                                            </ui:Click>
+                                                                            <FlowStep.Next>
+                                                                              <FlowStep x:Name="__ReferenceID27" sap2010:WorkflowViewState.IdRef="FlowStep_140">
+                                                                                <ui:OnImageAppear Body="{x:Null}" ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Image Appear 'intervalo proximo'" sap2010:WorkflowViewState.IdRef="OnImageAppear_9" RepeatForever="False">
+                                                                                  <ui:OnImageAppear.Image>
+                                                                                    <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAANQAAAAgCAYAAABq3VYXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAABWVJREFUeF7tm0uLXVUQhY8/wD/gLxBHgkMRHIigRnxgg6IJCOLAQYPOnAgiKipIQB1EMRA0g0AgPkAEHxgCbUdRQ4h5o0mMmECSFlsNQeF6v913XVfX3ffR3YfkDGrB4u6z67GraqUgCml6iUSiNeRCJRItIhcqkWgRuVCJRIvIhUokWkQuVCLRInKhEokWkQuVSLSIXKhEokXkQiUSLaIsVPPYQq/ZvJjsAh/5qgjjSH06xopGQoNYW97+qffk9lPJDnDu1YOrBEt9useokWO4UJu3JbvAcQtV801eG05eqEf3FcHm3jyZ7ALjQqU+3ePEheobEGzT68eTHeCdz//Qax7+YiBPX6CW9QGLJ/+s2pKzMWrkaDDct/VE745Xjg351ufni/GD75ZW3deIzyx+G+HTO8+UehZOLFftk6hezl66UrWP4+FfL5d3a7ZxpD6w1jjnyEJN0McxS3/oNOscADOo2TZCagD0ULM716PBWrmWesSZFurWF44MufXTc8W4+5tLq+4jZ/XbKJ/acbq8s+/YctU+iYfO/l1iAXlqPpG8sxb/NnnzM99WF8p94tz1vZ75XG1SM6Dmml28WhrMWo8zauQoC3X7y0d7tzz345CvffJbMe5avNh74t2fy/ngL///weSMn2Pv0T9G7sjDnWJ//+vf4e/pC1eG7wHF+zv4caca5KNvgTqVKxIop+IhMcDf4069C3zHO+WgPvVEP+QH1Ie91gvEV3F+D4tYD+4pNjBNH90B3tNslL+mi+6Uh2/XuZaPmgX1CVxHzVTQHJzy4e22NYg9K4Zf+Qrq0+vxb6HWQ9TI0TQPfVQEu+nZQ0O+9PFKITsXLpb/qwFO9QeH7cCZlea5dz9sS/2CsXP+8vDK0D0G/2gjFigfObiv1UAcNqB3FK/cTrfhr9xuU05ssqs+3tXb+GNjDpoF/oBzjPOzfBXHr9ucN87vX71QU/Txb95UvXoL+tsxVtrEXgA25dO8vXaf77i8yid6jM5tauA215x86sFzr6eHqJGjLNQN8wd6zZb+1g04/97KX7He+Ox877YXj5Tzh98vFRu/gPuaXwT3X/f/Ixgov3yJw3b83OURmxBr0Jv8KgaQR98ieS8s/1POMY68/u2+3qP8HPLj12v3OO4n2ZRjhHN7RxZqnD4OveWz8m/6UHysW6jNNObz2lUHudWf4t2mO8g3wO5nbJ7b5yU/h/xiL/IlDpvqdpvgualh1h6iRo4GQ5sL5Q2IcaEgQ9A98dwpN3nH5dY9v8oF4kIpJkJ+5AXKM01Mf0+MYnoc95NsemuEiPXA7uILpunj99Bn5d/u63XLDhQDQdcWSn7OqAEE+rNFPHf4AM7jcs/aQ9TI0WBY70LJpge9ORrScNQcZ5EYQU27n+z8xhoAvu4Xh606/b6WX3YXUzbvUW/jo7ejmD4bP0dff2uEiHX/rhILpunj9zDWC/3tGKtaNBvVC7iL+bx2zxXz+qyd2AH+fsbmuWXj/ViD6tVZvYl6W7min/fqNczaQ9TI0WBY70LxTaGAx+UryGdcYcCH4fHcA96LNcR3qFM5ROrygUL85K9zTUzP777Ac3L2+uNs1DfwOH9rhHGhpujj9zDOSnTIpno1A6C6gGuqGK891sGvQ3NwyodYP2NrQwOounwGHo8/qNXgfqDWw5oXKnkNiVj3vj+Qp75QyWvMoJGjwZCCdYiItWnHQJ6+QKlP9xg0cjQYUrAOEbHu2T6Qpy9Q6tM9Bo0cDQYEu/7x/ckO8DrEuvudgTx9gVKfzjFq5Fj5B4Z90Zq7tiW7wIpQqU/HOGaZQP4T+ESiReRCJRItIhcqkWgRuVCJRGvo9f4DLIirr3TE6yIAAAAASUVORK5CYII=" />
+                                                                                  </ui:OnImageAppear.Image>
+                                                                                  <ui:OnImageAppear.Target>
+                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" TimeoutMS="180000" WaitForReady="INTERACTIVE" />
+                                                                                  </ui:OnImageAppear.Target>
+                                                                                </ui:OnImageAppear>
+                                                                                <FlowStep.Next>
+                                                                                  <FlowStep x:Name="__ReferenceID28" sap2010:WorkflowViewState.IdRef="FlowStep_139">
+                                                                                    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Gerar Solicitacao'" sap2010:WorkflowViewState.IdRef="Click_150" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                                      <ui:Click.CursorPosition>
+                                                                                        <ui:CursorPosition Position="Center">
+                                                                                          <ui:CursorPosition.OffsetX>
+                                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                                          </ui:CursorPosition.OffsetX>
+                                                                                          <ui:CursorPosition.OffsetY>
+                                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                                          </ui:CursorPosition.OffsetY>
+                                                                                        </ui:CursorPosition>
+                                                                                      </ui:Click.CursorPosition>
+                                                                                      <ui:Click.Target>
+                                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6082f4a7b20f7cdb65e690fd6c7d589e" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='gerarSolicitacaoButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="COMPLETE" />
+                                                                                      </ui:Click.Target>
+                                                                                    </ui:Click>
+                                                                                    <FlowStep.Next>
+                                                                                      <FlowStep x:Name="__ReferenceID31" sap2010:WorkflowViewState.IdRef="FlowStep_138">
+                                                                                        <ui:OnImageAppear Body="{x:Null}" ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Image Appear 'Imprimir'" sap2010:WorkflowViewState.IdRef="OnImageAppear_10" RepeatForever="False">
+                                                                                          <ui:OnImageAppear.Image>
+                                                                                            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="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" />
+                                                                                          </ui:OnImageAppear.Image>
+                                                                                          <ui:OnImageAppear.Target>
+                                                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;" TimeoutMS="120000" WaitForReady="COMPLETE" />
+                                                                                          </ui:OnImageAppear.Target>
+                                                                                        </ui:OnImageAppear>
+                                                                                        <FlowStep.Next>
+                                                                                          <FlowStep x:Name="__ReferenceID29" sap2010:WorkflowViewState.IdRef="FlowStep_137">
+                                                                                            <ui:UiElementExists DisplayName="Element Exists 'Imprimir boleto'" Exists="[evidencia]" sap2010:WorkflowViewState.IdRef="UiElementExists_5">
+                                                                                              <ui:UiElementExists.Target>
+                                                                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="509c5958ab1dcbe32c4db41b1500a261" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;&lt;wnd cls='Static' idx='30' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+                                                                                              </ui:UiElementExists.Target>
+                                                                                            </ui:UiElementExists>
+                                                                                            <FlowStep.Next>
+                                                                                              <FlowStep x:Name="__ReferenceID30" sap2010:WorkflowViewState.IdRef="FlowStep_136">
+                                                                                                <If Condition="[evidencia]" DisplayName="If Evidencia Sucesso" sap2010:WorkflowViewState.IdRef="If_5">
+                                                                                                  <If.Then>
+                                                                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_17">
+                                                                                                        <Assign.To>
+                                                                                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                                        </Assign.To>
+                                                                                                        <Assign.Value>
+                                                                                                          <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                                                                                        </Assign.Value>
+                                                                                                      </Assign>
+                                                                                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Evidencia" sap2010:WorkflowViewState.IdRef="TakeScreenshot_9" Screenshot="[printEvidencia]">
+                                                                                                        <ui:TakeScreenshot.Target>
+                                                                                                          <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3c0353021bd8cb89b69321199505c06e" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                                            <ui:Target.ClippingRegion>
+                                                                                                              <ui:Region Rectangle="9, -295, 1356, 740" />
+                                                                                                            </ui:Target.ClippingRegion>
+                                                                                                          </ui:Target>
+                                                                                                        </ui:TakeScreenshot.Target>
+                                                                                                      </ui:TakeScreenshot>
+                                                                                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SMP_Imprimir.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_9" Image="[printEvidencia]" />
+                                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_18">
+                                                                                                        <Assign.To>
+                                                                                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                                        </Assign.To>
+                                                                                                        <Assign.Value>
+                                                                                                          <InArgument x:TypeArguments="x:String">3</InArgument>
+                                                                                                        </Assign.Value>
+                                                                                                      </Assign>
+                                                                                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Fechar Boleto'" sap2010:WorkflowViewState.IdRef="Click_151" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                                                                                        <ui:Click.CursorPosition>
+                                                                                                          <ui:CursorPosition Position="Center">
+                                                                                                            <ui:CursorPosition.OffsetX>
+                                                                                                              <InArgument x:TypeArguments="x:Int32" />
+                                                                                                            </ui:CursorPosition.OffsetX>
+                                                                                                            <ui:CursorPosition.OffsetY>
+                                                                                                              <InArgument x:TypeArguments="x:Int32" />
+                                                                                                            </ui:CursorPosition.OffsetY>
+                                                                                                          </ui:CursorPosition>
+                                                                                                        </ui:Click.CursorPosition>
+                                                                                                        <ui:Click.Target>
+                                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="351adb05a46fd56f334fe791476e18e9" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='Imprimir' /&gt;&lt;ctrl idx='1' name='Fechar' role='push button' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                                        </ui:Click.Target>
+                                                                                                      </ui:Click>
+                                                                                                    </Sequence>
+                                                                                                  </If.Then>
+                                                                                                  <If.Else>
+                                                                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_19">
+                                                                                                        <Assign.To>
+                                                                                                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                                                                        </Assign.To>
+                                                                                                        <Assign.Value>
+                                                                                                          <InArgument x:TypeArguments="x:String">Não encontrou evidencia</InArgument>
+                                                                                                        </Assign.Value>
+                                                                                                      </Assign>
+                                                                                                      <Delay Duration="00:00:05" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                                                                                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Print Error" sap2010:WorkflowViewState.IdRef="TakeScreenshot_10" Screenshot="[printEvidencia]">
+                                                                                                        <ui:TakeScreenshot.Target>
+                                                                                                          <ui:Target Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="329379276b853b7912abb00541d80a16" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;" WaitForReady="INTERACTIVE">
+                                                                                                            <ui:Target.ClippingRegion>
+                                                                                                              <ui:Region Rectangle="3, -78, 1362, 767" />
+                                                                                                            </ui:Target.ClippingRegion>
+                                                                                                          </ui:Target>
+                                                                                                        </ui:TakeScreenshot.Target>
+                                                                                                      </ui:TakeScreenshot>
+                                                                                                      <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Boleto_SMP_Imprimir_Error.png&quot;]" sap2010:WorkflowViewState.IdRef="SaveImage_10" Image="[printEvidencia]" />
+                                                                                                      <Assign sap2010:WorkflowViewState.IdRef="Assign_20">
+                                                                                                        <Assign.To>
+                                                                                                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                                                                        </Assign.To>
+                                                                                                        <Assign.Value>
+                                                                                                          <InArgument x:TypeArguments="x:String">2</InArgument>
+                                                                                                        </Assign.Value>
+                                                                                                      </Assign>
+                                                                                                      <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Enter Erro Boleto" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_5" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
+                                                                                                        <ui:SendHotkey.Target>
+                                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e9f570be1571dca5bb09c221a646138f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl idx='1' tag='BODY' /&gt;" WaitForReady="INTERACTIVE" />
+                                                                                                        </ui:SendHotkey.Target>
+                                                                                                      </ui:SendHotkey>
+                                                                                                    </Sequence>
+                                                                                                  </If.Else>
+                                                                                                </If>
+                                                                                              </FlowStep>
+                                                                                            </FlowStep.Next>
+                                                                                          </FlowStep>
+                                                                                        </FlowStep.Next>
+                                                                                      </FlowStep>
+                                                                                    </FlowStep.Next>
+                                                                                  </FlowStep>
+                                                                                </FlowStep.Next>
+                                                                              </FlowStep>
+                                                                            </FlowStep.Next>
+                                                                          </FlowStep>
+                                                                        </FlowStep.Next>
+                                                                        <sap2010:WorkflowViewState.IdRef>FlowStep_145</sap2010:WorkflowViewState.IdRef>
+                                                                      </FlowStep>
+                                                                    </FlowStep.Next>
+                                                                  </FlowStep>
+                                                                </Flowchart.StartNode>
+                                                                <x:Reference>__ReferenceID25</x:Reference>
+                                                                <x:Reference>__ReferenceID26</x:Reference>
+                                                                <x:Reference>__ReferenceID27</x:Reference>
+                                                                <x:Reference>__ReferenceID28</x:Reference>
+                                                                <x:Reference>__ReferenceID29</x:Reference>
+                                                                <x:Reference>__ReferenceID30</x:Reference>
+                                                                <x:Reference>__ReferenceID31</x:Reference>
+                                                                <x:Reference>__ReferenceID32</x:Reference>
+                                                              </Flowchart>
+                                                            </FlowStep>
+                                                          </FlowStep.Next>
+                                                        </FlowStep>
+                                                      </FlowStep.Next>
+                                                    </FlowStep>
+                                                  </FlowStep.Next>
                                                 </FlowStep>
                                               </FlowStep.Next>
                                             </FlowStep>
@@ -628,21 +1237,24 @@
               </FlowStep.Next>
             </FlowStep>
           </Flowchart.StartNode>
-          <x:Reference>__ReferenceID12</x:Reference>
-          <x:Reference>__ReferenceID13</x:Reference>
-          <x:Reference>__ReferenceID14</x:Reference>
-          <x:Reference>__ReferenceID15</x:Reference>
-          <x:Reference>__ReferenceID16</x:Reference>
-          <x:Reference>__ReferenceID17</x:Reference>
-          <x:Reference>__ReferenceID18</x:Reference>
-          <x:Reference>__ReferenceID19</x:Reference>
-          <x:Reference>__ReferenceID20</x:Reference>
-          <x:Reference>__ReferenceID21</x:Reference>
+          <x:Reference>__ReferenceID33</x:Reference>
+          <x:Reference>__ReferenceID34</x:Reference>
+          <x:Reference>__ReferenceID35</x:Reference>
+          <x:Reference>__ReferenceID36</x:Reference>
+          <x:Reference>__ReferenceID37</x:Reference>
+          <x:Reference>__ReferenceID38</x:Reference>
+          <x:Reference>__ReferenceID39</x:Reference>
+          <x:Reference>__ReferenceID40</x:Reference>
+          <x:Reference>__ReferenceID41</x:Reference>
+          <x:Reference>__ReferenceID42</x:Reference>
+          <x:Reference>__ReferenceID43</x:Reference>
+          <x:Reference>__ReferenceID44</x:Reference>
+          <x:Reference>__ReferenceID45</x:Reference>
         </Flowchart>
       </FlowStep>
     </Flowchart.StartNode>
-    <x:Reference>__ReferenceID22</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb182NS54YW1shQEBWwFeAQMBeQGFAQECUQOGBQ8CAQFYCYEFFQIBAlsPXycDAZkBYhOKARsDAZcBjQEXmwEiAwGUAZ4BG6gBLgMBjwGrAR+vAS0DAY0BsgEjwAEuAwGKAcMBJ80BOgMBhQHQASvUATkDAYMB1wEvrgM7AgFFsQMz4gQ/AgEDXUhdUgMBmwFbxwFb6gEDAZoBYmZicAMBmAGZAZUBmQGgAgMBlgGZAasCmQGzAgMBlQGgAR+gAWkDAZMBngG2AZ4BvQEDAZABpgF1pgHLAQMBkgGjAUmjAU4DAZEBrQGyAa0B4gIDAY4BvgG2Ab4B5gIDAYwBsgFlsgFrAwGLAcUBK8UBdQMBiQHDAcsBwwHSAQMBhgHLAYEBywHXAQMBiAHIAVXIAVoDAYcB0gG+AdIBvgIDAYQB2gE16AFAAwGBAesBOfkBRAIBf/wBPYACSwIBfYMCQZECTAIBe5QCRZgCWgIBdpsCSZsDTgIBRrQDOcIDRAIBQ8UDPdMDSAIBQdYDQdoDTwIBP90DResDUAIBPe4DSfIDXgIBOPUDTc8EUgIBBOYByAHmAcoCAwGCAfcBzAH3Ac4CAwGAAf4B0AH+AYYDAgF+jwLUAY8CigMCAXyWAsMBlgK9AgIBepYCyAKWAtACAgF5lAKCAZQCjwECAXebAlebAmQCAUedAk31AlgCAWD4Ak2ZA1gCAUnAA8wBwAPOAgIBRNED0AHRA9ICAgFC2APUAdgDigMCAUDpA9gB6QOOAwIBPvADxwHwA8ECAgE88APMAvAD1AICATvuA4YB7gOTAQIBOfUDW/UDaAIBBfcDUakEXAIBHqwEUc0EXAIBB54CT6UCWAIBcqYCT9MCVwIBcNQCT9wCYwIBbN0CT90CtgICAWfeAk/lAlgCAWPmAk/0AloCAWH5Ak+AA1gCAVyBA0+BA5YBAgFaggNPigNjAgFWiwNPiwO8AgIBUYwDT5MDWAIBTZQDT5gDXwIBSvgDU/8DXAIBNIAEU4cEZgIBLogEU5AEZwIBKpEEU5EEtQICASWSBFOZBFwCASGaBFOoBF4CAR+tBFO0BFwCARq1BFO1BJoBAgEYtgRTvgRnAgEUvwRTvwS7AgIBD8AEU8cEXAIBC8gEU8wEYwIBCKMCeqMCgQECAXWgAnugAogBAgFzpgKiAaYCrAECAXHWAsgB1gL9AQIBb9QC1AHUAuYBAgFt3QJ/3QLsAQIBat0CoQLdArMCAgFo4wJ64wJ7AgFm4AJ74AKJAQIBZPIC4gHyApMDAgFi/gJ6/gKRAQIBX/sCe/sCiAECAV2BA1+BA2kCAVuEA8gBhAOeAgIBWYID0AGCA+IBAgFXiwN/iwPyAQIBVIsDpwKLA7kCAgFSkQN6kQN7AgFQjgN7jgOJAQIBTpYD4gGWA9wCAgFMlAO0ApQDuwICAUv9A379A4UBAgE3+gN/+gOMAQIBNYAEnQGABKMBAgEvgAT5AYAEgAICATCFBJgBhQTNAQIBM4UE2AGFBOABAgEyggSBAYIEhgECATGKBMwBigSBAgIBLYgE2AGIBOoBAgErkQSDAZEE6wECASiRBKACkQSyAgIBJpcEfpcEfwIBJJQEf5QEjQECASKmBOYBpgSXAwIBILIEfrIElQECAR2vBH+vBIwBAgEbtQRjtQRtAgEZuATMAbgEogICARe2BNQBtgTmAQIBFb8EgwG/BPEBAgESvwSmAr8EuAICARDFBH7FBH8CAQ7CBH/CBI0BAgEMygTmAcoE4AICAQrIBLgCyAS/AgIBCQ==</sads:DebugSymbol.Symbol>
+    <x:Reference>__ReferenceID46</x:Reference>
+    <sads:DebugSymbol.Symbol>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</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -653,7 +1265,13 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="314,22" />
+      <sap2010:ViewStateData Id="Delay_1" sap:VirtualizedContainerService.HintSize="200,22">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Click_129" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -746,7 +1364,6 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="314,60" />
-      <sap2010:ViewStateData Id="ViewStateData_1" sap:VirtualizedContainerService.HintSize="200,22" />
       <sap2010:ViewStateData Id="TakeScreenshot_1" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="SaveImage_1" sap:VirtualizedContainerService.HintSize="314,92" />
       <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="314,60" />
@@ -831,7 +1448,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_6" sap:VirtualizedContainerService.HintSize="614,862">
+      <sap2010:ViewStateData Id="Flowchart_6" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -963,7 +1580,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Flowchart_7" sap:VirtualizedContainerService.HintSize="614,862">
+      <sap2010:ViewStateData Id="Flowchart_7" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -974,11 +1591,475 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_140" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_141" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="SetFocus_5" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_142" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="UiElementExists_3" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="414,60" />
+      <sap2010:ViewStateData Id="OnImageAppear_6" sap:VirtualizedContainerService.HintSize="414,161" />
+      <sap2010:ViewStateData Id="TakeScreenshot_5" sap:VirtualizedContainerService.HintSize="414,106" />
+      <sap2010:ViewStateData Id="SaveImage_5" sap:VirtualizedContainerService.HintSize="414,92" />
+      <sap2010:ViewStateData Id="Assign_10" sap:VirtualizedContainerService.HintSize="414,60" />
+      <sap2010:ViewStateData Id="Click_143" sap:VirtualizedContainerService.HintSize="414,106" />
+      <sap2010:ViewStateData Id="Sequence_9" sap:VirtualizedContainerService.HintSize="436,909">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_11" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Delay_4" sap:VirtualizedContainerService.HintSize="314,22" />
+      <sap2010:ViewStateData Id="TakeScreenshot_6" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="SaveImage_6" sap:VirtualizedContainerService.HintSize="314,92" />
+      <sap2010:ViewStateData Id="Assign_12" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="SendHotkey_3" sap:VirtualizedContainerService.HintSize="314,154" />
+      <sap2010:ViewStateData Id="Sequence_10" sap:VirtualizedContainerService.HintSize="336,818">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_3" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_121">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,632.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_122">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,531.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,582.5 300,632.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_123">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,430.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,481.5 300,531.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_124">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,329.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,380.5 300,430.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_125">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,228.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,279.5 300,329.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_126">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,178.5 300,228.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_8" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+            <x:Double x:Key="Height">825.5</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_144" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_145" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="OnImageAppear_7" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_146" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="OnImageAppear_8" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="UiElementExists_4" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_13" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="TakeScreenshot_7" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="SaveImage_7" sap:VirtualizedContainerService.HintSize="314,92" />
+      <sap2010:ViewStateData Id="Assign_14" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Click_147" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_11" sap:VirtualizedContainerService.HintSize="336,708">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_15" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Delay_5" sap:VirtualizedContainerService.HintSize="314,22" />
+      <sap2010:ViewStateData Id="TakeScreenshot_8" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="SaveImage_8" sap:VirtualizedContainerService.HintSize="314,92" />
+      <sap2010:ViewStateData Id="Assign_16" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="SendHotkey_4" sap:VirtualizedContainerService.HintSize="314,154" />
+      <sap2010:ViewStateData Id="Sequence_12" sap:VirtualizedContainerService.HintSize="336,818">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_4" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_134">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,704.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_133">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,624.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,675.5 300,704.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_135">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,524.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,575.5 300,624.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_132">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,430.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,481.5 300,524.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_131">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,329.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,380.5 300,430.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_128">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,228.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,279.5 300,329.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_129">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,178.5 300,228.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_9" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+            <x:Double x:Key="Height">823.2</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_148" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ViewStateData_1" sap:VirtualizedContainerService.HintSize="200,22" />
+      <sap2010:ViewStateData Id="Click_149" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="OnImageAppear_9" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_150" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="OnImageAppear_10" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="UiElementExists_5" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_17" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="TakeScreenshot_9" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="SaveImage_9" sap:VirtualizedContainerService.HintSize="314,92" />
+      <sap2010:ViewStateData Id="Assign_18" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Click_151" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_13" sap:VirtualizedContainerService.HintSize="336,708">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Assign_19" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="Delay_6" sap:VirtualizedContainerService.HintSize="314,22" />
+      <sap2010:ViewStateData Id="TakeScreenshot_10" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="SaveImage_10" sap:VirtualizedContainerService.HintSize="314,92" />
+      <sap2010:ViewStateData Id="Assign_20" sap:VirtualizedContainerService.HintSize="314,60" />
+      <sap2010:ViewStateData Id="SendHotkey_5" sap:VirtualizedContainerService.HintSize="314,154" />
+      <sap2010:ViewStateData Id="Sequence_14" sap:VirtualizedContainerService.HintSize="336,818">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_5" sap:VirtualizedContainerService.HintSize="200,51">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_136">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,704.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_137">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,624.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,675.5 300,704.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_138">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,524.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,575.5 300,624.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_139">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,430.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,481.5 300,524.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_140">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,329.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,380.5 300,430.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_141">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,228.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,279.5 300,329.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_145">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">450,153</av:Point>
+            <av:Size x:Key="ShapeSize">200,22</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">550,175 550,254 400,254</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_142">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">400,153 430,153 430,164 450,164</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_10" sap:VirtualizedContainerService.HintSize="762,1165">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,75</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+            <x:Double x:Key="Height">1128.632</x:Double>
+            <x:Double x:Key="Width">748</x:Double>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_143">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,1276.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_130">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,1175.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,1226.5 300,1276.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_127">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">200,1074.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,1125.5 300,1175.5</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="FlowStep_120">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,977.5</av:Point>
+            <av:Point x:Key="ShapeLocation">200,974.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,1025.5 300,1074.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -987,7 +2068,7 @@
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,876.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,927.5 300,977.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,927.5 300,974.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
