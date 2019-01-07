@@ -70,22 +70,23 @@
   </TextExpression.ReferencesForImplementation>
   <Flowchart DisplayName="cenario_19" sap2010:WorkflowViewState.IdRef="Flowchart_2">
     <Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_16">
-        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BuscaLinha_CallCenter workflow" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Componentes\BuscaLinha_CallCenter.xaml">
-          <ui:InvokeWorkflowFile.Arguments>
-            <InArgument x:TypeArguments="x:String" x:Key="linha">[Arglinha]</InArgument>
-          </ui:InvokeWorkflowFile.Arguments>
-        </ui:InvokeWorkflowFile>
-        <FlowStep.Next>
-          <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_2">
-            <TryCatch DisplayName="Try Catch - Execução cenário." sap2010:WorkflowViewState.IdRef="TryCatch_1">
-              <TryCatch.Try>
-                <Flowchart DisplayName="cenário_19" sap2010:WorkflowViewState.IdRef="Flowchart_1">
-                  <Flowchart.Variables>
-                    <Variable x:TypeArguments="ui:Image" Name="img" />
-                    <Variable x:TypeArguments="x:Boolean" Name="EvidenciaExiste" />
-                  </Flowchart.Variables>
-                  <Flowchart.StartNode>
+      <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+        <TryCatch DisplayName="Try Catch - Execução cenário." sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <TryCatch.Try>
+            <Flowchart DisplayName="cenário_19" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+              <Flowchart.Variables>
+                <Variable x:TypeArguments="ui:Image" Name="img" />
+                <Variable x:TypeArguments="x:Boolean" Name="EvidenciaExiste" />
+              </Flowchart.Variables>
+              <Flowchart.StartNode>
+                <FlowStep x:Name="__ReferenceID10">
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BuscaLinha_CallCenter workflow" UnSafe="False" WorkflowFileName="Componentes\BuscaLinha_CallCenter.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="x:String" x:Key="linha">[Arglinha]</InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                    <sap2010:WorkflowViewState.IdRef>InvokeWorkflowFile_2</sap2010:WorkflowViewState.IdRef>
+                  </ui:InvokeWorkflowFile>
+                  <FlowStep.Next>
                     <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_4">
                       <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Relacionamento" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                         <ui:Click.CursorPosition>
@@ -309,83 +310,84 @@
                         </FlowStep>
                       </FlowStep.Next>
                     </FlowStep>
-                  </Flowchart.StartNode>
-                  <x:Reference>__ReferenceID0</x:Reference>
-                  <x:Reference>__ReferenceID1</x:Reference>
-                  <x:Reference>__ReferenceID2</x:Reference>
-                  <x:Reference>__ReferenceID3</x:Reference>
-                  <x:Reference>__ReferenceID4</x:Reference>
-                  <x:Reference>__ReferenceID5</x:Reference>
-                  <x:Reference>__ReferenceID6</x:Reference>
-                  <x:Reference>__ReferenceID7</x:Reference>
-                  <x:Reference>__ReferenceID8</x:Reference>
-                  <x:Reference>__ReferenceID9</x:Reference>
-                </Flowchart>
-              </TryCatch.Try>
-              <TryCatch.Catches>
-                <Catch x:TypeArguments="s:ArgumentException" sap2010:WorkflowViewState.IdRef="Catch`1_1">
-                  <ActivityAction x:TypeArguments="s:ArgumentException">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="s:ArgumentException" Name="exception" />
-                    </ActivityAction.Argument>
-                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
-                      <Assign sap2010:WorkflowViewState.IdRef="Assign_1">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
-                        </Assign.Value>
-                      </Assign>
-                      <Assign sap2010:WorkflowViewState.IdRef="Assign_2">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">2</InArgument>
-                        </Assign.Value>
-                      </Assign>
-                    </Sequence>
-                  </ActivityAction>
-                </Catch>
-                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
-                  <ActivityAction x:TypeArguments="s:Exception">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                    </ActivityAction.Argument>
-                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
-                      <Assign sap2010:WorkflowViewState.IdRef="Assign_3">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
-                        </Assign.Value>
-                      </Assign>
-                      <Assign sap2010:WorkflowViewState.IdRef="Assign_4">
-                        <Assign.To>
-                          <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                        </Assign.To>
-                        <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">2</InArgument>
-                        </Assign.Value>
-                      </Assign>
-                    </Sequence>
-                  </ActivityAction>
-                </Catch>
-              </TryCatch.Catches>
-            </TryCatch>
-          </FlowStep>
-        </FlowStep.Next>
+                  </FlowStep.Next>
+                  <sap2010:WorkflowViewState.IdRef>FlowStep_17</sap2010:WorkflowViewState.IdRef>
+                </FlowStep>
+              </Flowchart.StartNode>
+              <x:Reference>__ReferenceID0</x:Reference>
+              <x:Reference>__ReferenceID1</x:Reference>
+              <x:Reference>__ReferenceID2</x:Reference>
+              <x:Reference>__ReferenceID3</x:Reference>
+              <x:Reference>__ReferenceID4</x:Reference>
+              <x:Reference>__ReferenceID5</x:Reference>
+              <x:Reference>__ReferenceID6</x:Reference>
+              <x:Reference>__ReferenceID7</x:Reference>
+              <x:Reference>__ReferenceID8</x:Reference>
+              <x:Reference>__ReferenceID9</x:Reference>
+              <x:Reference>__ReferenceID10</x:Reference>
+            </Flowchart>
+          </TryCatch.Try>
+          <TryCatch.Catches>
+            <Catch x:TypeArguments="s:ArgumentException" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+              <ActivityAction x:TypeArguments="s:ArgumentException">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="s:ArgumentException" Name="exception" />
+                </ActivityAction.Argument>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">2</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ActivityAction>
+            </Catch>
+            <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+              <ActivityAction x:TypeArguments="s:Exception">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                </ActivityAction.Argument>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">2</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ActivityAction>
+            </Catch>
+          </TryCatch.Catches>
+        </TryCatch>
       </FlowStep>
     </Flowchart.StartNode>
-    <x:Reference>__ReferenceID10</x:Reference>
     <x:Reference>__ReferenceID11</x:Reference>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18xOS54YW1sUAGCAQGFAQEDAVkBZQECRwOBAw8CAQFKCU4hAgFcUQ35AhgCAQJMQkxMAgFeSsYBSu4BAgFdUxHDAh0CARXLAhXcAiACAQzkAhX1AiACAQNaF2giAgFaaxt5JgIBWHwfigEqAgFVjQEjmwEuAgFSngEnrAEyAgFQrwErswE5AgFMtgEvxAE6AgFKxwEzywFDAgFDzgE3kwI8AgEYlgI7pAJGAgEWzAIX0wIgAgER1AIX2wIgAgEN5QIX7AIgAgEI7QIX9AIgAgEEZqoBZqUCAgFbd64Bd6QCAgFZiAGdAYgB+wECAVeIAYYCiAGNAgIBVpkBoQGZAaoDAgFUmQG1A5kBuwMCAVOqAboBqgGZAgIBUa8B1gGvAd0BAgFNsQGpAbEBlQICAU+xAaACsQGnAgIBTsIBwgHCAcoCAgFLxwHWAccB2gECAUfHAb0BxwHQAQIBRccBsgHHAbUBAgFEyQGxAckB3gICAUnJAekCyQHvAgIBSM4BRc4BWAIBGdABO+8BRgIBL/IBO5ECRgIBG6ICzgGiAvsCAgEX0QJC0QJPAgEUzgJDzgJQAgES2QJC2QJDAgEQ1gJD1gJRAgEO6gJC6gJPAgEL5wJD5wJQAgEJ8gJC8gJDAgEH7wJD7wJRAgEF1AE92wFGAgE/3AE93AGEAQIBPd0BPeUBUQIBOeYBPeYBmgICATTnAT3uAUYCATD2AT39AUYCASv+AT3+AYQBAgEp/wE9hwJRAgEliAI9iAKYAgIBIIkCPZACRgIBHNkBaNkBbwIBQtYBadYBdgIBQNwBTdwBVwIBPt8BtgHfAeoBAgE83QHSAd0B5AECATrmAW3mAdABAgE35gGFAuYBlwICATXsAWjsAWkCATPpAWnpAXcCATH7AWj7AX8CAS74AWn4AXYCASz+AU3+AVcCASqBArYBgQLqAQIBKP8B0gH/AeQBAgEmiAJtiALOAQIBI4gCgwKIApUCAgEhjgJojgJpAgEfiwJpiwJ3AgEd</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb18xOS54YW1sUAGCAQGFAQEDAVkBZQECRwODAw8CAQFKCf4CFAIBAkwNyAIZAgEV0AIR4QIcAgEM6QIR+gIcAgEDUxNYKwIBXFsXaSICAVpsG3omAgFYfR+LASoCAVWOASOcAS4CAVKfASetATICAVCwASu0ATkCAUy3AS/FAToCAUrIATPMAUMCAUPPATeUAjwCARiXAjulAkYCARbRAhPYAhwCARHZAhPgAhwCAQ3qAhPxAhwCAQjyAhP5AhwCAQRVTFVWAgFeU5kBU8EBAgFdZ6oBZ6UCAgFbeK4BeKQCAgFZiQGdAYkB+wECAVeJAYYCiQGNAgIBVpoBoQGaAaoDAgFUmgG1A5oBuwMCAVOrAboBqwGZAgIBUbAB1gGwAd0BAgFNsgGpAbIBlQICAU+yAaACsgGnAgIBTsMBwgHDAcoCAgFLyAHWAcgB2gECAUfIAb0ByAHQAQIBRcgBsgHIAbUBAgFEygGxAcoB3gICAUnKAekCygHvAgIBSM8BRc8BWAIBGdEBO/ABRgIBL/MBO5ICRgIBG6MCzgGjAvsCAgEX1gI+1gJLAgEU0wI/0wJMAgES3gI+3gI/AgEQ2wI/2wJNAgEO7wI+7wJLAgEL7AI/7AJMAgEJ9wI+9wI/AgEH9AI/9AJNAgEF1QE93AFGAgE/3QE93QGEAQIBPd4BPeYBUQIBOecBPecBmgICATToAT3vAUYCATD3AT3+AUYCASv/AT3/AYQBAgEpgAI9iAJRAgEliQI9iQKYAgIBIIoCPZECRgIBHNoBaNoBbwIBQtcBadcBdgIBQN0BTd0BVwIBPuABtgHgAeoBAgE83gHSAd4B5AECATrnAW3nAdABAgE35wGFAucBlwICATXtAWjtAWkCATPqAWnqAXcCATH8AWj8AX8CAS75AWn5AXYCASz/AU3/AVcCASqCArYBggLqAQIBKIAC0gGAAuQBAgEmiQJtiQLOAQIBI4kCgwKJApUCAgEhjwJojwJpAgEfjAJpjAJ3AgEd</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="InvokeWorkflowFile_1" sap:VirtualizedContainerService.HintSize="200,51">
+      <sap2010:ViewStateData Id="InvokeWorkflowFile_2" sap:VirtualizedContainerService.HintSize="200,51">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -575,20 +577,29 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_17">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">190,94.5</av:Point>
+            <av:Size x:Key="ShapeSize">200,51</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">190,120 160,120 160,199.1 200,199.1</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614,1402">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
             <av:Size x:Key="ShapeSize">60,75</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,173.6</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">330,40 420,40 420,120 390,120</av:PointCollection>
             <x:Double x:Key="Height">1365.5520000000001</x:Double>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="242,60" />
       <sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="242,60" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="264,284">
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="264,278">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -630,17 +641,8 @@
       <sap2010:ViewStateData Id="FlowStep_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">240,243.6</av:Point>
+            <av:Point x:Key="ShapeLocation">170,134.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_16">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">210,143.6</av:Point>
-            <av:Size x:Key="ShapeSize">200,51</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">310,194.6 310,224.6 340,224.6 340,243.6</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -650,7 +652,7 @@
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
             <av:Size x:Key="ShapeSize">60,75</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,107.7 310,107.7 310,143.6</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 270,107.5 270,134.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
