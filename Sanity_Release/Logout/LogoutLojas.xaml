@@ -85,7 +85,7 @@
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="27535df6966c570bb3b8145d6a8a6f9f" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='sairImage' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
             </ui:Click.Target>
           </ui:Click>
-          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  _crux_confirm_o...'" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+          <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click SIM SAIR" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -97,7 +97,7 @@
               </ui:CursorPosition>
             </ui:Click.CursorPosition>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="cb729dcd61dc1bed10fae5cd791cea0e" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="34d22523f974bf0b5eba9a2641af87c1" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
             </ui:Click.Target>
           </ui:Click>
           <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'iexplore.exe '" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="ca972988508b05d53b3f4e6d545d0c0d" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html *' /&gt;" WaitForReady="INTERACTIVE" />
@@ -114,14 +114,14 @@
       </FlowStep.Next>
     </FlowStep>
     <x:Reference>__ReferenceID1</x:Reference>
-    <sads:DebugSymbol.Symbol>d0ZDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ291dFxMb2dvdXRMb2phcy54YW1sCEIDdg8CAQFICWgUAgECSQtXFgIBB1gLZhYCAQVnC2f6AgIBA1WeAVWeAgIBCGSeAWTKAgIBBmfiAWfcAgIBBA==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0ZDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ291dFxMb2dvdXRMb2phcy54YW1sCEIDdg8CAQFICWgUAgECSQtXFgIBB1gLZhYCAQVnC2f6AgIBA1WeAVWeAgIBCGSeAWTwAgIBBmfiAWfcAgIBBA==</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="Click_8" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="Click_9" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="CloseWindow_1" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="200,51">
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,522">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Cenario_96"
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Cenario_96" this:Cenario_96.ArgCenario="96"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -9,6 +9,7 @@
  xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
  xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
  xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:this="clr-namespace:"
  xmlns:ui="http://schemas.uipath.com/workflow/activities"
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
@@ -21,6 +22,11 @@
     <x:Property Name="ArgCenario" Type="InArgument(x:String)" />
     <x:Property Name="ArgExecutado" Type="OutArgument(x:String)" />
   </x:Members>
+  <this:Cenario_96.ArgLinha>
+    <InArgument x:TypeArguments="x:String">
+      <Literal x:TypeArguments="x:String" Value="" />
+    </InArgument>
+  </this:Cenario_96.ArgLinha>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
@@ -109,7 +115,7 @@
                           </ui:CursorPosition>
                         </ui:Click.CursorPosition>
                         <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0e1fb2cc43adc5f4b3c752637aede10b" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl aaname='Alterar Senha' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="04db40235464dd3cb1a083d37e52f42e" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/lojas/portal.html' /&gt;&lt;webctrl aaname='Alterar Senha' parentid='mainMenu' tag='DIV' /&gt;" WaitForReady="INTERACTIVE" />
                         </ui:Click.Target>
                       </ui:Click>
                       <FlowStep.Next>
@@ -129,14 +135,14 @@
                                   </ui:CursorPosition>
                                 </ui:Click.CursorPosition>
                                 <ui:Click.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e6b0df8cc919652314376b07b3271ae1" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;button' tableRow='1' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4665462c4aef7b9cb453579aa5ddbd47" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
                                 </ui:Click.Target>
                               </ui:Click>
                               <FlowStep.Next>
                                 <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_46">
-                                  <ui:TextExists DisplayName="Text Exists 'INPUT  usuario'" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[Evidencia]" Text="80640917">
+                                  <ui:TextExists DisplayName="Text Exists 'INPUT  usuario'" FormattedText="False" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[Evidencia]" Text="80646234">
                                     <ui:TextExists.Target>
-                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="72a0feda285d6f49d6238f7b533cc043" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='usuario' tag='INPUT' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
+                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="1261c569400e1d27a424244814fa27ef" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=42505803854&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=696407464&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;&lt;webctrl id='usuario' tag='INPUT' /&gt;" TimeoutMS="3000" WaitForReady="COMPLETE" />
                                     </ui:TextExists.Target>
                                   </ui:TextExists>
                                   <FlowStep.Next>
@@ -323,30 +329,7 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID6</x:Reference>
-    <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_45">
-      <Sequence DisplayName="Web" sap2010:WorkflowViewState.IdRef="Sequence_61">
-        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Httpvivo3 Page'" InformativeScreenshot="05c4715b91b2e23ee0121c559931bd2c" Selector="&lt;html url='http://vivo360.vivo.com.br/vivo360/pages/crux/alteracaosenha/alteracaoSenha.html?cpfUsuario=41900788837&amp;amp;grupoVendedor=VFO&amp;amp;idUsuarioAtendimento=694101806&amp;amp;codigoVendedor=&amp;amp;organizacaoVendas=VDSP&amp;amp;escritorioVendas=L172&amp;amp;canalDistribuicao=35&amp;amp;nomeRegional=VIVO+-+SP&amp;amp;idRegional=26079&amp;amp;siglaUFsPdv=SP&amp;amp;codigoDDDsPdv=11&amp;amp;codigoGss=2446&amp;amp;sgCentro=172L&amp;amp;idCanalVenda=99042&amp;amp;nomeCanalVenda=LojaEcoBerrini&amp;amp;idCanalAtendimentoPalitagem=2&amp;amp;idCanalAtendimento=2&amp;amp;nomeCanalAtendimento=Loja+Pr%C3%B3pria&amp;amp;idProcedencia=1785&amp;amp;grupoAbertura=5442&amp;amp;codUsuarioPalitagem=268472177&amp;amp;tipoOperacao=1&amp;amp;tipoRelacionamento=2&amp;amp;protocoloSms=true&amp;amp;isFromLoja=true&amp;amp;fromLoja=1&amp;amp;nfovivo360lojas=true&amp;amp;estrangeiro=false' /&gt;">
-          <ui:BrowserScope.Body>
-            <ActivityAction x:TypeArguments="x:Object">
-              <ActivityAction.Argument>
-                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-              </ActivityAction.Argument>
-              <Sequence DisplayName="Do">
-                <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON  cancelarButton'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition OffsetX="39" OffsetY="13" Position="TopLeft" />
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3079f66a7a943e0c8f56e44442cd2e8a" Selector="&lt;webctrl id='cancelarButton' tag='BUTTON' /&gt;" WaitForReady="COMPLETE" />
-                  </ui:Click.Target>
-                </ui:Click>
-              </Sequence>
-            </ActivityAction>
-          </ui:BrowserScope.Body>
-        </ui:BrowserScope>
-      </Sequence>
-    </FlowStep>
-    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sT0wD3gIPAgEBVQnCAhQCAQJXDYwCGQIBFZQCEaUCHAIBDK0CEb4CHAIBA2ETYVsCAV5kF3IiAgFcdRt1YwIBWngfhgEqAgFYiQEjjQEzAgFRkAEn+QEsAgEWlQITnAIcAgERnQITpAIcAgENrgITtQIcAgEItgITvQIcAgEEYSNhLQIBX3CqAXDGAgIBXXUrdTUCAVuEAbIBhAHICQIBWYkBywGJAdUBAgFViQG4AYkBxQECAVOJAa0BiQGwAQIBUosBoQGLAdAIAgFXiwHbCIsB4QgCAVaQATWQAUICAReSASvDATYCATXGASv3ATYCARmaAj6aAksCARSXAj+XAkwCARKiAj6iAj8CARCfAj+fAk0CAQ6zAj6zAksCAQuwAj+wAkwCAQm7Aj67Aj8CAQe4Aj+4Ak0CAQWTAS2aATYCAU2bAS2bAXQCAUucAS2kAUECAUelAS2lAYsCAgFCpgEtrQE2AgE+rgEtwgE4AgE2xwEtzgE2AgExzwEtzwF1AgEv0AEt2AFBAgEr2QEt2QGJAgIBJtoBLeEBNgIBIuIBLfYBOAIBGpgBWJgBXwIBUJUBWZUBZgIBTpsBPZsBRwIBTJ4BpgGeAasIAgFKnAHQAZwB4gECAUilAV2lAcABAgFFpQH2AaUBiAICAUOrAVirAVkCAUGoAVmoAWcCAT+vAS/BAUECATfMAVjMAW8CATTJAVnJAWYCATLPAT3PAUcCATDSAaYB0gGrCAIBLtAB0AHQAeIBAgEs2QFd2QG+AQIBKdkB9AHZAYYCAgEn3wFY3wFZAgEl3AFZ3AFnAgEj4wEv9QFBAgEbrwHGAq8BywkCAT21ATW+AUACATjjAcYC4wHLCQIBIekBNfIBQAIBHLYBN70BQgIBOeoBN/EBQgIBHbsBygG7Af4BAgE8uAFjuAFnAgE7uAFWuAFaAgE67wHKAe8B/gECASDsAWPsAWcCAR/sAVbsAVoCAR4=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0lDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXENlbmFyaW9zVjJcQ2VuYXJpb185Ni54YW1sUQFbAV4BAxsHGzYBAlIDzQIPAgEBWwnIAhQCAQJdDZICGQIBFZoCEasCHAIBDLMCEcQCHAIBA2cTZ1sCAV5qF3giAgFcext7YwIBWn4fjAEqAgFYjwEjkwEzAgFRlgEn/wEsAgEWmwITogIcAgERowITqgIcAgENtAITuwIcAgEIvAITwwIcAgEEZyNnLQIBX3aqAXbGAgIBXXsrezUCAVuKAbIBigHVCAIBWY8BywGPAdUBAgFVjwG4AY8BxQECAVOPAa0BjwGwAQIBUpEBoQGRAdAIAgFXkQHbCJEB4QgCAVaWATWWAUICAReYASvJATYCATXMASv9ATYCARmgAj6gAksCARSdAj+dAkwCARKoAj6oAj8CARClAj+lAk0CAQ65Aj65AksCAQu2Aj+2AkwCAQnBAj7BAj8CAQe+Aj++Ak0CAQWZAS2gATYCAU2hAS2hAXQCAUuiAS2qAUECAUerAS2rAYsCAgFCrAEtswE2AgE+tAEtyAE4AgE2zQEt1AE2AgEx1QEt1QF1AgEv1gEt3gFBAgEr3wEt3wGJAgIBJuABLecBNgIBIugBLfwBOAIBGp4BWJ4BXwIBUJsBWZsBZgIBTqEBPaEBRwIBTKQBpgGkAasIAgFKogHQAaIB4gECAUirAV2rAcABAgFFqwH2AasBiAICAUOxAVixAVkCAUGuAVmuAWcCAT+1AS/HAUECATfSAVjSAW8CATTPAVnPAWYCATLVAT3VAUcCATDYAaYB2AGrCAIBLtYB0AHWAeIBAgEs3wFd3wG+AQIBKd8B9AHfAYYCAgEn5QFY5QFZAgEl4gFZ4gFnAgEj6QEv+wFBAgEbtQHGArUBywkCAT27ATXEAUACATjpAcYC6QHLCQIBIe8BNfgBQAIBHLwBN8MBQgIBOfABN/cBQgIBHcEBygHBAf4BAgE8vgFjvgFnAgE7vgFWvgFaAgE69QHKAfUB/gECASDyAWPyAWcCAR/yAVbyAVoCAR4=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -558,21 +541,6 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">200,113.6</av:Point>
-            <av:Size x:Key="ShapeSize">200,51</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_61" sap:VirtualizedContainerService.HintSize="200,51">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="FlowStep_45">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,213.6</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>

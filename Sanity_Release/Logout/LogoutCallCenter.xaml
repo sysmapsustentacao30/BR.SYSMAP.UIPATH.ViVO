@@ -91,40 +91,22 @@
               </ui:CursorPosition>
             </ui:Click.CursorPosition>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2f42f44fe6ef1745fe5614ee00083020" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8959fbe11b12420acfbcfc67a5302984" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_confirm_ok_deseja_realmente_sair_do_sistema_' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
             </ui:Click.Target>
           </ui:Click>
-          <ui:UiElementExists DisplayName="Element Exists 'iexplore.exe Mensagem'" Exists="[webSocket]" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
-            <ui:UiElementExists.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="3e61b671752771f277d9784ee9f070fa" Selector="&lt;wnd app='iexplore.exe' cls='#32770' title='Mensagem da página da web' /&gt;" TimeoutMS="3000" WaitForReady="INTERACTIVE" />
-            </ui:UiElementExists.Target>
-          </ui:UiElementExists>
-          <If Condition="[webSocket]" sap2010:WorkflowViewState.IdRef="If_1">
-            <If.Then>
-              <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
-                <ui:SendHotkey.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" WaitForReady="INTERACTIVE" />
-                </ui:SendHotkey.Target>
-                <sap2010:WorkflowViewState.IdRef>SendHotkey_1</sap2010:WorkflowViewState.IdRef>
-              </ui:SendHotkey>
-            </If.Then>
-          </If>
           <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'iexplore.exe NFO'" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="8bb71c2861131f9b32cb7559f4d7a14f" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='NFO Vivo 360º - Call Center - Internet Explorer' /&gt;" WaitForReady="INTERACTIVE" />
         </Sequence>
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
-    <sads:DebugSymbol.Symbol>d0tDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ291dFxMb2dvdXRDYWxsQ2VudGVyLnhhbWwROQN2DwIBATwJcRQCAQJAC1EbAgERUgtgFgIBD2ELZSACAQpmC28QAgEFcAtw6wICAQNPZU+ZAQIBE0w5TD4CARJengFeqAICARBjiQFj2gECAQ5j5QFj6wECAQ1hW2FoAgELZhlmJgIBBmgPbR8CAQhw5QFwzQICAQRovwFoxgECAQk=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0tDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ291dFxMb2dvdXRDYWxsQ2VudGVyLnhhbWwJOQNnDwIBATwJYhQCAQJAC1EbAgEHUgtgFgIBBWELYesCAgEDT2VPmQECAQlMOUw+AgEIXp4BXs4CAgEGYeUBYc0CAgEE</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="ClickImage_3" sap:VirtualizedContainerService.HintSize="464,106" />
-      <sap2010:ViewStateData Id="Click_7" sap:VirtualizedContainerService.HintSize="464,106" />
-      <sap2010:ViewStateData Id="UiElementExists_1" sap:VirtualizedContainerService.HintSize="464,106" />
-      <sap2010:ViewStateData Id="SendHotkey_1" sap:VirtualizedContainerService.HintSize="314,116" />
-      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="464,264" />
-      <sap2010:ViewStateData Id="CloseWindow_1" sap:VirtualizedContainerService.HintSize="464,106" />
-      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="486,972">
+      <sap2010:ViewStateData Id="ClickImage_3" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Click_7" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="CloseWindow_1" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="336,522">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
