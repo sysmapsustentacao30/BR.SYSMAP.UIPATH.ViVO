@@ -92,7 +92,7 @@
         <FlowStep.Next>
           <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
             <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
-              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Vivo360 L Page'" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="b254f4f5533ba8f29d436f4eee60c2e4" Selector="&lt;html title='Vivo 360 - Login' /&gt;">
+              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'Vivo360 L Page FireFox'" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="7642197b2fc9450a74d760b4d673d187" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='Vivo 360 - Login - Internet Explorer' /&gt;">
                 <ui:BrowserScope.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -105,12 +105,12 @@
                       </Sequence.Variables>
                       <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type into 'INPUT  usuarioTextBox'" EmptyField="False" sap2010:WorkflowViewState.IdRef="TypeInto_5" SendWindowMessages="False" SimulateType="True" Text="[ArgLogin]">
                         <ui:TypeInto.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ac5536ba3e5246d96c7750cbf19fd3fe" Selector="&lt;webctrl id='usuarioTextBox' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7ca3a21077d8e0963852d8563f33afcc" Selector="&lt;webctrl id='usuarioTextBox' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
                         </ui:TypeInto.Target>
                       </ui:TypeInto>
                       <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type into 'INPUT  senhaTextBox'" EmptyField="False" sap2010:WorkflowViewState.IdRef="TypeInto_6" SendWindowMessages="False" SimulateType="True" Text="[ArgSenha]">
                         <ui:TypeInto.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="20c1396aaaf415d10bbbfa814644821c" Selector="&lt;webctrl id='senhaTextBox' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2f2814d289694e7768f19a4352097c1f" Selector="&lt;webctrl id='senhaTextBox' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
                         </ui:TypeInto.Target>
                       </ui:TypeInto>
                       <ui:SendHotkey DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Send Hotkey" EmptyField="False" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SendWindowMessages="False" SpecialKey="True">
@@ -136,7 +136,7 @@
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
-    <sads:DebugSymbol.Symbol>d0pDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ2luc1xMb2dpbkNhbGxDZW50ZXIueGFtbBoBYwFlAQMUBxQ2AQJLA4wBDwIBAU4JWxoCARZeDYQBGAIBAk6/AU6NAgIBGlQPWBoCARdfD4MBIQIBA1URVxwCARhfpgJfzwICARVlFYABIAIBBFYTVosBAgEZahduJQIBEW8XcyUCAQ10F3gnAgELeRd5XgIBCXoXficCAQd/F39eAgEFbKoBbN0BAgEUargCasQCAgEScaoBcdsBAgEQb7YCb8ICAgEOdPYBdP0BAgEMeSd5MQIBCnr2AXr9AQIBCH8nfzECAQY=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0pDOlxHSVRIVUJcQlIuU1lTTUFQLlVJUEFUSC5WaVZPXFNhbml0eV9SZWxlYXNlXExvZ2luc1xMb2dpbkNhbGxDZW50ZXIueGFtbBoBYwFlAQMUBxQ2AQJLA4wBDwIBAU4JWxoCARZeDYQBGAIBAk6/AU6NAgIBGlQPWBoCARdfD4MBIQIBA1URVxwCARhfrgJfiwMCARVlFYABIAIBBFYTVosBAgEZahduJQIBEW8XcyUCAQ10F3gnAgELeRd5XgIBCXoXficCAQd/F39eAgEFbKoBbN0BAgEUargCasQCAgEScaoBcdsBAgEQb7YCb8ICAgEOdPYBdP0BAgEMeSd5MQIBCnr2AXr9AQIBCH8nfzECAQY=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
