@@ -953,10 +953,11 @@
   },
   "libraries": {
     "AvalonEdit/5.0.3": {
-      "sha512": "O7qf3H3SP2VrQujwmzvb3hJ+lw4rNWcZkpMH8T0qb/cA1UccoJIZ9qL/+DM7bws9l8Hxnyk7GUYVFrCSZeH+uA==",
+      "sha512": "L5CgXRniZRxI/tjoBztVgZnvTL1F/qKrRJa+Q88I0Gl78WRNaqdMkuOlkAsOHTauBGZSQNDO0/X+xIpzfzmLdQ==",
       "type": "package",
       "path": "avalonedit/5.0.3",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "avalonedit.5.0.3.nupkg.sha512",
         "avalonedit.nuspec",
@@ -978,10 +979,11 @@
       ]
     },
     "Caliburn.Micro/3.0.1": {
-      "sha512": "34GUogBL8tS1rWCSugKwaOdmZZz162JC0K3HCSPuSlkCZwA1zDTspUp7owXigOjliCSiBzP1ltBFMWpLxs9BtQ==",
+      "sha512": "6RaRnvbHnwm2kx9N+xyI6+qCLDJaAGsV1JgKlQ2QWApYNinpqO1GglwZdCWQ6eWj0var+XjbM8V7NYqB/C1elg==",
       "type": "package",
       "path": "caliburn.micro/3.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "caliburn.micro.3.0.1.nupkg.sha512",
         "caliburn.micro.nuspec",
@@ -1041,10 +1043,11 @@
       ]
     },
     "Caliburn.Micro.Core/3.0.1": {
-      "sha512": "rYCObUe1g/ks4kTEPMFc4yFShYWkL6P5sfUsJOPGSKPXCsnKXL0XaclU3XGWAHBeNTPBgJO9pJBfMBcaq3iyRg==",
+      "sha512": "CZPp0HVaHiW/N6JGsXpyJXnoyVRhFMY+H2uZcD24oNPczLOX1WuWsyVrSdagqUhjZnP1wV42Y6PkIUXEWWgOCg==",
       "type": "package",
       "path": "caliburn.micro.core/3.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "caliburn.micro.core.3.0.1.nupkg.sha512",
         "caliburn.micro.core.nuspec",
@@ -1128,10 +1131,12 @@
       ]
     },
     "Extended.Wpf.Toolkit/2.8.0": {
-      "sha512": "YzLQ/sB91g0gRftvlPGOqYJe6TwiPTQoYhO+4ZSsnxaMEQZ5KZIQySTtsTWZ0HJC5+xrgk1Z/if7kjY4cSRPdw==",
+      "sha512": "wKjJl4sDyXTVzgiKTBTw8jT0/3OwpEklQuWGe1Nz2HX0joiBeUzIurY2mnERni+8XHwateRcuks6yk/cuR22fA==",
       "type": "package",
       "path": "extended.wpf.toolkit/2.8.0",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "extended.wpf.toolkit.2.8.0.nupkg.sha512",
         "extended.wpf.toolkit.nuspec",
@@ -1157,10 +1162,11 @@
       ]
     },
     "Fluent.Ribbon/3.5.1.198": {
-      "sha512": "qMveoU49lCybLhMI8MuSIPFVYlUaBVVuxOHsEgleEeaaOUxvuFQP8gh+hKjCPpjYHU/srdyrFBLsajNQRDqiXw==",
+      "sha512": "Ix4NJKGVHqeI1PeF1PB6as5L7qRx2hyPiXg+iNJfjru33rRlAthWlyUTS4HJEajWPxCJfIaVWx5gPdBE7nVJlQ==",
       "type": "package",
       "path": "fluent.ribbon/3.5.1.198",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "fluent.ribbon.3.5.1.198.nupkg.sha512",
         "fluent.ribbon.nuspec",
@@ -1176,10 +1182,11 @@
       ]
     },
     "FluentFTP/19.1.2": {
-      "sha512": "UIKSc2ylmnnndZSxdi3vvFUGUQqIjiAyQvEAuwo32DcrQNj8DuyYuGRdXyB6L7J4V+LgvPGDEVvIYpqSeIXxwg==",
+      "sha512": "0xvKcao/sUbZQgD2PhXHejl9msxUzuU7cSpczDb2MnI1cUwp1ViS8FjkPjPE9C6UucLgII4nIpq8VYEvNyjgoQ==",
       "type": "package",
       "path": "fluentftp/19.1.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "fluentftp.19.1.2.nupkg.sha512",
         "fluentftp.nuspec",
@@ -1198,10 +1205,11 @@
       ]
     },
     "Humanizer.Core/2.4.2": {
-      "sha512": "A8amPZrfrFU+6BO+t/NLejofWah39XsRuovQqaHdYYtXANM+dexMrc+AbLmuH3qNV4hJv6FArBsBBtZcaODLZg==",
+      "sha512": "1ZKy7LHVYuhmM398hpvyWCcc2Fcx+hqiGYASELDthjWhVrsA6IabYnHRfkQFF6nGG6x4fA1D0StDX/U2Pj+FdQ==",
       "type": "package",
       "path": "humanizer.core/2.4.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "humanizer.core.2.4.2.nupkg.sha512",
         "humanizer.core.nuspec",
@@ -1249,10 +1257,11 @@
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
-      "sha512": "a30J6t7LRkYx974tLaRnJc/dYZ1M7uhc5vdgULxdhL7HJNJydG7e+jyAVD15gK+vFR1i9MH+5Ch9t1zhb/Lp1g==",
+      "sha512": "JO9CzV1hvjtrIzq06gJ5nNv7GV24Xz3Y3O9vx7fCe7ndNA0NmD3fZ9JUgFir2UvJ2/+9vvCo/6RXjyfywvQQIw==",
       "type": "package",
       "path": "microsoft.rest.clientruntime/2.3.10",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net452/Microsoft.Rest.ClientRuntime.dll",
         "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
@@ -1286,10 +1295,12 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -1340,10 +1351,11 @@
       ]
     },
     "RestSharp/105.0.1": {
-      "sha512": "NtGkYUFbDNw3FGWvQlkqM4wpNM/0lExEudDN3rP1MNbH8f0qM/K9EagDNhq5XzSMST40RD3ikV1J2YaHKvZZ8Q==",
+      "sha512": "2jEivNmSZFsK/iyoOu0l9+pEM2hXLQCvOQdLgQcr92cdnirl2xm+Wddy7lP6JTwZSLjAQ1ogHlal1tLu5hfZPw==",
       "type": "package",
       "path": "restsharp/105.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net35-client/RestSharp.dll",
         "lib/net35-client/RestSharp.xml",
@@ -1363,10 +1375,11 @@
       ]
     },
     "Selenium.Support/3.7.0": {
-      "sha512": "ZmNhRLiCE28FMCq6G9cBN9wR4ZpMtZH8NxRPUvXFieQgdiZ0oI0uFmZXOddML2ze2izT4zOGw8gCKC/Hw+9uNQ==",
+      "sha512": "Pcb4oq63VP5n0KPXTqWwENefi+9wHcw+n3Fc2lcK/Fhxhe/+ZS6dXQX5neGzQFAAtoLTYQqjPoBFjLsHLYLRQQ==",
       "type": "package",
       "path": "selenium.support/3.7.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net35/WebDriver.Support.dll",
         "lib/net35/WebDriver.Support.xml",
@@ -1381,10 +1394,11 @@
       ]
     },
     "Selenium.WebDriver/3.7.0": {
-      "sha512": "G1SB8/Jmn/ujGQpd6XQwfhd7cLQ2Mk1X/msSFaGjFnQ0rTGT7wIp+tTM7Ut39k6ugFbF2mVFlnlXeVH8Bqa9yg==",
+      "sha512": "prdrjk5oeMqc4KPgZKPzi4lgYLNsmo7beY5Bz5pMWeUWV53HJdRGnS5atD5t3s/KGmCQw0BC7rKlD2NW1L50EA==",
       "type": "package",
       "path": "selenium.webdriver/3.7.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net35/WebDriver.dll",
         "lib/net35/WebDriver.xml",
@@ -1412,10 +1426,11 @@
       ]
     },
     "SSH.NET/2016.1.0": {
-      "sha512": "Ky0PcLxFj7UyK7zAfNDtdnQEEFKdIc8COiSqe69k13ACuSJNiHmvOwHkARAVFQ4VgsbVFLupgYiXes0O00wEWA==",
+      "sha512": "b0fcFFOE044KNRhq1uGujmK04ab+OzA9xARdeVCoZrY6I4D1IIaR6dn6qBIa+er4bJapGBhznDitwcRQpSRC0w==",
       "type": "package",
       "path": "ssh.net/2016.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net35/Renci.SshNet.dll",
         "lib/net35/Renci.SshNet.xml",
@@ -1438,10 +1453,11 @@
       ]
     },
     "System.Management.Automation/6.1.7601.17515": {
-      "sha512": "JX7p60cNdLW86m/cfuHp3XQK5I8LZhOk1eONeMCqUpGwXnw0J/mLa02H5vzIglV7aKg24Oe7udae7Xmlhvdb+Q==",
+      "sha512": "mOqRM+nD607Cw+2seNWfayjtsae41rcarVHgJ5aHIn2y2RF5N6z71bIOqrpITomKzi7R0msz5gUOco041+aDTw==",
       "type": "package",
       "path": "system.management.automation/6.1.7601.17515",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/System.Management.Automation.dll",
         "lib/net45/System.Management.Automation.dll",
@@ -1960,8 +1976,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Teste_V2",
-      "projectName": "Teste_V2",
+      "projectUniqueName": "SanityVivo",
+      "projectName": "SanityVivo",
       "projectPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local",
       "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
       "outputPath": "C:\\GITHUB\\BR.SYSMAP.UIPATH.ViVO\\Sanity_Release\\.local"
