@@ -38,7 +38,7 @@ def sendTextAttachments(text, channel, color):
     # send a message to a specific channel
     sc.api_call(
                  "chat.postMessage",
-                  channel= "uipath_release",
+                  channel= channel,
                   attachments=attachments,
                   as_user= True,
                   username="yoda_nero"
@@ -59,7 +59,7 @@ def sendImage(text, titleImage, img, channel):
     # send a message to a specific channel
     sc.api_call(
                  "chat.postMessage",
-                  channel= "uipath_release",
+                  channel= channel,
                   text = text,
                   attachments=attachments,
                   as_user= True,
@@ -80,8 +80,9 @@ def sendFile(file,typeFile,fileName):
     payload={
               "filename":fileName, 
               "token":token, 
-              "channels":['uipath_release']
+              "channels":['uipath']
             }
  
     requests.post("https://slack.com/api/files.upload", params=payload, files=my_file)
+
 
