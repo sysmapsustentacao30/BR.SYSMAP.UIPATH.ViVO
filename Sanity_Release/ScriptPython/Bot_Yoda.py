@@ -3,13 +3,13 @@ import os
 import requests
 from slackclient import SlackClient
 
+# get the api key from the environment variables
+token = "xoxb-465708053495-463929998784-E5EI25d7mk4piyfY7Q2Udv79"
+
 
 # function to send messages to Slack
 def sendMessage(text,channel):
       
-    # get the api key from the environment variables
-    token = "xoxb-465708053495-463929998784-7YFPTVirkcqNpSeLl7j34ZkI"
-    
     # connect to the api and create client
     sc =SlackClient(token)
 
@@ -25,9 +25,6 @@ def sendMessage(text,channel):
 
 # function to send edited messages to Slack
 def sendTextAttachments(text, channel, color):
-
-    # get the api key from the environment variables
-    token = "xoxb-465708053495-463929998784-7YFPTVirkcqNpSeLl7j34ZkI"  
 
     # Attachment file
     attachments = [{"color": color, "text":text}]
@@ -46,9 +43,6 @@ def sendTextAttachments(text, channel, color):
            
 # function to send messages to Slack
 def sendImage(text, titleImage, img, channel):
-    
-    # get the api key from the environment variables
-    token = "xoxb-465708053495-463929998784-7YFPTVirkcqNpSeLl7j34ZkI"
 
     # Attachment file
     attachments = [{"title": titleImage, "image_url": img}]
@@ -68,21 +62,17 @@ def sendImage(text, titleImage, img, channel):
 
 
 # function to send file to Slack
-def sendFile(file,typeFile,fileName):
-
-    # get the api key from the environment variables
-    token = "xoxb-465708053495-463929998784-7YFPTVirkcqNpSeLl7j34ZkI"
+def sendFile(pathfile,filename,file_type):
     
+
     #Abrir Arquivo
-    my_file = {'file' : (file, open(file, 'rb'), typeFile)}
+    my_file = {'file' : (pathfile, open(pathfile, 'rb'), file_type)}
 
     #Parametros
     payload={
-              "filename":fileName, 
+              "filename":filename, 
               "token":token, 
               "channels":['uipath']
             }
- 
+    
     requests.post("https://slack.com/api/files.upload", params=payload, files=my_file)
-
-
