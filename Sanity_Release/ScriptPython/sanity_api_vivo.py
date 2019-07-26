@@ -21,7 +21,7 @@ def update_cenario(email,password,cenario,executado,status,codRelease):
 
     email = "uipath.api@sysmap.com.br"
     password = "UIPath2018"
-    #Url para gerar o token
+
     url="http://apisanity.sysmap.com.br/api/ReleaseVivo/AtualizaCenario" 
 
     # Parametros
@@ -30,7 +30,3 @@ def update_cenario(email,password,cenario,executado,status,codRelease):
     update = requests.post(url, params=param)
 
     return update.text
-    
-valor = get_list("teste","teste")
-
-print(valor)

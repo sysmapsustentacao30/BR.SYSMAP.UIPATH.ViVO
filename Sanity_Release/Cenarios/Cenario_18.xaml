@@ -80,9 +80,9 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID12</x:Reference>
+      <x:Reference>__ReferenceID10</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID12" sap2010:WorkflowViewState.IdRef="FlowStep_48">
+    <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_48">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">200,113.6</av:Point>
@@ -108,9 +108,9 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <Flowchart.StartNode>
-              <x:Reference>__ReferenceID11</x:Reference>
+              <x:Reference>__ReferenceID9</x:Reference>
             </Flowchart.StartNode>
-            <FlowStep x:Name="__ReferenceID11" sap2010:WorkflowViewState.IdRef="FlowStep_47">
+            <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_47">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">200,103.666666666667</av:Point>
@@ -118,7 +118,7 @@
                   <av:PointCollection x:Key="ConnectorLocation">300,154.666666666667 300,206.333333333333</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Consulta" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_52" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Consulta" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_52" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -144,7 +144,7 @@
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">200,206.333333333333</av:Point>
                       <av:Size x:Key="ShapeSize">200,51</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">300,257.333333333333 300,309</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">300,257.333333333333 300,307.333333333333</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Cliente/Prospect" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_53" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -168,283 +168,211 @@
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:Click>
                   <FlowStep.Next>
-                    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_45">
+                    <FlowStep x:Name="__ReferenceID8">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <av:Point x:Key="ShapeLocation">200,309</av:Point>
+                          <av:Point x:Key="ShapeLocation">200,307.333333333333</av:Point>
                           <av:Size x:Key="ShapeSize">200,51</av:Size>
-                          <av:PointCollection x:Key="ConnectorLocation">300,360 300,411.666666666667</av:PointCollection>
+                          <av:PointCollection x:Key="ConnectorLocation">300,358.333333333333 300,609</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select tipo de linha" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SelectItem_19" Item="CPF">
-                        <ui:SelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="32">
-                            <x:String>N° da Linha</x:String>
-                            <x:String>CPF</x:String>
-                            <x:String>ICCID</x:String>
-                            <x:String>ESN Decimal</x:String>
-                            <x:String>ESN Hexadecimal</x:String>
-                            <x:String>CNPJ</x:String>
-                            <x:String>CNPJ (raiz)</x:String>
-                            <x:String>RG</x:String>
-                            <x:String>RNE</x:String>
-                            <x:String>Passaporte</x:String>
-                            <x:String>N° do Protocolo</x:String>
-                            <x:String>Nome / Sobrenome</x:String>
-                            <x:String>Razão Social</x:String>
-                            <x:String>N° da Conta</x:String>
-                            <x:String>NRC</x:String>
-                            <x:String>Código Especial</x:String>
-                            <x:String>DOCUMENTO ESTRANGEIRO</x:String>
-                          </scg:List>
-                        </ui:SelectItem.Items>
-                        <ui:SelectItem.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6a81f282c4afd90fc627cfcffc2ba90d" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='pesquisarPorListBox' tag='SELECT' /&gt;" WaitForReady="INTERACTIVE" />
-                        </ui:SelectItem.Target>
+                      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke BuscaMassa_CallCenter workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Componentes\BuscaMassa_CallCenter.xaml">
+                        <ui:InvokeWorkflowFile.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="linha">[ArgLinha]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="tipoMassa">cpf</InArgument>
+                        </ui:InvokeWorkflowFile.Arguments>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                      </ui:SelectItem>
+                      </ui:InvokeWorkflowFile>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_44">
+                        <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_42">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <av:Point x:Key="ShapeLocation">200,411.666666666667</av:Point>
-                              <av:Size x:Key="ShapeSize">200,51</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">300,462.666666666667 300,504.5</av:PointCollection>
+                              <av:Point x:Key="ShapeLocation">200,609</av:Point>
+                              <av:Size x:Key="ShapeSize">200,22</av:Size>
+                              <av:PointCollection x:Key="ConnectorLocation">300,631 300,673.666666666667</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'Linha'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SetValue_8" Text="[ArgLinha]">
-                            <ui:SetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c9d6ca98db70b8af11ca0719047c4b0e" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_mask_1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
-                            </ui:SetValue.Target>
+                          <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_12">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                          </ui:SetValue>
+                          </Delay>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID10">
+                            <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_41">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <av:Point x:Key="ShapeLocation">200,504.5</av:Point>
+                                  <av:Point x:Key="ShapeLocation">200,673.666666666667</av:Point>
                                   <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                  <av:PointCollection x:Key="ConnectorLocation">300,555.5 300,609</av:PointCollection>
+                                  <av:PointCollection x:Key="ConnectorLocation">300,724.666666666667 300,773.666666666667</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Buscar'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_56" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                                <ui:Click.CursorPosition>
-                                  <ui:CursorPosition Position="Center">
-                                    <ui:CursorPosition.OffsetX>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetX>
-                                    <ui:CursorPosition.OffsetY>
-                                      <InArgument x:TypeArguments="x:Int32" />
-                                    </ui:CursorPosition.OffsetY>
-                                  </ui:CursorPosition>
-                                </ui:Click.CursorPosition>
-                                <ui:Click.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a899551baa60e951edb6c23833cf0dad" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='buscarButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
-                                </ui:Click.Target>
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </ui:Click>
+                              <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="TakeScreenshot_22" Screenshot="[PrintEvidencia]">
+                                <ui:TakeScreenshot.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a82c2ee17e35c85a288a29497398cf66" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                </ui:TakeScreenshot.Target>
+                              </ui:TakeScreenshot>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_42">
+                                <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_40">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <av:Point x:Key="ShapeLocation">200,609</av:Point>
-                                      <av:Size x:Key="ShapeSize">200,22</av:Size>
-                                      <av:PointCollection x:Key="ConnectorLocation">300,631 300,673.666666666667</av:PointCollection>
+                                      <av:Point x:Key="ShapeLocation">200,773.666666666667</av:Point>
+                                      <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                      <av:PointCollection x:Key="ConnectorLocation">300,824.666666666667 300,876.333333333333</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_12">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                  </Delay>
+                                  <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia1_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SaveImage_18" Image="[PrintEvidencia]" />
                                   <FlowStep.Next>
-                                    <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_41">
+                                    <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_39">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <av:Point x:Key="ShapeLocation">200,673.666666666667</av:Point>
+                                          <av:Point x:Key="ShapeLocation">200,876.333333333333</av:Point>
                                           <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                          <av:PointCollection x:Key="ConnectorLocation">300,724.666666666667 300,773.666666666667</av:PointCollection>
+                                          <av:PointCollection x:Key="ConnectorLocation">300,927.333333333333 300,949</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'personalizado  ViewerCo...'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="TakeScreenshot_22" Screenshot="[PrintEvidencia]">
-                                        <ui:TakeScreenshot.Target>
-                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a82c2ee17e35c85a288a29497398cf66" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
-                                        </ui:TakeScreenshot.Target>
-                                      </ui:TakeScreenshot>
+                                      <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'TD'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_55" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                                        <ui:Click.CursorPosition>
+                                          <ui:CursorPosition Position="Center">
+                                            <ui:CursorPosition.OffsetX>
+                                              <InArgument x:TypeArguments="x:Int32" />
+                                            </ui:CursorPosition.OffsetX>
+                                            <ui:CursorPosition.OffsetY>
+                                              <InArgument x:TypeArguments="x:Int32" />
+                                            </ui:CursorPosition.OffsetY>
+                                          </ui:CursorPosition>
+                                        </ui:Click.CursorPosition>
+                                        <ui:Click.Target>
+                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="602205b7f1cbe7d6e4ad854c3bf4fca5" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' parentid='gridResultadoPesquisaCliente' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td' tableCol='4' tableRow='11' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                                        </ui:Click.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:Click>
                                       <FlowStep.Next>
-                                        <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_40">
+                                        <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_38">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <av:Point x:Key="ShapeLocation">200,773.666666666667</av:Point>
-                                              <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                              <av:PointCollection x:Key="ConnectorLocation">300,824.666666666667 300,876.333333333333</av:PointCollection>
+                                              <av:Point x:Key="ShapeLocation">200,949</av:Point>
+                                              <av:Size x:Key="ShapeSize">200,22</av:Size>
+                                              <av:PointCollection x:Key="ConnectorLocation">300,971 300,1003.66666666667</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia1_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SaveImage_18" Image="[PrintEvidencia]" />
+                                          <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_13">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Delay>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_39">
+                                            <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_37">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <av:Point x:Key="ShapeLocation">200,876.333333333333</av:Point>
+                                                  <av:Point x:Key="ShapeLocation">200,1003.66666666667</av:Point>
                                                   <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                                  <av:PointCollection x:Key="ConnectorLocation">300,927.333333333333 300,949</av:PointCollection>
+                                                  <av:PointCollection x:Key="ConnectorLocation">300,1054.66666666667 300,1103.6</av:PointCollection>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'TD'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Click_55" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
-                                                <ui:Click.CursorPosition>
-                                                  <ui:CursorPosition Position="Center">
-                                                    <ui:CursorPosition.OffsetX>
-                                                      <InArgument x:TypeArguments="x:Int32" />
-                                                    </ui:CursorPosition.OffsetX>
-                                                    <ui:CursorPosition.OffsetY>
-                                                      <InArgument x:TypeArguments="x:Int32" />
-                                                    </ui:CursorPosition.OffsetY>
-                                                  </ui:CursorPosition>
-                                                </ui:Click.CursorPosition>
-                                                <ui:Click.Target>
-                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="602205b7f1cbe7d6e4ad854c3bf4fca5" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' parentid='gridResultadoPesquisaCliente' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td' tableCol='4' tableRow='11' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
-                                                </ui:Click.Target>
+                                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'TD'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="GetValue_2">
+                                                <ui:GetValue.Target>
+                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4bb08a4d29a4f1d42f9fb7e126837a1b" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='hpanelTitleInfocliente' tag='TABLE' /&gt;&lt;webctrl idx='1' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                                                </ui:GetValue.Target>
+                                                <ui:GetValue.Value>
+                                                  <OutArgument x:TypeArguments="ui:GenericValue">[EvidenciaFinal]</OutArgument>
+                                                </ui:GetValue.Value>
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                              </ui:Click>
+                                              </ui:GetValue>
                                               <FlowStep.Next>
-                                                <FlowStep x:Name="__ReferenceID8" sap2010:WorkflowViewState.IdRef="FlowStep_38">
+                                                <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_35">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                      <av:Point x:Key="ShapeLocation">200,949</av:Point>
-                                                      <av:Size x:Key="ShapeSize">200,22</av:Size>
-                                                      <av:PointCollection x:Key="ConnectorLocation">300,971 300,1003.66666666667</av:PointCollection>
+                                                      <av:Point x:Key="ShapeLocation">200,1103.6</av:Point>
+                                                      <av:Size x:Key="ShapeSize">200,51</av:Size>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_13">
+                                                  <If Condition="[EvidenciaFinal &lt;&gt; &quot;&quot;]" DisplayName="If Evidencia final for texto em branco = true" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="If_12">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                  </Delay>
-                                                  <FlowStep.Next>
-                                                    <FlowStep x:Name="__ReferenceID7" sap2010:WorkflowViewState.IdRef="FlowStep_37">
-                                                      <sap:WorkflowViewStateService.ViewState>
-                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                          <av:Point x:Key="ShapeLocation">200,1003.66666666667</av:Point>
-                                                          <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                                          <av:PointCollection x:Key="ConnectorLocation">300,1054.66666666667 300,1103.6</av:PointCollection>
-                                                        </scg:Dictionary>
-                                                      </sap:WorkflowViewStateService.ViewState>
-                                                      <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'TD'" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="GetValue_2">
-                                                        <ui:GetValue.Target>
-                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4bb08a4d29a4f1d42f9fb7e126837a1b" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='hpanelTitleInfocliente' tag='TABLE' /&gt;&lt;webctrl idx='1' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
-                                                        </ui:GetValue.Target>
-                                                        <ui:GetValue.Value>
-                                                          <OutArgument x:TypeArguments="ui:GenericValue">[EvidenciaFinal]</OutArgument>
-                                                        </ui:GetValue.Value>
+                                                    <If.Then>
+                                                      <Sequence sap:VirtualizedContainerService.HintSize="336,624" sap2010:WorkflowViewState.IdRef="Sequence_53">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                      </ui:GetValue>
-                                                      <FlowStep.Next>
-                                                        <FlowStep x:Name="__ReferenceID9" sap2010:WorkflowViewState.IdRef="FlowStep_35">
-                                                          <sap:WorkflowViewStateService.ViewState>
-                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <av:Point x:Key="ShapeLocation">200,1103.6</av:Point>
-                                                              <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                                            </scg:Dictionary>
-                                                          </sap:WorkflowViewStateService.ViewState>
-                                                          <If Condition="[EvidenciaFinal &lt;&gt; &quot;&quot;]" DisplayName="If Evidencia final for texto em branco = true" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="If_12">
-                                                            <sap:WorkflowViewStateService.ViewState>
-                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                              </scg:Dictionary>
-                                                            </sap:WorkflowViewStateService.ViewState>
-                                                            <If.Then>
-                                                              <Sequence sap:VirtualizedContainerService.HintSize="336,624" sap2010:WorkflowViewState.IdRef="Sequence_53">
-                                                                <sap:WorkflowViewStateService.ViewState>
-                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                  </scg:Dictionary>
-                                                                </sap:WorkflowViewStateService.ViewState>
-                                                                <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_31">
-                                                                  <Assign.To>
-                                                                    <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                                                  </Assign.To>
-                                                                  <Assign.Value>
-                                                                    <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
-                                                                  </Assign.Value>
-                                                                </Assign>
-                                                                <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_14" />
-                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'Evidencia'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="TakeScreenshot_23" Screenshot="[PrintEvidencia]">
-                                                                  <ui:TakeScreenshot.Target>
-                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
-                                                                  </ui:TakeScreenshot.Target>
-                                                                </ui:TakeScreenshot>
-                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="314,92" sap2010:WorkflowViewState.IdRef="SaveImage_19" Image="[PrintEvidencia]" />
-                                                                <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_32">
-                                                                  <Assign.To>
-                                                                    <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                                                  </Assign.To>
-                                                                  <Assign.Value>
-                                                                    <InArgument x:TypeArguments="x:String">3</InArgument>
-                                                                  </Assign.Value>
-                                                                </Assign>
-                                                              </Sequence>
-                                                            </If.Then>
-                                                            <If.Else>
-                                                              <Sequence sap:VirtualizedContainerService.HintSize="336,624" sap2010:WorkflowViewState.IdRef="Sequence_54">
-                                                                <sap:WorkflowViewStateService.ViewState>
-                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                  </scg:Dictionary>
-                                                                </sap:WorkflowViewStateService.ViewState>
-                                                                <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_33">
-                                                                  <Assign.To>
-                                                                    <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
-                                                                  </Assign.To>
-                                                                  <Assign.Value>
-                                                                    <InArgument x:TypeArguments="x:String">Error</InArgument>
-                                                                  </Assign.Value>
-                                                                </Assign>
-                                                                <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_15" />
-                                                                <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'Evidencia error'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="TakeScreenshot_24" Screenshot="[PrintEvidencia]">
-                                                                  <ui:TakeScreenshot.Target>
-                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
-                                                                  </ui:TakeScreenshot.Target>
-                                                                </ui:TakeScreenshot>
-                                                                <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="314,92" sap2010:WorkflowViewState.IdRef="SaveImage_20" Image="[PrintEvidencia]" />
-                                                                <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_34">
-                                                                  <Assign.To>
-                                                                    <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
-                                                                  </Assign.To>
-                                                                  <Assign.Value>
-                                                                    <InArgument x:TypeArguments="x:String">2</InArgument>
-                                                                  </Assign.Value>
-                                                                </Assign>
-                                                              </Sequence>
-                                                            </If.Else>
-                                                          </If>
-                                                        </FlowStep>
-                                                      </FlowStep.Next>
-                                                    </FlowStep>
-                                                  </FlowStep.Next>
+                                                        <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_31">
+                                                          <Assign.To>
+                                                            <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                          </Assign.To>
+                                                          <Assign.Value>
+                                                            <InArgument x:TypeArguments="x:String">Sucesso</InArgument>
+                                                          </Assign.Value>
+                                                        </Assign>
+                                                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_14" />
+                                                        <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'Evidencia'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="TakeScreenshot_23" Screenshot="[PrintEvidencia]">
+                                                          <ui:TakeScreenshot.Target>
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                          </ui:TakeScreenshot.Target>
+                                                        </ui:TakeScreenshot>
+                                                        <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="314,92" sap2010:WorkflowViewState.IdRef="SaveImage_19" Image="[PrintEvidencia]" />
+                                                        <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_32">
+                                                          <Assign.To>
+                                                            <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                          </Assign.To>
+                                                          <Assign.Value>
+                                                            <InArgument x:TypeArguments="x:String">3</InArgument>
+                                                          </Assign.Value>
+                                                        </Assign>
+                                                      </Sequence>
+                                                    </If.Then>
+                                                    <If.Else>
+                                                      <Sequence sap:VirtualizedContainerService.HintSize="336,624" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_33">
+                                                          <Assign.To>
+                                                            <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
+                                                          </Assign.To>
+                                                          <Assign.Value>
+                                                            <InArgument x:TypeArguments="x:String">Error</InArgument>
+                                                          </Assign.Value>
+                                                        </Assign>
+                                                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_15" />
+                                                        <ui:TakeScreenshot WaitBefore="{x:Null}" DisplayName="Take screenshot 'Evidencia error'" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="TakeScreenshot_24" Screenshot="[PrintEvidencia]">
+                                                          <ui:TakeScreenshot.Target>
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="e4a88dad2179d61fc28f1a1f7bec3ba7" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl idx='1' tag='HTML' /&gt;" WaitForReady="INTERACTIVE" />
+                                                          </ui:TakeScreenshot.Target>
+                                                        </ui:TakeScreenshot>
+                                                        <ui:SaveImage DisplayName="Save image" FileName="[&quot;Evidencias\Cenario_&quot; + ArgCenario + &quot;\&quot; + &quot;Evidencia2_Sucesso.png&quot;]" sap:VirtualizedContainerService.HintSize="314,92" sap2010:WorkflowViewState.IdRef="SaveImage_20" Image="[PrintEvidencia]" />
+                                                        <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_34">
+                                                          <Assign.To>
+                                                            <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
+                                                          </Assign.To>
+                                                          <Assign.Value>
+                                                            <InArgument x:TypeArguments="x:String">2</InArgument>
+                                                          </Assign.Value>
+                                                        </Assign>
+                                                      </Sequence>
+                                                    </If.Else>
+                                                  </If>
                                                 </FlowStep>
                                               </FlowStep.Next>
                                             </FlowStep>
@@ -473,8 +401,6 @@
             <x:Reference>__ReferenceID6</x:Reference>
             <x:Reference>__ReferenceID7</x:Reference>
             <x:Reference>__ReferenceID8</x:Reference>
-            <x:Reference>__ReferenceID9</x:Reference>
-            <x:Reference>__ReferenceID10</x:Reference>
           </Flowchart>
         </TryCatch.Try>
         <TryCatch.Catches>
@@ -525,13 +451,13 @@
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence sap:VirtualizedContainerService.HintSize="265,281" sap2010:WorkflowViewState.IdRef="Sequence_56">
+              <Sequence sap:VirtualizedContainerService.HintSize="264,278" sap2010:WorkflowViewState.IdRef="Sequence_56">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="243,60" sap2010:WorkflowViewState.IdRef="Assign_37">
+                <Assign sap:VirtualizedContainerService.HintSize="242,60" sap2010:WorkflowViewState.IdRef="Assign_37">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[ArgMensagem]</OutArgument>
                   </Assign.To>
@@ -539,7 +465,7 @@
                     <InArgument x:TypeArguments="x:String">Robô com erro</InArgument>
                   </Assign.Value>
                 </Assign>
-                <Assign sap:VirtualizedContainerService.HintSize="243.2,60" sap2010:WorkflowViewState.IdRef="Assign_38">
+                <Assign sap:VirtualizedContainerService.HintSize="242,60" sap2010:WorkflowViewState.IdRef="Assign_38">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[ArgExecutado]</OutArgument>
                   </Assign.To>
