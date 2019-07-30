@@ -2,35 +2,26 @@ import sys
 import os
 import requests
 
-def get_list(email, password):
+def get_list(codRelease, analista):
 
-    email = "uipath.api@sysmap.com.br"
-    password = "UIPath2018"
     #Url para gerar o token
     url="http://apisanity.sysmap.com.br/api/ReleaseVivo/ListCenarios"   
 
     # Parametros
-    param = {"email": email, "password": password}
+    param = {"codRelease": codRelease , "analista": analista}
 
     lista_cenarios = requests.get(url, params=param)
 
     return lista_cenarios.text
 
 
-def update_cenario(email,password,cenario,executado,status,codRelease):
+def update_cenario(codRelease,numTeste,status,observacao):
 
-    email = "uipath.api@sysmap.com.br"
-    password = "UIPath2018"
-    #Url para gerar o token
     url="http://apisanity.sysmap.com.br/api/ReleaseVivo/AtualizaCenario" 
 
     # Parametros
-    param = {"email": email, "password": password,"cenario": cenario, "executado": executado, "status": status, "codRelease": codRelease} 
+    param = {"codRelease": codRelease, "numTeste":numTeste, "status":status,"observacao":observacao} 
 
     update = requests.post(url, params=param)
 
     return update.text
-    
-valor = get_list("teste","teste")
-
-print(valor)

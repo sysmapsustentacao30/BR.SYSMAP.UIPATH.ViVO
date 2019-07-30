@@ -141,7 +141,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="cc4977c24cad2b78c3dfca3565200fb5" Selector="&lt;html title='Vivo 360 - Login' /&gt;&lt;webctrl id='loginButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="71f28b0b26eb57208958405962701135" Selector="&lt;html title='Vivo 360 - Login' /&gt;&lt;webctrl id='loginButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
               </ui:Click.Target>
             </ui:Click>
             <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_4" />
@@ -157,7 +157,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="db85e34cc0399a3aa3feaedc05b98738" Selector="&lt;html title='Vivo 360 - Login' /&gt;&lt;webctrl id='continuarButton' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b4443ca49286eca0320aa03815755e7d" Selector="&lt;html title='Vivo 360 - Login' /&gt;&lt;webctrl id='continuarButton' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
               </ui:Click.Target>
             </ui:Click>
             <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="Delay_5" />
@@ -186,7 +186,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="350d19d6f2ad27edae493803fd1492f9" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_msgbox_ok_n_o_foram_encontradas_configura__es_do_genesys_p*' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" WaitForReady="INTERACTIVE" />
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7d8fd34db2fc131d5313c09dd908099a" Selector="&lt;html title='NFO Vivo 360º - Call Center' /&gt;&lt;webctrl id='_crux_msgbox_ok_n_o_foram_encontradas_configura__es_do_genesys_p*' tag='BUTTON' /&gt;" WaitForReady="INTERACTIVE" />
               </ui:Click.Target>
             </ui:Click>
           </Sequence>
