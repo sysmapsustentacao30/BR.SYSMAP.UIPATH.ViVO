@@ -4,7 +4,7 @@ import requests
 from slackclient import SlackClient
 
 # get the api key from the environment variables
-token = "xoxb-465708053495-463929998784-qYieoeuWcW3IPfARbGWjk0JU"
+token = "xoxb-465708053495-463929998784-7f7QOOcxGuXqMtJ0rUGo6Mfr"
 
 
 # function to send messages to Slack

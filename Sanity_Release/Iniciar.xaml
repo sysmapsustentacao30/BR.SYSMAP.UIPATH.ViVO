@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Iniciar" this:Iniciar.ArgCodRelease="1234" this:Iniciar.ArgAnalista="UiPath" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:wz="clr-namespace:WindowsXT.Zip;assembly=WindowsXT" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Iniciar" this:Iniciar.ArgCodRelease="CRQ000000040107" this:Iniciar.ArgAnalista="UiPath" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:wz="clr-namespace:WindowsXT.Zip;assembly=WindowsXT" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="ArgCodRelease" Type="InArgument(x:String)" />
     <x:Property Name="ArgAnalista" Type="InArgument(x:String)" />
@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>796,1008</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>780,1028</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
@@ -71,7 +71,6 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -80,7 +79,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Flowchart DisplayName="Iniciar" sap:VirtualizedContainerService.HintSize="756,928" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Iniciar" sap:VirtualizedContainerService.HintSize="760,928" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="Cenario" />
       <Variable x:TypeArguments="x:String" Default="0" Name="Status" />
@@ -101,10 +100,10 @@
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <av:Point x:Key="ShapeLocation">330,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">360,77.5 360,107.5 368,107.5 368,114.5</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">360,77.5 360,114.5</av:PointCollection>
         <x:Double x:Key="Width">726</x:Double>
         <x:Double x:Key="Height">892</x:Double>
       </scg:Dictionary>
@@ -116,11 +115,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">260,464.5</av:Point>
-          <av:Size x:Key="ShapeSize">216,51</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">368,515.5 368,564.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">360,515.5 360,564.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For each" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[cenariosJson]">
+      <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For each" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[cenariosJson]">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -168,7 +167,7 @@
                         <InArgument x:TypeArguments="x:String">[cenarioJson.GetValue("codRelease").ToString()]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <If Condition="[Status = &quot;3&quot;]" DisplayName="If se ja foi executado com sucesso" sap:VirtualizedContainerService.HintSize="1634,4085" sap2010:WorkflowViewState.IdRef="If_25">
+                    <If Condition="[Status = &quot;4&quot;]" DisplayName="If se ja foi executado com sucesso" sap:VirtualizedContainerService.HintSize="1634,4085" sap2010:WorkflowViewState.IdRef="If_25">
                       <If.Else>
                         <Sequence sap:VirtualizedContainerService.HintSize="1493,3937" sap2010:WorkflowViewState.IdRef="Sequence_40">
                           <sap:WorkflowViewStateService.ViewState>
@@ -399,7 +398,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </p:PythonScope>
-                                <If Condition="[Status &lt;&gt; &quot;3&quot;]" DisplayName="Resultado da execução do Cenario X" sap:VirtualizedContainerService.HintSize="1276,607" sap2010:WorkflowViewState.IdRef="If_26">
+                                <If Condition="[Status &lt;&gt; &quot;4&quot;]" DisplayName="Resultado da execução do Cenario X" sap:VirtualizedContainerService.HintSize="1276,607" sap2010:WorkflowViewState.IdRef="If_26">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -517,7 +516,7 @@
                 <Catch x:TypeArguments="s:ArgumentException" sap:VirtualizedContainerService.HintSize="1714,104" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -542,17 +541,17 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">260,564.5</av:Point>
-              <av:Size x:Key="ShapeSize">216,51</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">368,615.5 368,665.5</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,51</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">360,615.5 360,665.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <p:PythonScope DisplayName="Yoda informando que terminou" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="PythonScope_2" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
+          <p:PythonScope DisplayName="Yoda informando que terminou" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="PythonScope_2" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
             <p:PythonScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="PythonEngineSessionProperty" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="336,307" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="368,275" sap2010:WorkflowViewState.IdRef="Sequence_44">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="p:PythonObject" Name="invoke_out" />
                     <Variable x:TypeArguments="p:PythonObject" Name="load_out" />
@@ -563,9 +562,9 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="LoadScript_2" Result="[load_out]" ScriptFile="ScriptPython\Bot_Yoda.py" />
-                  <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" Instance="[load_out]" Name="sendMessage" Parameters="[{&quot;O Uipath terminou! Que a força esteja com você&quot;,&quot;uipath&quot;}]" Result="[invoke_out]" />
-                  <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="GetObject`1_2" PythonObject="[invoke_out]" Result="[get_out]" />
+                  <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="LoadScript_2" Result="[load_out]" ScriptFile="ScriptPython\Bot_Yoda.py" />
+                  <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" Instance="[load_out]" Name="sendMessage" Parameters="[{&quot;O Uipath terminou! Que a força esteja com você&quot;,&quot;uipath&quot;}]" Result="[invoke_out]" />
+                  <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="GetObject`1_2" PythonObject="[invoke_out]" Result="[get_out]" />
                 </Sequence>
               </ActivityAction>
             </p:PythonScope.Body>
@@ -580,11 +579,11 @@
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">260,665.5</av:Point>
-                  <av:Size x:Key="ShapeSize">216,51</av:Size>
-                  <av:PointCollection x:Key="ConnectorLocation">368,716.5 368,766.5</av:PointCollection>
+                  <av:Size x:Key="ShapeSize">200,51</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">360,716.5 360,766.5</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:GetEnvironmentFolder DisplayName="Get Environment Folder" FolderPath="[folder_file]" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="GetEnvironmentFolder_1" SpecialFolder="MyDocuments">
+              <ui:GetEnvironmentFolder DisplayName="Get Environment Folder" FolderPath="[folder_file]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="GetEnvironmentFolder_1" SpecialFolder="MyDocuments">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -597,11 +596,11 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">260,766.5</av:Point>
-                      <av:Size x:Key="ShapeSize">216,22</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">368,788.5 368,838.5</av:PointCollection>
+                      <av:Size x:Key="ShapeSize">200,22</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">360,788.5 360,818.5 368,818.5 368,838.5</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <wz:Zip Password="{x:Null}" FileorDir="Evidencias/" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="Zip_3" ZipPath="[folder_file + &quot;\EvidenciasZIP.zip&quot;]">
+                  <wz:Zip Password="{x:Null}" FileorDir="Evidencias/" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Zip_3" ZipPath="[folder_file + &quot;\EvidenciasZIP.zip&quot;]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -623,7 +622,7 @@
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="x:Object" Name="PythonEngineSessionProperty" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="336,307" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="368,275" sap2010:WorkflowViewState.IdRef="Sequence_60">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="p:PythonObject" Name="invoke_out" />
                                 <Variable x:TypeArguments="p:PythonObject" Name="load_out" />
@@ -634,9 +633,9 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="314,59" sap2010:WorkflowViewState.IdRef="LoadScript_17" Result="[load_out]" ScriptFile="ScriptPython\Bot_Yoda.py" />
-                              <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_17" Instance="[load_out]" Name="sendFile" Parameters="[{folder_file + &quot;\EvidenciasZIP.zip&quot;,&quot;Evidencias.zip&quot;,&quot;zip&quot;}]" Result="[invoke_out]" />
-                              <p:GetObject x:TypeArguments="x:String" Result="{x:Null}" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="314,22" sap2010:WorkflowViewState.IdRef="GetObject`1_19" PythonObject="[invoke_out]" />
+                              <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="LoadScript_17" Result="[load_out]" ScriptFile="ScriptPython\Bot_Yoda.py" />
+                              <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_17" Instance="[load_out]" Name="sendFile" Parameters="[{folder_file + &quot;\EvidenciasZIP.zip&quot;,&quot;Evidencias.zip&quot;,&quot;zip&quot;}]" Result="[invoke_out]" />
+                              <p:GetObject x:TypeArguments="x:String" Result="{x:Null}" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="GetObject`1_19" PythonObject="[invoke_out]" />
                             </Sequence>
                           </ActivityAction>
                         </p:PythonScope.Body>
@@ -659,11 +658,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">203,350</av:Point>
-          <av:Size x:Key="ShapeSize">330,60</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">368,410 368,464.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">334,60</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">370,410 370,440 360,440 360,464.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:DeserializeJsonArray DisplayName="Deserialize json array" sap:VirtualizedContainerService.HintSize="330,60" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_4" JsonArray="[cenariosJson]" JsonString="[lista_cenarios.ToString()]">
+      <ui:DeserializeJsonArray DisplayName="Deserialize json array" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_4" JsonArray="[cenariosJson]" JsonString="[lista_cenarios.ToString()]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -678,11 +677,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">260,114.5</av:Point>
-          <av:Size x:Key="ShapeSize">216,51</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">368,165.5 368,235.5</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">360,165.5 360,235.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:PythonScope DisplayName="Yoda send Message " sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="PythonScope_1" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
+      <p:PythonScope DisplayName="Yoda send Message " sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="PythonScope_1" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
         <p:PythonScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -716,17 +715,17 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">260,235.5</av:Point>
-              <av:Size x:Key="ShapeSize">216,51</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">368,286.5 368,350</av:PointCollection>
+              <av:Size x:Key="ShapeSize">200,51</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">360,286.5 360,316.5 370,316.5 370,350</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <p:PythonScope DisplayName="Get List Tests" sap:VirtualizedContainerService.HintSize="398,311" sap2010:WorkflowViewState.IdRef="PythonScope_11" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
+          <p:PythonScope DisplayName="Get List Tests" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="PythonScope_11" Path="C:\Program Files (x86)\Python36-32" Version="Python_36">
             <p:PythonScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="PythonEngineSessionProperty" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="368,275" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="254,267" sap2010:WorkflowViewState.IdRef="Sequence_54">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="p:PythonObject" Name="invoke_out" />
                     <Variable x:TypeArguments="p:PythonObject" Name="load_out" />
@@ -737,9 +736,16 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="LoadScript_11" Result="[load_out]" ScriptFile="ScriptPython\sanity_api_vivo.py" />
-                  <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_11" Instance="[load_out]" Name="get_list" Parameters="[{ArgCodRelease,ArgAnalista}]" Result="[invoke_out]" />
-                  <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="330,22" sap2010:WorkflowViewState.IdRef="GetObject`1_15" PythonObject="[invoke_out]" Result="[lista_cenarios]" />
+                  <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="LoadScript_11" Result="[load_out]" ScriptFile="ScriptPython\sanity_api_vivo.py">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </p:LoadScript>
+                  <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="InvokeMethod_11" Instance="[load_out]" Name="get_list" Parameters="[{ArgCodRelease,ArgAnalista}]" Result="[invoke_out]" />
+                  <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="GetObject`1_20" PythonObject="[invoke_out]" Result="[lista_cenarios]" />
                 </Sequence>
               </ActivityAction>
             </p:PythonScope.Body>

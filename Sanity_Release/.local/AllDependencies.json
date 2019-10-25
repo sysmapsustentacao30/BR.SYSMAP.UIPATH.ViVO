@@ -874,7 +874,7 @@
           }
         }
       },
-      "UiPath.Vision/1.2.0": {
+      "UiPath.Vision/1.6.1": {
         "type": "package",
         "compile": {
           "lib/net452/_._": {}
@@ -1848,44 +1848,59 @@
         "uipath.uiautomation.activities.nuspec"
       ]
     },
-    "UiPath.Vision/1.2.0": {
-      "sha512": "Rg2VNaClAtSEADA1oC/K1pQIhJMVXmb27nvSpQOQqP0lJ8v2qlXqjO5czl0EpIS91/VBdoqKm7RCu18g3/rwlw==",
+    "UiPath.Vision/1.6.1": {
+      "sha512": "017bcpvB1uJ0vyeuqWWkz7R09xdBFQrjMW+0k2WE8zPwphQoortvv0MRs5//m1T8bg6flI5G23huKj8Uio80ug==",
       "type": "package",
-      "path": "uipath.vision/1.2.0",
+      "path": "uipath.vision/1.6.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "build/AForge.Imaging.dll",
         "build/AForge.Math.dll",
         "build/AForge.dll",
         "build/AbbyyOnlineSdk.dll",
         "build/BouncyCastle.Crypto.dll",
         "build/Emgu.CV.World.dll",
-        "build/Exceptionless.dll",
+        "build/Google.Api.CommonProtos.dll",
+        "build/Google.Api.Gax.Grpc.dll",
+        "build/Google.Api.Gax.dll",
         "build/Google.Apis.Auth.PlatformServices.dll",
         "build/Google.Apis.Auth.dll",
         "build/Google.Apis.Core.dll",
         "build/Google.Apis.PlatformServices.dll",
-        "build/Google.Apis.Vision.v1.dll",
         "build/Google.Apis.dll",
+        "build/Google.Cloud.Vision.V1.dll",
+        "build/Google.LongRunning.dll",
+        "build/Google.Protobuf.dll",
+        "build/Grpc.Auth.dll",
+        "build/Grpc.Core.dll",
+        "build/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
         "build/Microsoft.ProjectOxford.Vision.dll",
-        "build/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
-        "build/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
-        "build/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
-        "build/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
-        "build/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "build/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "build/Microsoft.Rest.ClientRuntime.dll",
         "build/NLog.dll",
         "build/Newtonsoft.Json.dll",
-        "build/Shouldly.dll",
+        "build/System.Collections.Immutable.dll",
+        "build/System.Interactive.Async.dll",
         "build/System.ValueTuple.dll",
-        "build/UiPath.NeuralNet.Tensorflow.dll",
-        "build/UiPath.NeuralNet.dll",
+        "build/UiPath.OCR.Contracts.dll",
+        "build/UiPath.Vision.AbbyyCloud.dll",
+        "build/UiPath.Vision.AbbyyFRE11.dll",
+        "build/UiPath.Vision.AbbyyFRE12.dll",
+        "build/UiPath.Vision.AbbyyFRECommon.dll",
+        "build/UiPath.Vision.AzureComputerVision.dll",
         "build/UiPath.Vision.Core.dll",
+        "build/UiPath.Vision.GoogleCloud.dll",
         "build/UiPath.Vision.Host32.exe",
         "build/UiPath.Vision.Host32.exe.config",
-        "build/UiPath.Vision.Package.dll",
+        "build/UiPath.Vision.Microsoft.dll",
+        "build/UiPath.Vision.MicrosoftCloud.dll",
+        "build/UiPath.Vision.Tesseract.dll",
         "build/UiPath.Vision.dll",
         "build/ZedGraph.dll",
         "build/Zlib.Portable.dll",
-        "build/log4net.dll",
+        "build/grpc_csharp_ext.x64.dll",
+        "build/grpc_csharp_ext.x86.dll",
         "build/nlog.config",
         "build/tessdata/eng.traineddata",
         "build/x86/concrt140.dll",
@@ -1894,11 +1909,19 @@
         "build/x86/opencv_ffmpeg341.dll",
         "build/x86/tbb.dll",
         "build/x86/vcruntime140.dll",
-        "lib/net452/UiPath.NeuralNet.dll",
+        "lib/net452/UiPath.Vision.AbbyyCloud.dll",
+        "lib/net452/UiPath.Vision.AbbyyFRE11.dll",
+        "lib/net452/UiPath.Vision.AbbyyFRE12.dll",
+        "lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
+        "lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "lib/net452/UiPath.Vision.Core.dll",
-        "lib/net452/UiPath.Vision.Package.dll",
+        "lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "lib/net452/UiPath.Vision.Host32.exe",
+        "lib/net452/UiPath.Vision.Microsoft.dll",
+        "lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "lib/net452/UiPath.Vision.Tesseract.dll",
         "lib/net452/UiPath.Vision.dll",
-        "uipath.vision.1.2.0.nupkg.sha512",
+        "uipath.vision.1.6.1.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
     },
@@ -1965,22 +1988,22 @@
       "UiPath.System.Activities >= 18.4.1 <= 18.4.1",
       "UiPath.Terminal.Activities >= 1.2.6863.33681 <= 1.2.6863.33681",
       "UiPath.UIAutomation.Activities >= 18.3.6897.22543 <= 18.3.6897.22543",
-      "UiPath.Vision >= 1.2.0 <= 1.2.0",
+      "UiPath.Vision >= 1.6.1 <= 1.6.1",
       "UiPath.WebAPI.Activities >= 1.2.6863.33980 <= 1.2.6863.33980",
       "WaitManager.nuspec >= 1.0.0 <= 1.0.0",
       "wait >= 1.0.0 <= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcelo.martins\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas.silva\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "SanityVivo",
       "projectName": "SanityVivo",
-      "projectPath": "C:\\RepositoryGitHub\\UipathVivo\\Sanity_Release\\.local",
-      "packagesPath": "C:\\Users\\marcelo.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\RepositoryGitHub\\UipathVivo\\Sanity_Release\\.local"
+      "projectPath": "C:\\Users\\lucas.silva\\Desktop\\Vivo\\UipathVivo\\Sanity_Release\\.local",
+      "packagesPath": "C:\\Users\\lucas.silva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas.silva\\Desktop\\Vivo\\UipathVivo\\Sanity_Release\\.local"
     },
     "frameworks": {
       "net461": {
@@ -2078,7 +2101,7 @@
           "UiPath.Vision": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.2.0, 1.2.0]"
+            "version": "[1.6.1, 1.6.1]"
           },
           "UiPath.WebAPI.Activities": {
             "include": "Runtime",
@@ -2098,119 +2121,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SSH.NET 2016.1.0' from source 'https://gallery.uipath.com/api/v2': This package is signed but not by a trusted signer.",
-      "libraryId": "SSH.NET"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MultiWait 1.1.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "MultiWait"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro.Core 3.0.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Caliburn.Micro.Core"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Activities.Extensions 2.0.6.9' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Activities.Extensions"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'WaitManager.nuspec 1.0.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "WaitManager.nuspec"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'wait 1.0.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "wait"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'FluentFTP 19.1.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "FluentFTP"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Extended.Wpf.Toolkit 2.8' from source 'https://gallery.uipath.com/api/v2': This package is signed but not by a trusted signer.",
-      "libraryId": "Extended.Wpf.Toolkit"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Selenium.Support 3.7.0' from source 'https://gallery.uipath.com/api/v2': This package is signed but not by a trusted signer.",
-      "libraryId": "Selenium.Support"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Rest.ClientRuntime 2.3.10' from source 'C:\\Users\\marcelo.martins\\AppData\\Local\\UiPath\\app-19.5.0\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.Rest.ClientRuntime"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Selenium.WebDriver 3.7.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Selenium.WebDriver"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro 3.0.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Caliburn.Micro"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'RestSharp 105.0.1' from source 'https://www.myget.org/F/workflow/': This package is signed but not by a trusted signer.",
-      "libraryId": "RestSharp"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Humanizer.Core 2.4.2' from source 'C:\\Users\\marcelo.martins\\AppData\\Local\\UiPath\\app-19.5.0\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Humanizer.Core"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'AvalonEdit 4.4.2.9744' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "AvalonEdit"
-    },
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Fluent.Ribbon 3.5.1.198' from source 'https://www.myget.org/F/workflow/': This package is signed but not by a trusted signer.",
-      "libraryId": "Fluent.Ribbon"
-    }
-  ]
+  }
 }
